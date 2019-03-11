@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./server/bin/www",
+    "test": "mocha ./server/test/**/*.js",
+    "lint": "eslint './server/**/*.js' --ignore-path .eslintignore"
   },
   "keywords": [],
   "author": "",
