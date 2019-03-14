@@ -1,0 +1,29 @@
+[2019-03-14T19:33:46.425] [INFO] default - Setting up API middleware
+[2019-03-14T19:33:46.455] [INFO] default - Server is running on port 3000
+[2019-03-14T19:33:47.484] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:39:19.507] [INFO] default - Authentication check
+[2019-03-14T19:39:19.511] [INFO] default - User authenticated
+[2019-03-14T19:40:01.405] [INFO] default - Authentication check
+[2019-03-14T19:40:01.406] [INFO] default - User authenticated
+[2019-03-14T19:41:27.051] [INFO] default - Authentication check
+[2019-03-14T19:41:27.051] [INFO] default - User authenticated
+[2019-03-14T19:42:23.762] [INFO] default - Authentication check
+[2019-03-14T19:42:23.762] [INFO] default - User authenticated
+[2019-03-14T19:43:08.491] [INFO] default - Authentication check
+[2019-03-14T19:43:08.492] [INFO] default - User authenticated
+[2019-03-14T19:43:22.415] [INFO] default - Authentication check
+[2019-03-14T19:43:22.416] [INFO] default - User authenticated
+[2019-03-14T19:44:13.471] [INFO] default - Authentication check
+[2019-03-14T19:44:13.472] [INFO] default - User authenticated
+[2019-03-14T19:45:55.959] [INFO] default - Authentication check
+[2019-03-14T19:45:55.960] [INFO] default - User authenticated
+[2019-03-14T19:46:07.617] [INFO] default - Authentication check
+[2019-03-14T19:46:07.617] [INFO] default - User authenticated
+[2019-03-14T19:46:32.079] [INFO] default - Authentication check
+[2019-03-14T19:46:32.081] [INFO] default - User authenticated
+[2019-03-14T19:46:43.403] [INFO] default - Authentication check
+[2019-03-14T19:46:43.404] [INFO] default - User authenticated
+[2019-03-14T19:46:49.888] [INFO] default - Authentication check
+[2019-03-14T19:46:49.889] [INFO] default - User authenticated
+[2019-03-14T19:47:41.568] [INFO] default - Authentication check
+[2019-03-14T19:47:41.568] [INFO] default - User authenticated

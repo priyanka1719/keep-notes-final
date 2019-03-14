@@ -1,0 +1,57 @@
+[2019-03-14T19:33:29.823] [INFO] default - Setting up API middleware
+[2019-03-14T19:33:29.862] [INFO] default - Server is running on port 3001
+[2019-03-14T19:33:30.939] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:39:04.137] [INFO] default - Setting up API middleware
+[2019-03-14T19:39:04.169] [INFO] default - Server is running on port 3001
+[2019-03-14T19:39:05.211] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:39:19.521] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:39:19.522] [INFO] default - authenticated
+[2019-03-14T19:40:01.411] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:40:01.412] [INFO] default - authenticated
+[2019-03-14T19:41:22.222] [INFO] default - Setting up API middleware
+[2019-03-14T19:41:22.252] [INFO] default - Server is running on port 3001
+[2019-03-14T19:41:23.271] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:41:27.062] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:41:27.063] [INFO] default - authenticated
+[2019-03-14T19:42:13.527] [INFO] default - Setting up API middleware
+[2019-03-14T19:42:13.549] [INFO] default - Server is running on port 3001
+[2019-03-14T19:42:14.579] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:42:23.772] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:42:23.772] [INFO] default - authenticated
+[2019-03-14T19:43:08.493] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:43:08.494] [INFO] default - authenticated
+[2019-03-14T19:43:22.419] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:43:22.420] [INFO] default - authenticated
+[2019-03-14T19:44:13.473] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:44:13.473] [INFO] default - authenticated
+[2019-03-14T19:45:55.889] [INFO] default - Setting up API middleware
+[2019-03-14T19:45:55.911] [INFO] default - Server is running on port 3001
+[2019-03-14T19:45:55.966] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:45:55.966] [INFO] default - authenticated
+[2019-03-14T19:45:55.967] [INFO] default - inside share
+[2019-03-14T19:45:55.967] [INFO] default - noteID[] :  undefined
+[2019-03-14T19:45:55.968] [INFO] default - userIds[] :  undefined
+[2019-03-14T19:45:56.942] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:46:07.620] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:46:07.621] [INFO] default - authenticated
+[2019-03-14T19:46:32.085] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:46:32.086] [INFO] default - authenticated
+[2019-03-14T19:46:32.086] [INFO] default - inside share
+[2019-03-14T19:46:32.087] [INFO] default - noteID[] :  [ '12', '34' ]
+[2019-03-14T19:46:32.088] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-14T19:46:43.405] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:46:43.406] [INFO] default - authenticated
+[2019-03-14T19:46:43.407] [INFO] default - checking note (9725b9e0-4654-11e9-a730-7d22de734bcd) permissions for user: pri
+[2019-03-14T19:46:49.889] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:46:49.889] [INFO] default - authenticated
+[2019-03-14T19:47:30.168] [INFO] default - Setting up API middleware
+[2019-03-14T19:47:30.199] [INFO] default - Server is running on port 3001
+[2019-03-14T19:47:31.235] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-14T19:47:41.578] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-14T19:47:41.578] [INFO] default - authenticated
+[2019-03-14T19:47:41.579] [INFO] default - inside share
+[2019-03-14T19:47:41.579] [INFO] default - noteID[] :  [ '12', '34' ]
+[2019-03-14T19:47:41.580] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-14T19:51:25.542] [INFO] default - Setting up API middleware
+[2019-03-14T19:51:25.577] [INFO] default - Server is running on port 3001
+[2019-03-14T19:51:26.611] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
