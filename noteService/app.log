@@ -835,3 +835,142 @@
 [2019-03-16T17:15:38.662] [INFO] default - Setting up API middleware
 [2019-03-16T17:15:38.689] [INFO] default - Server is running on port 3001
 [2019-03-16T17:15:38.733] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:50:44.146] [INFO] default - Setting up API middleware
+[2019-03-16T20:50:44.219] [INFO] default - Server is running on port 3001
+[2019-03-16T20:50:44.970] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:51:22.217] [INFO] default - Setting up API middleware
+[2019-03-16T20:51:22.244] [INFO] default - Server is running on port 3001
+[2019-03-16T20:51:22.301] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:52:53.636] [INFO] default - Setting up API middleware
+[2019-03-16T20:52:53.671] [INFO] default - Server is running on port 3001
+[2019-03-16T20:52:53.733] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:53:08.303] [INFO] default - Setting up API middleware
+[2019-03-16T20:53:08.330] [INFO] default - Server is running on port 3001
+[2019-03-16T20:53:08.386] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:57:06.491] [INFO] default - Setting up API middleware
+[2019-03-16T20:57:06.522] [INFO] default - Server is running on port 3001
+[2019-03-16T20:57:06.565] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T20:57:50.998] [INFO] default - Setting up API middleware
+[2019-03-16T20:57:51.025] [INFO] default - Server is running on port 3001
+[2019-03-16T20:57:51.083] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:12:39.537] [INFO] default - Setting up API middleware
+[2019-03-16T21:12:39.597] [INFO] default - Server is running on port 3001
+[2019-03-16T21:12:40.124] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:13:21.988] [INFO] default - Setting up API middleware
+[2019-03-16T21:13:22.017] [INFO] default - Server is running on port 3001
+[2019-03-16T21:13:22.065] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:13:49.700] [INFO] default - Setting up API middleware
+[2019-03-16T21:13:49.727] [INFO] default - Server is running on port 3001
+[2019-03-16T21:13:49.815] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:14:14.011] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:14:14.011] [INFO] default - authenticated
+[2019-03-16T21:14:14.013] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:14:37.564] [INFO] default - Setting up API middleware
+[2019-03-16T21:14:37.591] [INFO] default - Server is running on port 3001
+[2019-03-16T21:14:37.629] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:14:45.998] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:14:45.999] [INFO] default - authenticated
+[2019-03-16T21:14:46.001] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:14:56.138] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:14:56.138] [INFO] default - authenticated
+[2019-03-16T21:14:56.139] [INFO] default - searching notes by title - n1 by user - pri
+[2019-03-16T21:15:03.718] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:15:03.719] [INFO] default - authenticated
+[2019-03-16T21:15:03.719] [INFO] default - searching notes by title -  by user - pri
+[2019-03-16T21:15:24.702] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:15:24.703] [INFO] default - authenticated
+[2019-03-16T21:15:33.923] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:15:33.923] [INFO] default - authenticated
+[2019-03-16T21:17:56.224] [INFO] default - Setting up API middleware
+[2019-03-16T21:17:56.258] [INFO] default - Server is running on port 3001
+[2019-03-16T21:17:56.412] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:18:51.896] [INFO] default - Setting up API middleware
+[2019-03-16T21:18:51.926] [INFO] default - Server is running on port 3001
+[2019-03-16T21:18:51.980] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:19:11.618] [INFO] default - Setting up API middleware
+[2019-03-16T21:19:11.646] [INFO] default - Server is running on port 3001
+[2019-03-16T21:19:11.709] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:22:33.018] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:22:33.019] [INFO] default - authenticated
+[2019-03-16T21:22:33.020] [INFO] default - search using title and userid
+[2019-03-16T21:22:33.021] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:23:02.358] [INFO] default - Setting up API middleware
+[2019-03-16T21:23:02.390] [INFO] default - Server is running on port 3001
+[2019-03-16T21:23:02.535] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:23:30.613] [INFO] default - Setting up API middleware
+[2019-03-16T21:23:30.646] [INFO] default - Server is running on port 3001
+[2019-03-16T21:23:30.687] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:23:34.455] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:23:34.456] [INFO] default - authenticated
+[2019-03-16T21:23:34.457] [INFO] default - search using title and userid
+[2019-03-16T21:23:34.458] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:23:34.472] [INFO] default - []
+[2019-03-16T21:23:49.520] [INFO] default - Setting up API middleware
+[2019-03-16T21:23:49.548] [INFO] default - Server is running on port 3001
+[2019-03-16T21:23:49.605] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:24:16.294] [INFO] default - Setting up API middleware
+[2019-03-16T21:24:16.322] [INFO] default - Server is running on port 3001
+[2019-03-16T21:24:16.366] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:24:22.281] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:24:22.281] [INFO] default - authenticated
+[2019-03-16T21:24:22.283] [INFO] default - search using title and userid
+[2019-03-16T21:24:22.283] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:24:22.284] [INFO] default - { title: '/n/' }
+[2019-03-16T21:25:20.943] [INFO] default - Setting up API middleware
+[2019-03-16T21:25:20.978] [INFO] default - Server is running on port 3001
+[2019-03-16T21:25:21.036] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:25:24.256] [INFO] default - Setting up API middleware
+[2019-03-16T21:25:24.283] [INFO] default - Server is running on port 3001
+[2019-03-16T21:25:24.333] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:25:32.966] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:25:32.967] [INFO] default - authenticated
+[2019-03-16T21:25:32.968] [INFO] default - search using title and userid
+[2019-03-16T21:25:32.971] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:25:32.972] [INFO] default - { title: /titlename/, userId: 'pri' }
+[2019-03-16T21:27:33.655] [INFO] default - Setting up API middleware
+[2019-03-16T21:27:33.683] [INFO] default - Server is running on port 3001
+[2019-03-16T21:27:33.732] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:27:38.990] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:27:38.991] [INFO] default - authenticated
+[2019-03-16T21:27:38.992] [INFO] default - search using title and userid
+[2019-03-16T21:27:38.994] [INFO] default - searching notes by title - n by user - pri
+[2019-03-16T21:27:38.994] [INFO] default - { title: { '$regex': 'n', '$options': 'i' }, userId: 'pri' }
+[2019-03-16T21:27:49.189] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:27:49.189] [INFO] default - authenticated
+[2019-03-16T21:27:49.189] [INFO] default - search using title and userid
+[2019-03-16T21:27:49.189] [INFO] default - searching notes by title - n1 by user - pri
+[2019-03-16T21:27:49.190] [INFO] default - { title: { '$regex': 'n1', '$options': 'i' }, userId: 'pri' }
+[2019-03-16T21:27:57.896] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:27:57.897] [INFO] default - authenticated
+[2019-03-16T21:27:57.898] [INFO] default - search using userid
+[2019-03-16T21:28:04.487] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:28:04.488] [INFO] default - authenticated
+[2019-03-16T21:28:04.488] [INFO] default - search using title and userid
+[2019-03-16T21:28:04.488] [INFO] default - searching notes by title - erre by user - pri
+[2019-03-16T21:28:04.489] [INFO] default - { title: { '$regex': 'erre', '$options': 'i' }, userId: 'pri' }
+[2019-03-16T21:28:14.092] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T21:28:14.093] [INFO] default - authenticated
+[2019-03-16T21:28:14.096] [INFO] default - search using title and userid
+[2019-03-16T21:28:14.097] [INFO] default - searching notes by title - n1 by user - pri
+[2019-03-16T21:28:14.097] [INFO] default - { title: { '$regex': 'n1', '$options': 'i' }, userId: 'pri' }
+[2019-03-16T21:28:30.207] [INFO] default - Setting up API middleware
+[2019-03-16T21:28:30.235] [INFO] default - Server is running on port 3001
+[2019-03-16T21:28:30.282] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:31:09.623] [INFO] default - Setting up API middleware
+[2019-03-16T21:31:09.652] [INFO] default - Server is running on port 3001
+[2019-03-16T21:31:09.722] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:31:22.930] [INFO] default - Setting up API middleware
+[2019-03-16T21:31:22.957] [INFO] default - Server is running on port 3001
+[2019-03-16T21:31:23.057] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:32:29.758] [INFO] default - Setting up API middleware
+[2019-03-16T21:32:29.786] [INFO] default - Server is running on port 3001
+[2019-03-16T21:32:29.830] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:34:57.406] [INFO] default - Setting up API middleware
+[2019-03-16T21:34:57.433] [INFO] default - Server is running on port 3001
+[2019-03-16T21:34:57.485] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:35:18.015] [INFO] default - Setting up API middleware
+[2019-03-16T21:35:18.045] [INFO] default - Server is running on port 3001
+[2019-03-16T21:35:18.116] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T21:41:09.482] [INFO] default - Setting up API middleware
+[2019-03-16T21:41:09.510] [INFO] default - Server is running on port 3001
+[2019-03-16T21:41:11.832] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
