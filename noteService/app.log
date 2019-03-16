@@ -55,3 +55,783 @@
 [2019-03-14T19:51:25.542] [INFO] default - Setting up API middleware
 [2019-03-14T19:51:25.577] [INFO] default - Server is running on port 3001
 [2019-03-14T19:51:26.611] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:05:14.839] [INFO] default - Setting up API middleware
+[2019-03-16T16:05:14.865] [INFO] default - Server is running on port 3001
+[2019-03-16T16:05:14.947] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:13:52.961] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:13:52.962] [INFO] default - authenticated
+[2019-03-16T16:15:01.955] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:15:01.956] [INFO] default - authenticated
+[2019-03-16T16:15:10.028] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:15:10.028] [INFO] default - authenticated
+[2019-03-16T16:19:15.312] [INFO] default - Setting up API middleware
+[2019-03-16T16:19:15.357] [INFO] default - Server is running on port 3001
+[2019-03-16T16:19:15.512] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:19:29.113] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:19:29.114] [INFO] default - authenticated
+[2019-03-16T16:19:37.483] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:19:37.484] [INFO] default - authenticated
+[2019-03-16T16:19:37.485] [INFO] default - inside share
+[2019-03-16T16:19:37.485] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:19:37.487] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:19:37.553] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552732513895',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552732513895',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:23:46.079] [INFO] default - Setting up API middleware
+[2019-03-16T16:23:46.108] [INFO] default - Server is running on port 3001
+[2019-03-16T16:23:46.151] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:25:01.912] [INFO] default - Setting up API middleware
+[2019-03-16T16:25:01.940] [INFO] default - Server is running on port 3001
+[2019-03-16T16:25:02.002] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:25:07.725] [INFO] default - Setting up API middleware
+[2019-03-16T16:25:07.755] [INFO] default - Server is running on port 3001
+[2019-03-16T16:25:07.801] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:27:41.623] [INFO] default - Setting up API middleware
+[2019-03-16T16:27:41.651] [INFO] default - Server is running on port 3001
+[2019-03-16T16:27:41.716] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:32:28.850] [INFO] default - Setting up API middleware
+[2019-03-16T16:32:28.880] [INFO] default - Server is running on port 3001
+[2019-03-16T16:32:28.969] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:32:42.476] [INFO] default - Setting up API middleware
+[2019-03-16T16:32:42.502] [INFO] default - Server is running on port 3001
+[2019-03-16T16:32:42.548] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:33:06.596] [INFO] default - Setting up API middleware
+[2019-03-16T16:33:06.625] [INFO] default - Server is running on port 3001
+[2019-03-16T16:33:06.675] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:33:17.831] [INFO] default - Setting up API middleware
+[2019-03-16T16:33:17.859] [INFO] default - Server is running on port 3001
+[2019-03-16T16:33:17.899] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:33:25.236] [INFO] default - Setting up API middleware
+[2019-03-16T16:33:25.263] [INFO] default - Server is running on port 3001
+[2019-03-16T16:33:25.314] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:33:41.965] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:33:41.966] [INFO] default - authenticated
+[2019-03-16T16:33:41.967] [INFO] default - inside share
+[2019-03-16T16:33:41.967] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:33:41.969] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:33:42.000] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552733377488',
+    sharedTo: [ 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552732513895',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:35:34.088] [INFO] default - Setting up API middleware
+[2019-03-16T16:35:34.118] [INFO] default - Server is running on port 3001
+[2019-03-16T16:35:34.181] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:35:44.991] [INFO] default - Setting up API middleware
+[2019-03-16T16:35:45.029] [INFO] default - Server is running on port 3001
+[2019-03-16T16:35:45.093] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:36:07.852] [INFO] default - Setting up API middleware
+[2019-03-16T16:36:07.878] [INFO] default - Server is running on port 3001
+[2019-03-16T16:36:07.923] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:36:38.087] [INFO] default - Setting up API middleware
+[2019-03-16T16:36:38.114] [INFO] default - Server is running on port 3001
+[2019-03-16T16:36:38.161] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:36:52.970] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:36:52.975] [INFO] default - authenticated
+[2019-03-16T16:36:52.977] [INFO] default - inside share
+[2019-03-16T16:36:52.977] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:36:52.979] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:36:53.008] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552733377488',
+    sharedTo: [ 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552732513895',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:36:53.019] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:37:02.871] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:37:02.872] [INFO] default - authenticated
+[2019-03-16T16:37:02.872] [INFO] default - inside share
+[2019-03-16T16:37:02.872] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:37:02.873] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:37:02.886] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734412980',
+    sharedTo: [ 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734412980',
+    sharedTo: [ 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:37:02.893] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:38:01.355] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:38:01.359] [INFO] default - authenticated
+[2019-03-16T16:38:01.360] [INFO] default - inside share
+[2019-03-16T16:38:01.360] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:38:01.360] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:38:01.364] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734422874',
+    sharedTo: [ 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734422874',
+    sharedTo: [ 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:38:01.370] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:38:33.117] [INFO] default - Setting up API middleware
+[2019-03-16T16:38:33.146] [INFO] default - Server is running on port 3001
+[2019-03-16T16:38:33.197] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:38:35.630] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:38:35.630] [INFO] default - authenticated
+[2019-03-16T16:38:35.632] [INFO] default - inside share
+[2019-03-16T16:38:35.632] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:38:35.635] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:38:35.670] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734481360',
+    sharedTo:
+     [ 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734481360',
+    sharedTo: [ 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:38:35.681] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:39:37.626] [INFO] default - Setting up API middleware
+[2019-03-16T16:39:37.655] [INFO] default - Server is running on port 3001
+[2019-03-16T16:39:37.702] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:39:40.211] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:39:40.211] [INFO] default - authenticated
+[2019-03-16T16:39:40.213] [INFO] default - inside share
+[2019-03-16T16:39:40.213] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:39:40.215] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:39:40.245] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734515637',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734515637',
+    sharedTo:
+     [ 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2', 'pri1', 'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:39:40.255] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:41:23.367] [INFO] default - Setting up API middleware
+[2019-03-16T16:41:23.401] [INFO] default - Server is running on port 3001
+[2019-03-16T16:41:23.453] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:44:52.384] [INFO] default - Setting up API middleware
+[2019-03-16T16:44:52.418] [INFO] default - Server is running on port 3001
+[2019-03-16T16:44:52.466] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:44:58.348] [INFO] default - Setting up API middleware
+[2019-03-16T16:44:58.376] [INFO] default - Server is running on port 3001
+[2019-03-16T16:44:58.426] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:45:27.995] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:45:27.996] [INFO] default - authenticated
+[2019-03-16T16:46:49.696] [INFO] default - Setting up API middleware
+[2019-03-16T16:46:49.724] [INFO] default - Server is running on port 3001
+[2019-03-16T16:46:49.769] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:46:58.929] [INFO] default - Setting up API middleware
+[2019-03-16T16:46:58.956] [INFO] default - Server is running on port 3001
+[2019-03-16T16:46:59.001] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:47:16.259] [INFO] default - Setting up API middleware
+[2019-03-16T16:47:16.291] [INFO] default - Server is running on port 3001
+[2019-03-16T16:47:16.347] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:47:17.731] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:47:17.735] [INFO] default - authenticated
+[2019-03-16T16:47:17.736] [INFO] default - inside share
+[2019-03-16T16:47:17.737] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:47:17.739] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:47:17.765] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734580215',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552734580215',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:47:17.780] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:47:19.431] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:47:19.431] [INFO] default - authenticated
+[2019-03-16T16:47:19.432] [INFO] default - inside share
+[2019-03-16T16:47:19.432] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:47:19.432] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:47:19.438] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735037739',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735037739',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:47:19.446] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:47:20.922] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:47:20.922] [INFO] default - authenticated
+[2019-03-16T16:47:20.923] [INFO] default - inside share
+[2019-03-16T16:47:20.923] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:47:20.923] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:47:20.928] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735039433',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735039433',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:47:20.933] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:47:22.365] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:47:22.366] [INFO] default - authenticated
+[2019-03-16T16:47:22.366] [INFO] default - inside share
+[2019-03-16T16:47:22.366] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:47:22.367] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:47:22.376] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735040924',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735040924',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:47:22.382] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:47:23.397] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:47:23.398] [INFO] default - authenticated
+[2019-03-16T16:47:23.398] [INFO] default - inside share
+[2019-03-16T16:47:23.398] [INFO] default - noteID[] :  [ '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+  '920c2bd0-47d8-11e9-bc17-31551ed802b3' ]
+[2019-03-16T16:47:23.399] [INFO] default - userIds[] :  [ 'pri1', 'pri2' ]
+[2019-03-16T16:47:23.403] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735042367',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3ad61fd471360e22ca4,
+    id: '8d3c7b50-47d8-11e9-bc17-31551ed802b3',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552732513895',
+    modifiedOn: '1552735042367',
+    sharedTo:
+     [ 'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2',
+       'pri1',
+       'pri2' ],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cd3b661fd471360e22ca5,
+    id: '920c2bd0-47d8-11e9-bc17-31551ed802b3',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T16:47:23.409] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T16:53:39.664] [INFO] default - Setting up API middleware
+[2019-03-16T16:53:39.692] [INFO] default - Server is running on port 3001
+[2019-03-16T16:53:39.741] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:58:01.380] [INFO] default - Setting up API middleware
+[2019-03-16T16:58:01.406] [INFO] default - Server is running on port 3001
+[2019-03-16T16:58:01.453] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:58:32.887] [INFO] default - Setting up API middleware
+[2019-03-16T16:58:32.914] [INFO] default - Server is running on port 3001
+[2019-03-16T16:58:32.959] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:58:44.880] [INFO] default - Setting up API middleware
+[2019-03-16T16:58:44.907] [INFO] default - Server is running on port 3001
+[2019-03-16T16:58:44.954] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:59:02.493] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:59:02.493] [INFO] default - authenticated
+[2019-03-16T16:59:44.154] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T16:59:44.156] [INFO] default - authenticated
+[2019-03-16T16:59:44.157] [INFO] default - note id to delete 8d3c7b50-47d8-11e9-bc17-31551ed802b3,920c2bd0-47d8-11e9-bc17-31551ed802b3
+[2019-03-16T16:59:44.208] [DEBUG] default - notes deleted
+[2019-03-16T17:00:16.668] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:00:16.668] [INFO] default - authenticated
+[2019-03-16T17:00:24.103] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:00:24.109] [INFO] default - authenticated
+[2019-03-16T17:03:36.967] [INFO] default - Setting up API middleware
+[2019-03-16T17:03:36.995] [INFO] default - Server is running on port 3001
+[2019-03-16T17:03:37.098] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:04:10.522] [INFO] default - Setting up API middleware
+[2019-03-16T17:04:10.549] [INFO] default - Server is running on port 3001
+[2019-03-16T17:04:10.602] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:04:48.754] [INFO] default - Setting up API middleware
+[2019-03-16T17:04:48.790] [INFO] default - Server is running on port 3001
+[2019-03-16T17:04:48.857] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:05:00.253] [INFO] default - Setting up API middleware
+[2019-03-16T17:05:00.284] [INFO] default - Server is running on port 3001
+[2019-03-16T17:05:00.336] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:05:19.974] [INFO] default - Setting up API middleware
+[2019-03-16T17:05:20.000] [INFO] default - Server is running on port 3001
+[2019-03-16T17:05:20.050] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:07:23.989] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:07:23.990] [INFO] default - authenticated
+[2019-03-16T17:07:24.020] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552735724693',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cde48f5772f1a39172a35,
+    id: 'df54cfe0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552735724693',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cde50f5772f1a39172a36,
+    id: 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T17:07:24.098] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T17:07:50.599] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:07:50.603] [INFO] default - authenticated
+[2019-03-16T17:07:50.610] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552736243992',
+    sharedTo: [],
+    isFavourite: true,
+    groupName: [],
+    _id: 5c8cde48f5772f1a39172a35,
+    id: 'df54cfe0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552736243992',
+    sharedTo: [],
+    isFavourite: true,
+    groupName: [],
+    _id: 5c8cde50f5772f1a39172a36,
+    id: 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T17:07:50.617] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T17:08:24.100] [INFO] default - Setting up API middleware
+[2019-03-16T17:08:24.127] [INFO] default - Server is running on port 3001
+[2019-03-16T17:08:24.178] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:09:02.877] [INFO] default - Setting up API middleware
+[2019-03-16T17:09:02.905] [INFO] default - Server is running on port 3001
+[2019-03-16T17:09:02.955] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:10:17.537] [INFO] default - Setting up API middleware
+[2019-03-16T17:10:17.564] [INFO] default - Server is running on port 3001
+[2019-03-16T17:10:17.603] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:11:21.084] [INFO] default - Setting up API middleware
+[2019-03-16T17:11:21.113] [INFO] default - Server is running on port 3001
+[2019-03-16T17:11:21.158] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:11:29.604] [INFO] default - Setting up API middleware
+[2019-03-16T17:11:29.635] [INFO] default - Server is running on port 3001
+[2019-03-16T17:11:29.693] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:12:23.371] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:12:23.372] [INFO] default - authenticated
+[2019-03-16T17:12:23.374] [INFO] default - adding notes to group: g1,g2,g3
+[2019-03-16T17:12:23.402] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552736270604',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cde48f5772f1a39172a35,
+    id: 'df54cfe0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n1',
+    text: 'n1 text',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'not-started',
+    createdOn: '1552735724693',
+    modifiedOn: '1552736270604',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c8cde50f5772f1a39172a36,
+    id: 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+    title: 'n2',
+    text: 'n2 text',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-16T17:12:23.487] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-16T17:12:42.876] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:12:42.877] [INFO] default - authenticated
+[2019-03-16T17:12:42.877] [INFO] default - adding notes to group: g444
+[2019-03-16T17:13:48.612] [INFO] default - Setting up API middleware
+[2019-03-16T17:13:48.639] [INFO] default - Server is running on port 3001
+[2019-03-16T17:13:48.691] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:13:53.668] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:13:53.668] [INFO] default - authenticated
+[2019-03-16T17:13:53.670] [INFO] default - TypeError: groupName.isArray is not a function
+    at addNoteToGroup (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:154:50)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-16T17:14:46.510] [INFO] default - Setting up API middleware
+[2019-03-16T17:14:46.538] [INFO] default - Server is running on port 3001
+[2019-03-16T17:14:46.572] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T17:14:57.998] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-16T17:14:57.999] [INFO] default - authenticated
+[2019-03-16T17:14:58.000] [INFO] default - is groupname array 4
+[2019-03-16T17:14:58.001] [INFO] default - adding notes to group: g444
+[2019-03-16T17:15:38.662] [INFO] default - Setting up API middleware
+[2019-03-16T17:15:38.689] [INFO] default - Server is running on port 3001
+[2019-03-16T17:15:38.733] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep

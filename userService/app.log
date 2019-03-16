@@ -27,3 +27,64 @@
 [2019-03-14T19:46:49.889] [INFO] default - User authenticated
 [2019-03-14T19:47:41.568] [INFO] default - Authentication check
 [2019-03-14T19:47:41.568] [INFO] default - User authenticated
+[2019-03-16T16:07:56.875] [INFO] default - Setting up API middleware
+[2019-03-16T16:07:56.906] [INFO] default - Server is running on port 3000
+[2019-03-16T16:07:57.929] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-16T16:10:21.915] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-16T16:10:23.215] [INFO] default - login with payload { userName: 'pri',
+  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
+[2019-03-16T16:10:23.346] [INFO] default - err null
+[2019-03-16T16:13:52.917] [INFO] default - Authentication check
+[2019-03-16T16:13:52.933] [INFO] default - User authenticated
+[2019-03-16T16:15:01.952] [INFO] default - Authentication check
+[2019-03-16T16:15:01.953] [INFO] default - User authenticated
+[2019-03-16T16:15:10.024] [INFO] default - Authentication check
+[2019-03-16T16:15:10.025] [INFO] default - User authenticated
+[2019-03-16T16:19:29.107] [INFO] default - Authentication check
+[2019-03-16T16:19:29.107] [INFO] default - User authenticated
+[2019-03-16T16:19:37.479] [INFO] default - Authentication check
+[2019-03-16T16:19:37.480] [INFO] default - User authenticated
+[2019-03-16T16:33:41.958] [INFO] default - Authentication check
+[2019-03-16T16:33:41.959] [INFO] default - User authenticated
+[2019-03-16T16:36:52.957] [INFO] default - Authentication check
+[2019-03-16T16:36:52.960] [INFO] default - User authenticated
+[2019-03-16T16:37:02.867] [INFO] default - Authentication check
+[2019-03-16T16:37:02.868] [INFO] default - User authenticated
+[2019-03-16T16:38:01.352] [INFO] default - Authentication check
+[2019-03-16T16:38:01.352] [INFO] default - User authenticated
+[2019-03-16T16:38:35.623] [INFO] default - Authentication check
+[2019-03-16T16:38:35.624] [INFO] default - User authenticated
+[2019-03-16T16:39:40.204] [INFO] default - Authentication check
+[2019-03-16T16:39:40.205] [INFO] default - User authenticated
+[2019-03-16T16:45:27.987] [INFO] default - Authentication check
+[2019-03-16T16:45:27.988] [INFO] default - User authenticated
+[2019-03-16T16:47:17.719] [INFO] default - Authentication check
+[2019-03-16T16:47:17.720] [INFO] default - User authenticated
+[2019-03-16T16:47:19.428] [INFO] default - Authentication check
+[2019-03-16T16:47:19.429] [INFO] default - User authenticated
+[2019-03-16T16:47:20.919] [INFO] default - Authentication check
+[2019-03-16T16:47:20.919] [INFO] default - User authenticated
+[2019-03-16T16:47:22.363] [INFO] default - Authentication check
+[2019-03-16T16:47:22.364] [INFO] default - User authenticated
+[2019-03-16T16:47:23.395] [INFO] default - Authentication check
+[2019-03-16T16:47:23.395] [INFO] default - User authenticated
+[2019-03-16T16:59:02.485] [INFO] default - Authentication check
+[2019-03-16T16:59:02.486] [INFO] default - User authenticated
+[2019-03-16T16:59:44.150] [INFO] default - Authentication check
+[2019-03-16T16:59:44.151] [INFO] default - User authenticated
+[2019-03-16T17:00:16.664] [INFO] default - Authentication check
+[2019-03-16T17:00:16.665] [INFO] default - User authenticated
+[2019-03-16T17:00:24.084] [INFO] default - Authentication check
+[2019-03-16T17:00:24.085] [INFO] default - User authenticated
+[2019-03-16T17:07:23.981] [INFO] default - Authentication check
+[2019-03-16T17:07:23.982] [INFO] default - User authenticated
+[2019-03-16T17:07:50.568] [INFO] default - Authentication check
+[2019-03-16T17:07:50.597] [INFO] default - User authenticated
+[2019-03-16T17:12:23.363] [INFO] default - Authentication check
+[2019-03-16T17:12:23.364] [INFO] default - User authenticated
+[2019-03-16T17:12:42.863] [INFO] default - Authentication check
+[2019-03-16T17:12:42.873] [INFO] default - User authenticated
+[2019-03-16T17:13:53.659] [INFO] default - Authentication check
+[2019-03-16T17:13:53.660] [INFO] default - User authenticated
+[2019-03-16T17:14:57.989] [INFO] default - Authentication check
+[2019-03-16T17:14:57.990] [INFO] default - User authenticated
