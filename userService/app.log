@@ -118,3 +118,21 @@
 [2019-03-16T21:28:04.485] [INFO] default - User authenticated
 [2019-03-16T21:28:14.089] [INFO] default - Authentication check
 [2019-03-16T21:28:14.090] [INFO] default - User authenticated
+[2019-03-17T19:24:14.399] [INFO] default - Setting up API middleware
+[2019-03-17T19:24:14.439] [INFO] default - Server is running on port 3000
+[2019-03-17T19:24:14.556] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-17T19:26:13.382] [INFO] default - Setting up API middleware
+[2019-03-17T19:26:13.419] [INFO] default - Server is running on port 3000
+[2019-03-17T19:26:13.455] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-17T19:30:20.926] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-17T19:30:21.959] [INFO] default - login with payload { userName: 'pri',
+  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
+[2019-03-17T19:30:22.237] [INFO] default - err null
+[2019-03-17T19:31:11.560] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-17T19:31:11.565] [INFO] default - login with payload { userName: 'pri',
+  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
+[2019-03-17T19:31:11.567] [INFO] default - err null
+[2019-03-17T19:34:38.747] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-17T19:34:38.749] [INFO] default - login with payload { userName: 'pri',
+  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
+[2019-03-17T19:34:38.750] [INFO] default - err null
