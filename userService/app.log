@@ -136,3 +136,6 @@
 [2019-03-17T19:34:38.749] [INFO] default - login with payload { userName: 'pri',
   userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
 [2019-03-17T19:34:38.750] [INFO] default - err null
+[2019-03-18T15:42:37.612] [INFO] default - Setting up API middleware
+[2019-03-18T15:42:37.643] [INFO] default - Server is running on port 3000
+[2019-03-18T15:42:38.683] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep

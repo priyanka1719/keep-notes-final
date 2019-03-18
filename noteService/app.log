@@ -980,3 +980,6 @@
 [2019-03-17T19:25:57.970] [INFO] default - Setting up API middleware
 [2019-03-17T19:25:58.007] [INFO] default - Server is running on port 3001
 [2019-03-17T19:25:58.136] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-18T15:42:46.999] [INFO] default - Setting up API middleware
+[2019-03-18T15:42:47.027] [INFO] default - Server is running on port 3001
+[2019-03-18T15:42:48.048] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
