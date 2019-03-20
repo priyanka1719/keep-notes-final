@@ -1,141 +1,18 @@
-[2019-03-14T19:33:46.425] [INFO] default - Setting up API middleware
-[2019-03-14T19:33:46.455] [INFO] default - Server is running on port 3000
-[2019-03-14T19:33:47.484] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
-[2019-03-14T19:39:19.507] [INFO] default - Authentication check
-[2019-03-14T19:39:19.511] [INFO] default - User authenticated
-[2019-03-14T19:40:01.405] [INFO] default - Authentication check
-[2019-03-14T19:40:01.406] [INFO] default - User authenticated
-[2019-03-14T19:41:27.051] [INFO] default - Authentication check
-[2019-03-14T19:41:27.051] [INFO] default - User authenticated
-[2019-03-14T19:42:23.762] [INFO] default - Authentication check
-[2019-03-14T19:42:23.762] [INFO] default - User authenticated
-[2019-03-14T19:43:08.491] [INFO] default - Authentication check
-[2019-03-14T19:43:08.492] [INFO] default - User authenticated
-[2019-03-14T19:43:22.415] [INFO] default - Authentication check
-[2019-03-14T19:43:22.416] [INFO] default - User authenticated
-[2019-03-14T19:44:13.471] [INFO] default - Authentication check
-[2019-03-14T19:44:13.472] [INFO] default - User authenticated
-[2019-03-14T19:45:55.959] [INFO] default - Authentication check
-[2019-03-14T19:45:55.960] [INFO] default - User authenticated
-[2019-03-14T19:46:07.617] [INFO] default - Authentication check
-[2019-03-14T19:46:07.617] [INFO] default - User authenticated
-[2019-03-14T19:46:32.079] [INFO] default - Authentication check
-[2019-03-14T19:46:32.081] [INFO] default - User authenticated
-[2019-03-14T19:46:43.403] [INFO] default - Authentication check
-[2019-03-14T19:46:43.404] [INFO] default - User authenticated
-[2019-03-14T19:46:49.888] [INFO] default - Authentication check
-[2019-03-14T19:46:49.889] [INFO] default - User authenticated
-[2019-03-14T19:47:41.568] [INFO] default - Authentication check
-[2019-03-14T19:47:41.568] [INFO] default - User authenticated
-[2019-03-16T16:07:56.875] [INFO] default - Setting up API middleware
-[2019-03-16T16:07:56.906] [INFO] default - Server is running on port 3000
-[2019-03-16T16:07:57.929] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
-[2019-03-16T16:10:21.915] [INFO] default - login user: {"username":"pri","password":"pri"}
-[2019-03-16T16:10:23.215] [INFO] default - login with payload { userName: 'pri',
-  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
-[2019-03-16T16:10:23.346] [INFO] default - err null
-[2019-03-16T16:13:52.917] [INFO] default - Authentication check
-[2019-03-16T16:13:52.933] [INFO] default - User authenticated
-[2019-03-16T16:15:01.952] [INFO] default - Authentication check
-[2019-03-16T16:15:01.953] [INFO] default - User authenticated
-[2019-03-16T16:15:10.024] [INFO] default - Authentication check
-[2019-03-16T16:15:10.025] [INFO] default - User authenticated
-[2019-03-16T16:19:29.107] [INFO] default - Authentication check
-[2019-03-16T16:19:29.107] [INFO] default - User authenticated
-[2019-03-16T16:19:37.479] [INFO] default - Authentication check
-[2019-03-16T16:19:37.480] [INFO] default - User authenticated
-[2019-03-16T16:33:41.958] [INFO] default - Authentication check
-[2019-03-16T16:33:41.959] [INFO] default - User authenticated
-[2019-03-16T16:36:52.957] [INFO] default - Authentication check
-[2019-03-16T16:36:52.960] [INFO] default - User authenticated
-[2019-03-16T16:37:02.867] [INFO] default - Authentication check
-[2019-03-16T16:37:02.868] [INFO] default - User authenticated
-[2019-03-16T16:38:01.352] [INFO] default - Authentication check
-[2019-03-16T16:38:01.352] [INFO] default - User authenticated
-[2019-03-16T16:38:35.623] [INFO] default - Authentication check
-[2019-03-16T16:38:35.624] [INFO] default - User authenticated
-[2019-03-16T16:39:40.204] [INFO] default - Authentication check
-[2019-03-16T16:39:40.205] [INFO] default - User authenticated
-[2019-03-16T16:45:27.987] [INFO] default - Authentication check
-[2019-03-16T16:45:27.988] [INFO] default - User authenticated
-[2019-03-16T16:47:17.719] [INFO] default - Authentication check
-[2019-03-16T16:47:17.720] [INFO] default - User authenticated
-[2019-03-16T16:47:19.428] [INFO] default - Authentication check
-[2019-03-16T16:47:19.429] [INFO] default - User authenticated
-[2019-03-16T16:47:20.919] [INFO] default - Authentication check
-[2019-03-16T16:47:20.919] [INFO] default - User authenticated
-[2019-03-16T16:47:22.363] [INFO] default - Authentication check
-[2019-03-16T16:47:22.364] [INFO] default - User authenticated
-[2019-03-16T16:47:23.395] [INFO] default - Authentication check
-[2019-03-16T16:47:23.395] [INFO] default - User authenticated
-[2019-03-16T16:59:02.485] [INFO] default - Authentication check
-[2019-03-16T16:59:02.486] [INFO] default - User authenticated
-[2019-03-16T16:59:44.150] [INFO] default - Authentication check
-[2019-03-16T16:59:44.151] [INFO] default - User authenticated
-[2019-03-16T17:00:16.664] [INFO] default - Authentication check
-[2019-03-16T17:00:16.665] [INFO] default - User authenticated
-[2019-03-16T17:00:24.084] [INFO] default - Authentication check
-[2019-03-16T17:00:24.085] [INFO] default - User authenticated
-[2019-03-16T17:07:23.981] [INFO] default - Authentication check
-[2019-03-16T17:07:23.982] [INFO] default - User authenticated
-[2019-03-16T17:07:50.568] [INFO] default - Authentication check
-[2019-03-16T17:07:50.597] [INFO] default - User authenticated
-[2019-03-16T17:12:23.363] [INFO] default - Authentication check
-[2019-03-16T17:12:23.364] [INFO] default - User authenticated
-[2019-03-16T17:12:42.863] [INFO] default - Authentication check
-[2019-03-16T17:12:42.873] [INFO] default - User authenticated
-[2019-03-16T17:13:53.659] [INFO] default - Authentication check
-[2019-03-16T17:13:53.660] [INFO] default - User authenticated
-[2019-03-16T17:14:57.989] [INFO] default - Authentication check
-[2019-03-16T17:14:57.990] [INFO] default - User authenticated
-[2019-03-16T21:14:12.790] [INFO] default - Authentication check
-[2019-03-16T21:14:13.802] [INFO] default - User authenticated
-[2019-03-16T21:14:45.966] [INFO] default - Authentication check
-[2019-03-16T21:14:45.992] [INFO] default - User authenticated
-[2019-03-16T21:14:56.135] [INFO] default - Authentication check
-[2019-03-16T21:14:56.136] [INFO] default - User authenticated
-[2019-03-16T21:15:03.715] [INFO] default - Authentication check
-[2019-03-16T21:15:03.716] [INFO] default - User authenticated
-[2019-03-16T21:15:24.698] [INFO] default - Authentication check
-[2019-03-16T21:15:24.700] [INFO] default - User authenticated
-[2019-03-16T21:15:33.920] [INFO] default - Authentication check
-[2019-03-16T21:15:33.920] [INFO] default - User authenticated
-[2019-03-16T21:22:33.011] [INFO] default - Authentication check
-[2019-03-16T21:22:33.012] [INFO] default - User authenticated
-[2019-03-16T21:23:34.429] [INFO] default - Authentication check
-[2019-03-16T21:23:34.448] [INFO] default - User authenticated
-[2019-03-16T21:24:22.273] [INFO] default - Authentication check
-[2019-03-16T21:24:22.274] [INFO] default - User authenticated
-[2019-03-16T21:25:32.939] [INFO] default - Authentication check
-[2019-03-16T21:25:32.959] [INFO] default - User authenticated
-[2019-03-16T21:27:38.968] [INFO] default - Authentication check
-[2019-03-16T21:27:38.982] [INFO] default - User authenticated
-[2019-03-16T21:27:49.158] [INFO] default - Authentication check
-[2019-03-16T21:27:49.187] [INFO] default - User authenticated
-[2019-03-16T21:27:57.893] [INFO] default - Authentication check
-[2019-03-16T21:27:57.893] [INFO] default - User authenticated
-[2019-03-16T21:28:04.484] [INFO] default - Authentication check
-[2019-03-16T21:28:04.485] [INFO] default - User authenticated
-[2019-03-16T21:28:14.089] [INFO] default - Authentication check
-[2019-03-16T21:28:14.090] [INFO] default - User authenticated
-[2019-03-17T19:24:14.399] [INFO] default - Setting up API middleware
-[2019-03-17T19:24:14.439] [INFO] default - Server is running on port 3000
-[2019-03-17T19:24:14.556] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
-[2019-03-17T19:26:13.382] [INFO] default - Setting up API middleware
-[2019-03-17T19:26:13.419] [INFO] default - Server is running on port 3000
-[2019-03-17T19:26:13.455] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
-[2019-03-17T19:30:20.926] [INFO] default - login user: {"username":"pri","password":"pri"}
-[2019-03-17T19:30:21.959] [INFO] default - login with payload { userName: 'pri',
-  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
-[2019-03-17T19:30:22.237] [INFO] default - err null
-[2019-03-17T19:31:11.560] [INFO] default - login user: {"username":"pri","password":"pri"}
-[2019-03-17T19:31:11.565] [INFO] default - login with payload { userName: 'pri',
-  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
-[2019-03-17T19:31:11.567] [INFO] default - err null
-[2019-03-17T19:34:38.747] [INFO] default - login user: {"username":"pri","password":"pri"}
-[2019-03-17T19:34:38.749] [INFO] default - login with payload { userName: 'pri',
-  userId: 'd4380160-4322-11e9-b8a4-b54e41c4973e' }
-[2019-03-17T19:34:38.750] [INFO] default - err null
-[2019-03-18T15:42:37.612] [INFO] default - Setting up API middleware
-[2019-03-18T15:42:37.643] [INFO] default - Server is running on port 3000
-[2019-03-18T15:42:38.683] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-20T12:08:52.815] [INFO] default - user login route
+[2019-03-20T12:08:52.816] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-20T12:08:52.864] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-03-20T12:10:10.400] [INFO] default - user login route
+[2019-03-20T12:10:10.400] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-20T12:10:10.405] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-03-20T12:17:03.402] [INFO] default - user login route
+[2019-03-20T12:17:03.497] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-20T12:17:03.506] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-03-20T12:26:25.103] [INFO] default - user login route
+[2019-03-20T12:26:25.103] [INFO] default - login user: {}
+[2019-03-20T12:26:43.503] [INFO] default - user login route
+[2019-03-20T12:26:43.527] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-20T12:26:43.529] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
