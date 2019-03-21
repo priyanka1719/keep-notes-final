@@ -983,3 +983,311 @@
 [2019-03-18T15:42:46.999] [INFO] default - Setting up API middleware
 [2019-03-18T15:42:47.027] [INFO] default - Server is running on port 3001
 [2019-03-18T15:42:48.048] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-21T22:45:09.702] [INFO] default - Setting up API middleware
+[2019-03-21T22:45:09.728] [INFO] default - Server is running on port 3001
+[2019-03-21T22:45:09.860] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-21T23:10:57.549] [INFO] default - Setting up API middleware
+[2019-03-21T23:10:57.579] [INFO] default - Server is running on port 3001
+[2019-03-21T23:10:59.638] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-21T23:31:52.988] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:31:52.989] [INFO] default - authenticated
+[2019-03-21T23:31:52.989] [INFO] default - search using userid
+[2019-03-21T23:33:25.112] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:33:25.112] [INFO] default - authenticated
+[2019-03-21T23:33:25.113] [INFO] default - search using userid
+[2019-03-21T23:35:06.843] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:35:06.844] [INFO] default - authenticated
+[2019-03-21T23:35:06.844] [INFO] default - search using userid
+[2019-03-21T23:36:00.214] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:36:00.215] [INFO] default - authenticated
+[2019-03-21T23:36:00.375] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:453:31)
+    at inspect (internal/util/inspect.js:193:10)
+    at formatWithOptions (util.js:85:12)
+    at Object.format (util.js:73:10)
+    at basicLayout (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/appenders/file.js:55:18)
+    at categoryAppenders.forEach (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:930:13)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:939:19)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-03-21T23:38:03.420] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:38:03.421] [INFO] default - authenticated
+[2019-03-21T23:38:03.421] [INFO] default - search using userid
+[2019-03-21T23:39:13.940] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:39:13.945] [INFO] default - authenticated
+[2019-03-21T23:39:13.945] [INFO] default - search using userid
+[2019-03-21T23:41:09.717] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:41:09.718] [INFO] default - authenticated
+[2019-03-21T23:41:09.722] [INFO] default - search using userid
+[2019-03-21T23:41:21.332] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:41:21.333] [INFO] default - authenticated
+[2019-03-21T23:41:21.333] [INFO] default - search using userid
+[2019-03-21T23:42:30.575] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:42:30.577] [INFO] default - authenticated
+[2019-03-21T23:42:30.578] [INFO] default - search using userid
+[2019-03-21T23:43:11.373] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:43:11.377] [INFO] default - authenticated
+[2019-03-21T23:43:11.378] [INFO] default - search using userid
+[2019-03-21T23:43:54.071] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:43:54.072] [INFO] default - authenticated
+[2019-03-21T23:43:54.073] [INFO] default - search using userid
+[2019-03-21T23:44:21.449] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:44:21.451] [INFO] default - authenticated
+[2019-03-21T23:44:21.735] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:453:31)
+    at inspect (internal/util/inspect.js:193:10)
+    at formatWithOptions (util.js:85:12)
+    at Object.format (util.js:73:10)
+    at basicLayout (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/appenders/file.js:55:18)
+    at categoryAppenders.forEach (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:930:13)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:939:19)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-03-21T23:44:59.669] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:44:59.724] [INFO] default - authenticated
+[2019-03-21T23:44:59.724] [INFO] default - search using userid
+[2019-03-21T23:53:07.145] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:53:07.146] [INFO] default - authenticated
+[2019-03-21T23:53:07.146] [INFO] default - search using userid
+[2019-03-21T23:55:54.971] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:55:55.044] [INFO] default - authenticated
+[2019-03-21T23:55:55.045] [INFO] default - search using userid
+[2019-03-21T23:57:08.736] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:57:08.736] [INFO] default - authenticated
+[2019-03-21T23:57:08.736] [INFO] default - search using userid
+[2019-03-21T23:58:12.053] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:58:12.120] [INFO] default - authenticated
+[2019-03-21T23:58:12.121] [INFO] default - search using userid
+[2019-03-21T23:59:53.287] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-21T23:59:53.343] [INFO] default - authenticated
+[2019-03-21T23:59:53.343] [INFO] default - search using userid
+[2019-03-22T00:00:07.064] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:00:07.064] [INFO] default - authenticated
+[2019-03-22T00:00:07.065] [INFO] default - search using userid
+[2019-03-22T00:00:32.493] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:00:32.510] [INFO] default - authenticated
+[2019-03-22T00:00:32.510] [INFO] default - search using userid
+[2019-03-22T00:05:12.637] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:05:12.637] [INFO] default - authenticated
+[2019-03-22T00:05:12.638] [INFO] default - search using userid
+[2019-03-22T00:05:19.301] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:05:19.301] [INFO] default - authenticated
+[2019-03-22T00:05:19.303] [INFO] default - search using userid
+[2019-03-22T00:06:41.393] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:06:41.394] [INFO] default - authenticated
+[2019-03-22T00:06:41.394] [INFO] default - search using userid
+[2019-03-22T00:07:14.599] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:07:14.603] [INFO] default - authenticated
+[2019-03-22T00:07:14.603] [INFO] default - search using userid
+[2019-03-22T00:08:08.067] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:08:08.068] [INFO] default - authenticated
+[2019-03-22T00:08:08.068] [INFO] default - search using userid
+[2019-03-22T00:09:57.793] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:09:57.794] [INFO] default - authenticated
+[2019-03-22T00:09:57.794] [INFO] default - search using userid
+[2019-03-22T00:11:53.793] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:11:53.794] [INFO] default - authenticated
+[2019-03-22T00:11:53.795] [INFO] default - search using userid
+[2019-03-22T00:13:13.092] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:13:13.116] [INFO] default - authenticated
+[2019-03-22T00:13:13.117] [INFO] default - search using userid
+[2019-03-22T00:13:21.855] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:13:21.928] [INFO] default - authenticated
+[2019-03-22T00:13:21.928] [INFO] default - search using userid
+[2019-03-22T00:14:27.396] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:14:27.411] [INFO] default - authenticated
+[2019-03-22T00:14:27.412] [INFO] default - search using userid
+[2019-03-22T00:14:40.929] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:14:40.931] [INFO] default - authenticated
+[2019-03-22T00:14:40.932] [INFO] default - search using userid
+[2019-03-22T00:16:20.811] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:16:20.813] [INFO] default - authenticated
+[2019-03-22T00:16:20.813] [INFO] default - search using userid
+[2019-03-22T00:16:34.328] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:16:34.329] [INFO] default - authenticated
+[2019-03-22T00:16:34.329] [INFO] default - search using userid
+[2019-03-22T00:17:03.144] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:17:03.148] [INFO] default - authenticated
+[2019-03-22T00:17:03.148] [INFO] default - search using userid
+[2019-03-22T00:19:34.376] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:19:34.379] [INFO] default - authenticated
+[2019-03-22T00:19:34.380] [INFO] default - search using userid
+[2019-03-22T00:19:40.545] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:19:40.548] [INFO] default - authenticated
+[2019-03-22T00:19:40.548] [INFO] default - search using userid
+[2019-03-22T00:21:41.798] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:21:41.803] [INFO] default - authenticated
+[2019-03-22T00:21:41.803] [INFO] default - search using userid
+[2019-03-22T00:24:46.453] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:24:46.454] [INFO] default - authenticated
+[2019-03-22T00:24:46.455] [INFO] default - search using userid
+[2019-03-22T00:25:30.015] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:25:30.015] [INFO] default - authenticated
+[2019-03-22T00:26:53.187] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:26:53.201] [INFO] default - authenticated
+[2019-03-22T00:26:53.201] [INFO] default - search using userid
+[2019-03-22T00:28:03.199] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:28:03.200] [INFO] default - authenticated
+[2019-03-22T00:28:03.200] [INFO] default - search using userid
+[2019-03-22T00:28:46.184] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:28:46.185] [INFO] default - authenticated
+[2019-03-22T00:28:46.185] [INFO] default - search using userid
+[2019-03-22T00:29:16.277] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:29:16.295] [INFO] default - authenticated
+[2019-03-22T00:29:16.297] [INFO] default - search using userid
+[2019-03-22T00:29:44.327] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:29:44.330] [INFO] default - authenticated
+[2019-03-22T00:29:44.330] [INFO] default - search using userid
+[2019-03-22T00:29:59.718] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:29:59.719] [INFO] default - authenticated
+[2019-03-22T00:29:59.819] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:453:31)
+    at inspect (internal/util/inspect.js:193:10)
+    at formatWithOptions (util.js:85:12)
+    at Object.format (util.js:73:10)
+    at basicLayout (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/appenders/file.js:55:18)
+    at categoryAppenders.forEach (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:930:13)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:939:19)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-03-22T00:30:55.461] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:30:55.464] [INFO] default - authenticated
+[2019-03-22T00:30:55.464] [INFO] default - search using userid
+[2019-03-22T00:31:05.708] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:31:05.712] [INFO] default - authenticated
+[2019-03-22T00:31:05.715] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validation.js:59:24)
+    at formatValue (internal/util/inspect.js:453:31)
+    at inspect (internal/util/inspect.js:193:10)
+    at formatWithOptions (util.js:85:12)
+    at Object.format (util.js:73:10)
+    at basicLayout (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/layouts.js:65:57)
+    at app (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/appenders/file.js:55:18)
+    at categoryAppenders.forEach (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/log4js.js:41:21)
+    at listeners.forEach.l (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/log4js/lib/logger.js:45:12)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/error/validator.js:29:11)
+          at validate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:930:13)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/schematype.js:939:19)
+          at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/mongoose/lib/document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-03-22T00:31:51.079] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:31:51.089] [INFO] default - authenticated
+[2019-03-22T00:31:51.089] [INFO] default - search using userid
+[2019-03-22T00:32:01.723] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:32:01.737] [INFO] default - authenticated
+[2019-03-22T00:32:01.739] [INFO] default - search using userid
+[2019-03-22T00:33:12.031] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:33:12.045] [INFO] default - authenticated
+[2019-03-22T00:33:12.045] [INFO] default - search using userid
+[2019-03-22T00:33:17.353] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:33:17.378] [INFO] default - authenticated
+[2019-03-22T00:33:17.378] [INFO] default - search using userid
+[2019-03-22T00:33:25.758] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:33:25.759] [INFO] default - authenticated
+[2019-03-22T00:33:36.267] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:33:36.267] [INFO] default - authenticated
+[2019-03-22T00:33:40.463] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T00:33:40.481] [INFO] default - authenticated
