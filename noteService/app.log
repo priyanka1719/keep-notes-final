@@ -1291,3 +1291,126 @@
 [2019-03-22T00:33:36.267] [INFO] default - authenticated
 [2019-03-22T00:33:40.463] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
 [2019-03-22T00:33:40.481] [INFO] default - authenticated
+[2019-03-22T15:20:49.539] [INFO] default - Setting up API middleware
+[2019-03-22T15:20:49.996] [INFO] default - Server is running on port 3001
+[2019-03-22T15:20:51.022] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-22T17:38:33.288] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:38:33.508] [INFO] default - authenticated
+[2019-03-22T17:38:33.510] [INFO] default - search using userid
+[2019-03-22T17:44:44.856] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:44:44.856] [INFO] default - authenticated
+[2019-03-22T17:44:44.856] [INFO] default - search using userid
+[2019-03-22T17:45:25.864] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:45:25.865] [INFO] default - authenticated
+[2019-03-22T17:45:25.865] [INFO] default - search using userid
+[2019-03-22T17:54:29.980] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:54:29.981] [INFO] default - authenticated
+[2019-03-22T17:54:29.981] [INFO] default - search using userid
+[2019-03-22T17:54:49.455] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:54:49.455] [INFO] default - authenticated
+[2019-03-22T17:54:49.456] [INFO] default - search using userid
+[2019-03-22T17:55:18.886] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:55:18.886] [INFO] default - authenticated
+[2019-03-22T17:55:18.886] [INFO] default - search using userid
+[2019-03-22T17:55:35.992] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:55:35.993] [INFO] default - authenticated
+[2019-03-22T17:55:35.993] [INFO] default - search using userid
+[2019-03-22T17:57:06.412] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:57:06.413] [INFO] default - authenticated
+[2019-03-22T17:57:06.414] [INFO] default - search using userid
+[2019-03-22T17:58:14.175] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:58:14.176] [INFO] default - authenticated
+[2019-03-22T17:58:14.177] [INFO] default - search using userid
+[2019-03-22T17:58:47.000] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T17:58:47.001] [INFO] default - authenticated
+[2019-03-22T17:58:47.002] [INFO] default - search using userid
+[2019-03-22T18:07:54.405] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:07:54.410] [INFO] default - authenticated
+[2019-03-22T18:07:54.411] [INFO] default - search using userid
+[2019-03-22T18:10:50.767] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:10:50.768] [INFO] default - authenticated
+[2019-03-22T18:10:50.769] [INFO] default - search using userid
+[2019-03-22T18:11:09.970] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:11:09.971] [INFO] default - authenticated
+[2019-03-22T18:11:10.265] [INFO] default - search using userid
+[2019-03-22T18:13:03.547] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:13:03.561] [INFO] default - authenticated
+[2019-03-22T18:13:03.562] [INFO] default - search using userid
+[2019-03-22T18:17:59.972] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:18:00.010] [INFO] default - authenticated
+[2019-03-22T18:18:00.011] [INFO] default - search using userid
+[2019-03-22T18:18:44.296] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:18:44.298] [INFO] default - authenticated
+[2019-03-22T18:18:44.300] [INFO] default - search using userid
+[2019-03-22T18:26:59.196] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:26:59.198] [INFO] default - authenticated
+[2019-03-22T18:27:01.415] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:27:01.416] [INFO] default - authenticated
+[2019-03-22T18:27:07.344] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:27:07.345] [INFO] default - authenticated
+[2019-03-22T18:30:05.960] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:30:05.961] [INFO] default - authenticated
+[2019-03-22T18:30:05.962] [INFO] default - search using userid
+[2019-03-22T18:30:58.896] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:30:58.897] [INFO] default - authenticated
+[2019-03-22T18:30:58.914] [INFO] default - search using userid
+[2019-03-22T18:32:34.956] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:32:34.957] [INFO] default - authenticated
+[2019-03-22T18:32:34.958] [INFO] default - search using userid
+[2019-03-22T18:32:51.723] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:32:51.724] [INFO] default - authenticated
+[2019-03-22T18:32:51.725] [INFO] default - search using userid
+[2019-03-22T18:33:54.120] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:33:54.121] [INFO] default - authenticated
+[2019-03-22T18:33:54.122] [INFO] default - search using userid
+[2019-03-22T18:34:52.090] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:34:52.091] [INFO] default - authenticated
+[2019-03-22T18:34:52.092] [INFO] default - search using userid
+[2019-03-22T18:35:05.953] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:35:05.957] [INFO] default - authenticated
+[2019-03-22T18:35:05.963] [INFO] default - search using userid
+[2019-03-22T18:36:14.309] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:36:14.309] [INFO] default - authenticated
+[2019-03-22T18:36:14.310] [INFO] default - search using userid
+[2019-03-22T18:37:15.210] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:37:15.212] [INFO] default - authenticated
+[2019-03-22T18:37:15.213] [INFO] default - search using userid
+[2019-03-22T18:38:01.784] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:38:01.786] [INFO] default - authenticated
+[2019-03-22T18:38:01.787] [INFO] default - search using userid
+[2019-03-22T18:39:27.529] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:39:27.531] [INFO] default - authenticated
+[2019-03-22T18:39:27.532] [INFO] default - search using userid
+[2019-03-22T18:41:26.438] [INFO] default - Setting up API middleware
+[2019-03-22T18:41:26.499] [INFO] default - Server is running on port 3001
+[2019-03-22T18:41:27.521] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-22T18:41:41.015] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:41:41.015] [INFO] default - authenticated
+[2019-03-22T18:41:41.016] [INFO] default - search using userid
+[2019-03-22T18:41:41.017] [INFO] default - getting note for userID :  testUser
+[2019-03-22T18:42:35.949] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:42:35.949] [INFO] default - authenticated
+[2019-03-22T18:42:35.949] [INFO] default - search using userid
+[2019-03-22T18:42:35.951] [INFO] default - getting note for userID :  testUser
+[2019-03-22T18:43:37.024] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:43:37.025] [INFO] default - authenticated
+[2019-03-22T18:46:39.897] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:46:39.898] [INFO] default - authenticated
+[2019-03-22T18:46:39.898] [INFO] default - search using userid
+[2019-03-22T18:46:39.899] [INFO] default - getting note for userID :  testUser
+[2019-03-22T18:46:47.105] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:46:47.106] [INFO] default - authenticated
+[2019-03-22T18:46:47.107] [INFO] default - search using userid
+[2019-03-22T18:46:47.108] [INFO] default - getting note for userID :  testUser
+[2019-03-22T18:47:08.049] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T18:47:08.049] [INFO] default - authenticated
+[2019-03-22T18:47:08.051] [INFO] default - search using userid
+[2019-03-22T18:47:08.052] [INFO] default - getting note for userID :  pri
+[2019-03-22T19:17:13.545] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T19:17:13.704] [INFO] default - authenticated
+[2019-03-22T19:17:13.706] [INFO] default - search using userid
+[2019-03-22T19:17:13.708] [INFO] default - getting note for userID :  pri4
+[2019-03-22T19:17:34.763] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-22T19:17:34.764] [INFO] default - authenticated
+[2019-03-22T19:17:34.765] [INFO] default - search using userid
+[2019-03-22T19:17:34.766] [INFO] default - getting note for userID :  pri4
