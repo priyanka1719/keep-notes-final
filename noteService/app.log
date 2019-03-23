@@ -2712,3 +2712,285 @@
 [2019-03-23T15:50:26.590] [INFO] default - authenticated
 [2019-03-23T15:50:26.590] [INFO] default - search using userid
 [2019-03-23T15:50:26.590] [INFO] default - getting note for userID :  pri
+[2019-03-23T21:57:40.055] [INFO] default - Setting up API middleware
+[2019-03-23T21:57:40.086] [INFO] default - Server is running on port 3001
+[2019-03-23T21:57:40.127] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-23T22:03:19.092] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:03:19.093] [INFO] default - authenticated
+[2019-03-23T22:03:19.094] [INFO] default - search using userid
+[2019-03-23T22:03:19.095] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:04:14.754] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:04:14.755] [INFO] default - authenticated
+[2019-03-23T22:04:14.755] [INFO] default - search using userid
+[2019-03-23T22:04:14.755] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:05:00.939] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:05:00.939] [INFO] default - authenticated
+[2019-03-23T22:05:00.940] [INFO] default - search using userid
+[2019-03-23T22:05:00.940] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:05:19.131] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:05:19.132] [INFO] default - authenticated
+[2019-03-23T22:05:19.132] [INFO] default - search using userid
+[2019-03-23T22:05:19.133] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:05:24.503] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:05:24.504] [INFO] default - authenticated
+[2019-03-23T22:05:24.504] [INFO] default - search using userid
+[2019-03-23T22:05:24.504] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:05:53.965] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:05:53.967] [INFO] default - authenticated
+[2019-03-23T22:05:53.968] [INFO] default - search using userid
+[2019-03-23T22:05:53.968] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:06:15.264] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:06:15.271] [INFO] default - authenticated
+[2019-03-23T22:06:15.273] [INFO] default - search using userid
+[2019-03-23T22:06:15.274] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:06:37.051] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:06:37.051] [INFO] default - authenticated
+[2019-03-23T22:06:37.053] [INFO] default - search using userid
+[2019-03-23T22:06:37.053] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:06:56.367] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:06:56.368] [INFO] default - authenticated
+[2019-03-23T22:06:56.368] [INFO] default - search using userid
+[2019-03-23T22:06:56.369] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:07:23.350] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:07:23.359] [INFO] default - authenticated
+[2019-03-23T22:07:23.360] [INFO] default - search using userid
+[2019-03-23T22:07:23.360] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:07:31.731] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:07:31.731] [INFO] default - authenticated
+[2019-03-23T22:07:31.731] [INFO] default - search using userid
+[2019-03-23T22:07:31.732] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:07:45.477] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:07:45.481] [INFO] default - authenticated
+[2019-03-23T22:07:45.481] [INFO] default - search using userid
+[2019-03-23T22:07:45.482] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:08:20.068] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:08:20.079] [INFO] default - authenticated
+[2019-03-23T22:08:20.080] [INFO] default - search using userid
+[2019-03-23T22:08:20.080] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:08:32.485] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:08:32.486] [INFO] default - authenticated
+[2019-03-23T22:08:32.488] [INFO] default - search using userid
+[2019-03-23T22:08:32.489] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:09:54.386] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:09:54.386] [INFO] default - authenticated
+[2019-03-23T22:09:54.387] [INFO] default - search using userid
+[2019-03-23T22:09:54.387] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:10:38.508] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:10:38.509] [INFO] default - authenticated
+[2019-03-23T22:10:38.509] [INFO] default - search using userid
+[2019-03-23T22:10:38.509] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:10:58.189] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:10:58.189] [INFO] default - authenticated
+[2019-03-23T22:10:58.190] [INFO] default - search using userid
+[2019-03-23T22:10:58.190] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:12:22.391] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:12:22.411] [INFO] default - authenticated
+[2019-03-23T22:12:22.412] [INFO] default - search using userid
+[2019-03-23T22:12:22.412] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:12:55.770] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:12:55.785] [INFO] default - authenticated
+[2019-03-23T22:12:55.785] [INFO] default - search using userid
+[2019-03-23T22:12:55.787] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:13:31.439] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:13:31.454] [INFO] default - authenticated
+[2019-03-23T22:13:31.455] [INFO] default - search using userid
+[2019-03-23T22:13:31.457] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:14:25.802] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:14:25.803] [INFO] default - authenticated
+[2019-03-23T22:14:25.804] [INFO] default - search using userid
+[2019-03-23T22:14:25.804] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:16:15.971] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:16:15.976] [INFO] default - authenticated
+[2019-03-23T22:16:15.983] [INFO] default - search using userid
+[2019-03-23T22:16:15.987] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:16:39.101] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:16:39.103] [INFO] default - authenticated
+[2019-03-23T22:16:39.103] [INFO] default - search using userid
+[2019-03-23T22:16:39.104] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:16:58.987] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:16:58.994] [INFO] default - authenticated
+[2019-03-23T22:16:58.995] [INFO] default - search using userid
+[2019-03-23T22:16:58.995] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:17:36.976] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:17:36.982] [INFO] default - authenticated
+[2019-03-23T22:17:36.982] [INFO] default - search using userid
+[2019-03-23T22:17:36.982] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:17:47.687] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:17:47.723] [INFO] default - authenticated
+[2019-03-23T22:17:47.723] [INFO] default - search using userid
+[2019-03-23T22:17:47.723] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:20:33.408] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:20:33.412] [INFO] default - authenticated
+[2019-03-23T22:20:33.412] [INFO] default - search using userid
+[2019-03-23T22:20:33.413] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:21:17.896] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:21:17.900] [INFO] default - authenticated
+[2019-03-23T22:21:17.901] [INFO] default - search using userid
+[2019-03-23T22:21:17.901] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:23:27.733] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:23:27.742] [INFO] default - authenticated
+[2019-03-23T22:23:27.744] [INFO] default - search using userid
+[2019-03-23T22:23:27.744] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:23:44.935] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:23:44.937] [INFO] default - authenticated
+[2019-03-23T22:23:44.938] [INFO] default - search using userid
+[2019-03-23T22:23:44.938] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:24:06.622] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:24:06.623] [INFO] default - authenticated
+[2019-03-23T22:24:06.627] [INFO] default - search using userid
+[2019-03-23T22:24:06.628] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:27:05.374] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:27:05.375] [INFO] default - authenticated
+[2019-03-23T22:27:05.375] [INFO] default - search using userid
+[2019-03-23T22:27:05.376] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:27:43.218] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:27:43.233] [INFO] default - authenticated
+[2019-03-23T22:27:43.233] [INFO] default - search using userid
+[2019-03-23T22:27:43.233] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:28:59.878] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:29:00.229] [INFO] default - authenticated
+[2019-03-23T22:29:00.229] [INFO] default - search using userid
+[2019-03-23T22:29:00.230] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:30:05.393] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:30:05.395] [INFO] default - authenticated
+[2019-03-23T22:30:05.396] [INFO] default - search using userid
+[2019-03-23T22:30:05.397] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:31:31.053] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:31:31.348] [INFO] default - authenticated
+[2019-03-23T22:31:31.348] [INFO] default - search using userid
+[2019-03-23T22:31:31.348] [INFO] default - getting note for userID :  pri
+[2019-03-23T22:32:26.211] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T22:32:26.212] [INFO] default - authenticated
+[2019-03-23T22:32:26.212] [INFO] default - search using userid
+[2019-03-23T22:32:26.213] [INFO] default - getting note for userID :  pri
+[2019-03-23T23:04:50.026] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T23:04:51.170] [INFO] default - authenticated
+[2019-03-23T23:04:51.253] [INFO] default - search using userid
+[2019-03-23T23:04:51.365] [INFO] default - getting note for userID :  pri
+[2019-03-23T23:35:05.963] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-23T23:35:06.690] [INFO] default - authenticated
+[2019-03-23T23:35:06.940] [INFO] default - search using userid
+[2019-03-23T23:35:07.072] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:09:46.993] [INFO] default - Setting up API middleware
+[2019-03-24T00:09:47.026] [INFO] default - Server is running on port 3001
+[2019-03-24T00:09:47.050] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T00:34:30.149] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:34:30.434] [INFO] default - authenticated
+[2019-03-24T00:34:30.539] [INFO] default - search using userid
+[2019-03-24T00:34:30.570] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:35:38.740] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:35:38.750] [INFO] default - authenticated
+[2019-03-24T00:35:38.750] [INFO] default - search using userid
+[2019-03-24T00:35:38.751] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:35:52.275] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:35:52.276] [INFO] default - authenticated
+[2019-03-24T00:35:52.276] [INFO] default - search using userid
+[2019-03-24T00:35:52.277] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:36:03.969] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:36:03.981] [INFO] default - authenticated
+[2019-03-24T00:36:03.981] [INFO] default - search using userid
+[2019-03-24T00:36:03.982] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:36:47.954] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:36:47.954] [INFO] default - authenticated
+[2019-03-24T00:36:47.955] [INFO] default - search using userid
+[2019-03-24T00:36:47.955] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:36:54.960] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:36:54.961] [INFO] default - authenticated
+[2019-03-24T00:36:54.961] [INFO] default - search using userid
+[2019-03-24T00:36:54.961] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:37:04.439] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:37:04.439] [INFO] default - authenticated
+[2019-03-24T00:37:04.439] [INFO] default - search using userid
+[2019-03-24T00:37:04.440] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:37:22.092] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:37:22.096] [INFO] default - authenticated
+[2019-03-24T00:37:22.097] [INFO] default - search using userid
+[2019-03-24T00:37:22.097] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:38:24.618] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:38:24.622] [INFO] default - authenticated
+[2019-03-24T00:38:24.622] [INFO] default - search using userid
+[2019-03-24T00:38:24.622] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:39:11.332] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:39:11.333] [INFO] default - authenticated
+[2019-03-24T00:39:11.333] [INFO] default - search using userid
+[2019-03-24T00:39:11.333] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:39:35.436] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:39:35.445] [INFO] default - authenticated
+[2019-03-24T00:39:35.445] [INFO] default - search using userid
+[2019-03-24T00:39:35.446] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:39:46.584] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:39:46.587] [INFO] default - authenticated
+[2019-03-24T00:39:46.587] [INFO] default - search using userid
+[2019-03-24T00:39:46.587] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:41:05.080] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:41:05.080] [INFO] default - authenticated
+[2019-03-24T00:41:05.080] [INFO] default - search using userid
+[2019-03-24T00:41:05.080] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:41:56.352] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:41:56.353] [INFO] default - authenticated
+[2019-03-24T00:41:56.353] [INFO] default - search using userid
+[2019-03-24T00:41:56.353] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:42:23.720] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:42:23.720] [INFO] default - authenticated
+[2019-03-24T00:42:23.721] [INFO] default - search using userid
+[2019-03-24T00:42:23.721] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:43:19.529] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:43:19.575] [INFO] default - authenticated
+[2019-03-24T00:43:19.575] [INFO] default - search using userid
+[2019-03-24T00:43:19.576] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:43:43.531] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:43:43.534] [INFO] default - authenticated
+[2019-03-24T00:43:43.535] [INFO] default - search using userid
+[2019-03-24T00:43:43.535] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:44:42.003] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:44:42.020] [INFO] default - authenticated
+[2019-03-24T00:44:42.020] [INFO] default - search using userid
+[2019-03-24T00:44:42.020] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:45:11.272] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:45:11.273] [INFO] default - authenticated
+[2019-03-24T00:45:11.274] [INFO] default - search using userid
+[2019-03-24T00:45:11.276] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:50:16.901] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:50:16.902] [INFO] default - authenticated
+[2019-03-24T00:50:16.903] [INFO] default - search using userid
+[2019-03-24T00:50:16.903] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:50:37.358] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:50:37.369] [INFO] default - authenticated
+[2019-03-24T00:50:37.369] [INFO] default - search using userid
+[2019-03-24T00:50:37.370] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:50:51.464] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:50:51.468] [INFO] default - authenticated
+[2019-03-24T00:50:51.468] [INFO] default - search using userid
+[2019-03-24T00:50:51.468] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:51:15.753] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:51:15.814] [INFO] default - authenticated
+[2019-03-24T00:51:15.814] [INFO] default - search using userid
+[2019-03-24T00:51:15.814] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:51:39.044] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:51:39.049] [INFO] default - authenticated
+[2019-03-24T00:51:39.186] [INFO] default - search using userid
+[2019-03-24T00:51:39.187] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:52:26.560] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:52:26.562] [INFO] default - authenticated
+[2019-03-24T00:52:53.000] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:52:53.003] [INFO] default - authenticated
+[2019-03-24T00:53:17.389] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:53:17.390] [INFO] default - authenticated
+[2019-03-24T00:53:56.688] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:53:56.692] [INFO] default - authenticated
+[2019-03-24T00:54:37.097] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:54:37.098] [INFO] default - authenticated
+[2019-03-24T00:54:46.185] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:54:46.286] [INFO] default - authenticated
+[2019-03-24T00:55:20.814] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:55:20.816] [INFO] default - authenticated
+[2019-03-24T00:55:29.352] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:55:29.352] [INFO] default - authenticated
+[2019-03-24T00:56:17.133] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:56:17.133] [INFO] default - authenticated
+[2019-03-24T00:56:17.134] [INFO] default - search using userid
+[2019-03-24T00:56:17.134] [INFO] default - getting note for userID :  pri
+[2019-03-24T00:56:31.860] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T00:56:31.862] [INFO] default - authenticated
+[2019-03-24T00:56:31.863] [INFO] default - search using userid
+[2019-03-24T00:56:31.863] [INFO] default - getting note for userID :  pri
