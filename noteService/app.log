@@ -2994,3 +2994,523 @@
 [2019-03-24T00:56:31.862] [INFO] default - authenticated
 [2019-03-24T00:56:31.863] [INFO] default - search using userid
 [2019-03-24T00:56:31.863] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:00:34.106] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:00:34.108] [INFO] default - authenticated
+[2019-03-24T01:00:34.109] [INFO] default - search using userid
+[2019-03-24T01:00:34.109] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:01:30.428] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:01:30.431] [INFO] default - authenticated
+[2019-03-24T01:01:30.432] [INFO] default - search using userid
+[2019-03-24T01:01:30.432] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:03:22.463] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:03:22.467] [INFO] default - authenticated
+[2019-03-24T01:03:22.467] [INFO] default - search using userid
+[2019-03-24T01:03:22.467] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:03:47.924] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:03:47.951] [INFO] default - authenticated
+[2019-03-24T01:03:47.951] [INFO] default - search using userid
+[2019-03-24T01:03:47.953] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:48:54.232] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:48:54.234] [INFO] default - authenticated
+[2019-03-24T01:48:54.234] [INFO] default - search using userid
+[2019-03-24T01:48:54.234] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:50:17.478] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:50:17.479] [INFO] default - authenticated
+[2019-03-24T01:50:17.479] [INFO] default - search using userid
+[2019-03-24T01:50:17.480] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:51:02.061] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:51:02.062] [INFO] default - authenticated
+[2019-03-24T01:51:02.062] [INFO] default - search using userid
+[2019-03-24T01:51:02.062] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:52:04.874] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:52:04.920] [INFO] default - authenticated
+[2019-03-24T01:52:04.920] [INFO] default - search using userid
+[2019-03-24T01:52:04.921] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:53:03.857] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:53:03.875] [INFO] default - authenticated
+[2019-03-24T01:53:03.875] [INFO] default - search using userid
+[2019-03-24T01:53:03.875] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:55:20.754] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:55:20.757] [INFO] default - authenticated
+[2019-03-24T01:55:20.757] [INFO] default - search using userid
+[2019-03-24T01:55:20.757] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:56:22.299] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:56:22.299] [INFO] default - authenticated
+[2019-03-24T01:56:22.300] [INFO] default - search using userid
+[2019-03-24T01:56:22.300] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:57:38.974] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:57:38.975] [INFO] default - authenticated
+[2019-03-24T01:57:38.975] [INFO] default - search using userid
+[2019-03-24T01:57:38.975] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:58:37.990] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:58:37.992] [INFO] default - authenticated
+[2019-03-24T01:58:37.992] [INFO] default - search using userid
+[2019-03-24T01:58:37.992] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:59:05.153] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:59:05.188] [INFO] default - authenticated
+[2019-03-24T01:59:05.188] [INFO] default - search using userid
+[2019-03-24T01:59:05.188] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:59:36.199] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:59:36.203] [INFO] default - authenticated
+[2019-03-24T01:59:36.204] [INFO] default - search using userid
+[2019-03-24T01:59:36.204] [INFO] default - getting note for userID :  pri
+[2019-03-24T01:59:54.438] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T01:59:54.438] [INFO] default - authenticated
+[2019-03-24T01:59:54.439] [INFO] default - search using userid
+[2019-03-24T01:59:54.439] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:01:11.521] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:01:11.525] [INFO] default - authenticated
+[2019-03-24T02:01:11.526] [INFO] default - search using userid
+[2019-03-24T02:01:11.526] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:01:21.811] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:01:21.812] [INFO] default - authenticated
+[2019-03-24T02:01:21.813] [INFO] default - search using userid
+[2019-03-24T02:01:21.813] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:02:59.504] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:02:59.506] [INFO] default - authenticated
+[2019-03-24T02:02:59.507] [INFO] default - search using userid
+[2019-03-24T02:02:59.507] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:03:57.293] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:03:57.297] [INFO] default - authenticated
+[2019-03-24T02:03:57.298] [INFO] default - search using userid
+[2019-03-24T02:03:57.299] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:05:16.017] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:05:16.022] [INFO] default - authenticated
+[2019-03-24T02:05:16.027] [INFO] default - search using userid
+[2019-03-24T02:05:16.028] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:07:36.022] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:07:36.022] [INFO] default - authenticated
+[2019-03-24T02:07:36.023] [INFO] default - search using userid
+[2019-03-24T02:07:36.023] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:08:33.807] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:08:33.808] [INFO] default - authenticated
+[2019-03-24T02:08:33.809] [INFO] default - search using userid
+[2019-03-24T02:08:33.810] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:08:52.620] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:08:52.705] [INFO] default - authenticated
+[2019-03-24T02:08:52.705] [INFO] default - search using userid
+[2019-03-24T02:08:52.705] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:09:40.261] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:09:40.265] [INFO] default - authenticated
+[2019-03-24T02:09:40.266] [INFO] default - search using userid
+[2019-03-24T02:09:40.266] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:12:14.933] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:12:14.934] [INFO] default - authenticated
+[2019-03-24T02:12:14.934] [INFO] default - search using userid
+[2019-03-24T02:12:14.935] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:13:04.329] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:13:04.332] [INFO] default - authenticated
+[2019-03-24T02:13:04.333] [INFO] default - search using userid
+[2019-03-24T02:13:04.333] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:18:46.267] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:18:52.683] [INFO] default - authenticated
+[2019-03-24T02:18:53.424] [INFO] default - search using userid
+[2019-03-24T02:18:54.469] [INFO] default - getting note for userID :  pri
+[2019-03-24T02:19:26.691] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T02:19:26.732] [INFO] default - authenticated
+[2019-03-24T02:19:26.732] [INFO] default - search using userid
+[2019-03-24T02:19:26.732] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:23:49.045] [INFO] default - Setting up API middleware
+[2019-03-24T19:23:49.071] [INFO] default - Server is running on port 3001
+[2019-03-24T19:23:49.134] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T19:28:37.556] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:28:37.557] [INFO] default - authenticated
+[2019-03-24T19:28:37.558] [INFO] default - search using userid
+[2019-03-24T19:28:37.558] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:32:31.668] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:32:31.669] [INFO] default - authenticated
+[2019-03-24T19:32:31.670] [INFO] default - search using userid
+[2019-03-24T19:32:31.670] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:33:41.852] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:33:41.852] [INFO] default - authenticated
+[2019-03-24T19:33:41.852] [INFO] default - search using userid
+[2019-03-24T19:33:41.853] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:34:21.827] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:34:21.828] [INFO] default - authenticated
+[2019-03-24T19:34:21.829] [INFO] default - search using userid
+[2019-03-24T19:34:21.829] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:35:00.563] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:35:00.564] [INFO] default - authenticated
+[2019-03-24T19:35:00.564] [INFO] default - search using userid
+[2019-03-24T19:35:00.565] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:35:24.126] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:35:24.126] [INFO] default - authenticated
+[2019-03-24T19:35:24.126] [INFO] default - search using userid
+[2019-03-24T19:35:24.127] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:35:37.235] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:35:37.235] [INFO] default - authenticated
+[2019-03-24T19:35:37.236] [INFO] default - search using userid
+[2019-03-24T19:35:37.236] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:36:00.299] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:36:00.299] [INFO] default - authenticated
+[2019-03-24T19:36:00.300] [INFO] default - search using userid
+[2019-03-24T19:36:00.300] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:37:09.859] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:37:09.864] [INFO] default - authenticated
+[2019-03-24T19:37:09.866] [INFO] default - search using userid
+[2019-03-24T19:37:09.867] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:37:26.752] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:37:26.755] [INFO] default - authenticated
+[2019-03-24T19:37:26.755] [INFO] default - search using userid
+[2019-03-24T19:37:26.756] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:40:20.211] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:40:20.644] [INFO] default - authenticated
+[2019-03-24T19:40:20.644] [INFO] default - search using userid
+[2019-03-24T19:40:20.645] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:41:38.396] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:41:38.402] [INFO] default - authenticated
+[2019-03-24T19:41:38.402] [INFO] default - search using userid
+[2019-03-24T19:41:38.403] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:41:57.287] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:41:57.288] [INFO] default - authenticated
+[2019-03-24T19:41:57.289] [INFO] default - search using userid
+[2019-03-24T19:41:57.289] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:42:34.870] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:42:34.870] [INFO] default - authenticated
+[2019-03-24T19:42:34.870] [INFO] default - search using userid
+[2019-03-24T19:42:34.871] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:43:21.868] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:43:21.921] [INFO] default - authenticated
+[2019-03-24T19:43:21.921] [INFO] default - search using userid
+[2019-03-24T19:43:21.922] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:44:04.267] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:44:04.267] [INFO] default - authenticated
+[2019-03-24T19:44:04.267] [INFO] default - search using userid
+[2019-03-24T19:44:04.267] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:44:33.165] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:44:33.166] [INFO] default - authenticated
+[2019-03-24T19:44:33.167] [INFO] default - search using userid
+[2019-03-24T19:44:33.167] [INFO] default - getting note for userID :  pri
+[2019-03-24T19:45:19.154] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T19:45:19.155] [INFO] default - authenticated
+[2019-03-24T19:45:19.156] [INFO] default - search using userid
+[2019-03-24T19:45:19.156] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:03:29.928] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:03:29.929] [INFO] default - authenticated
+[2019-03-24T20:03:29.930] [INFO] default - search using userid
+[2019-03-24T20:03:29.930] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:23:12.102] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:23:12.102] [INFO] default - authenticated
+[2019-03-24T20:23:12.103] [INFO] default - search using userid
+[2019-03-24T20:23:12.103] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:24:35.879] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:24:36.025] [INFO] default - authenticated
+[2019-03-24T20:24:36.190] [INFO] default - inside share
+[2019-03-24T20:24:36.190] [INFO] default - noteID[] :  []
+[2019-03-24T20:24:36.561] [INFO] default - userIds[] :  [ '' ]
+[2019-03-24T20:24:36.581] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:24:42.559] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:24:42.570] [INFO] default - authenticated
+[2019-03-24T20:24:42.570] [INFO] default - inside share
+[2019-03-24T20:24:42.571] [INFO] default - noteID[] :  []
+[2019-03-24T20:24:42.571] [INFO] default - userIds[] :  [ '' ]
+[2019-03-24T20:24:42.572] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:26:38.394] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:26:38.423] [INFO] default - authenticated
+[2019-03-24T20:26:38.424] [INFO] default - search using userid
+[2019-03-24T20:26:38.424] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:27:33.462] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:27:33.463] [INFO] default - authenticated
+[2019-03-24T20:27:33.463] [INFO] default - search using userid
+[2019-03-24T20:27:33.463] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:28:16.919] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:28:16.919] [INFO] default - authenticated
+[2019-03-24T20:28:16.919] [INFO] default - search using userid
+[2019-03-24T20:28:16.920] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:30:48.680] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:30:48.774] [INFO] default - authenticated
+[2019-03-24T20:30:48.775] [INFO] default - search using userid
+[2019-03-24T20:30:48.775] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:32:45.471] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:32:45.473] [INFO] default - authenticated
+[2019-03-24T20:32:45.474] [INFO] default - search using userid
+[2019-03-24T20:32:45.474] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:33:04.334] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:33:04.334] [INFO] default - authenticated
+[2019-03-24T20:33:04.334] [INFO] default - inside share
+[2019-03-24T20:33:04.335] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:33:04.462] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:33:04.472] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:33:09.713] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:33:09.718] [INFO] default - authenticated
+[2019-03-24T20:33:09.718] [INFO] default - inside share
+[2019-03-24T20:33:09.719] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:33:09.719] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:33:09.719] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:33:11.882] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:33:11.883] [INFO] default - authenticated
+[2019-03-24T20:33:11.883] [INFO] default - inside share
+[2019-03-24T20:33:11.883] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:33:11.884] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:33:11.884] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:33:16.901] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:33:16.902] [INFO] default - authenticated
+[2019-03-24T20:33:16.902] [INFO] default - inside share
+[2019-03-24T20:33:16.903] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:33:16.903] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:33:16.904] [INFO] default - ReferenceError: noteId is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:101:27)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:34:29.633] [INFO] default - Setting up API middleware
+[2019-03-24T20:34:29.806] [INFO] default - Server is running on port 3001
+[2019-03-24T20:34:30.197] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T20:34:42.917] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:34:42.919] [INFO] default - authenticated
+[2019-03-24T20:34:42.921] [INFO] default - inside share
+[2019-03-24T20:34:42.921] [INFO] default - ReferenceError: noteid is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:97:33)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:34:47.948] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:34:47.948] [INFO] default - authenticated
+[2019-03-24T20:34:47.949] [INFO] default - inside share
+[2019-03-24T20:34:47.949] [INFO] default - ReferenceError: noteid is not defined
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:97:33)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:35:12.576] [INFO] default - Setting up API middleware
+[2019-03-24T20:35:12.638] [INFO] default - Server is running on port 3001
+[2019-03-24T20:35:12.755] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T20:35:40.131] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:35:40.132] [INFO] default - authenticated
+[2019-03-24T20:35:40.133] [INFO] default - inside share
+[2019-03-24T20:35:40.134] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:35:40.136] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:35:40.137] [INFO] default - TypeError: Assignment to constant variable.
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:102:21)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:35:45.164] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:35:45.165] [INFO] default - authenticated
+[2019-03-24T20:35:45.165] [INFO] default - inside share
+[2019-03-24T20:35:45.166] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:35:45.166] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:35:45.167] [INFO] default - TypeError: Assignment to constant variable.
+    at shareNote (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/api/v1/notes/notes.controller.js:102:21)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/layer.js:95:5)
+    at /home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/express/lib/router/index.js:275:10)
+    at Request.request.post [as _callback] (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/server/services/auth.service.js:36:13)
+    at Request.self.callback (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:182:13)
+    at IncomingMessage.<anonymous> (/home/priyanka/Work/StackRoute-Assignments/final/keep-notes-final/noteService/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:273:13)
+    at IncomingMessage.emit (events.js:187:15)
+[2019-03-24T20:36:01.667] [INFO] default - Setting up API middleware
+[2019-03-24T20:36:01.700] [INFO] default - Server is running on port 3001
+[2019-03-24T20:36:01.753] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T20:36:17.123] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:36:17.124] [INFO] default - authenticated
+[2019-03-24T20:36:17.125] [INFO] default - inside share
+[2019-03-24T20:36:17.126] [INFO] default - noteID[] :  [ 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+  'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574' ]
+[2019-03-24T20:36:17.129] [INFO] default - userIds[] :  [ 'pri2', 'pri3' ]
+[2019-03-24T20:36:18.166] [INFO] default - notes found: [ { state: 'not-started',
+    createdOn: '1553331130729',
+    modifiedOn: '1553368973019',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [],
+    _id: 5c95fbab60dab012aec05add,
+    id: 'ad9e3d00-4d4d-11e9-bd1d-29fae7dc1574',
+    title: 'Add changes',
+    text: 'Adding docker & swagger',
+    userId: 'pri',
+    __v: 0 },
+  { state: 'started',
+    createdOn: '1552735724693',
+    modifiedOn: '1553368946674',
+    sharedTo: [],
+    isFavourite: false,
+    groupName: [ 'g1', 'g2', 'g3', 'g444', 'g444' ],
+    _id: 5c8cde50f5772f1a39172a36,
+    id: 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+    title: 'Complete assignment',
+    text: 'Complete final assignemnet',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-24T20:36:18.508] [INFO] default - data : { n: 2, nModified: 2, ok: 1 }
+[2019-03-24T20:41:17.944] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:41:17.945] [INFO] default - authenticated
+[2019-03-24T20:41:17.946] [INFO] default - search using userid
+[2019-03-24T20:41:17.946] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:42:04.481] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:42:04.482] [INFO] default - authenticated
+[2019-03-24T20:42:04.482] [INFO] default - search using userid
+[2019-03-24T20:42:04.483] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:43:52.752] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:43:52.753] [INFO] default - authenticated
+[2019-03-24T20:43:52.754] [INFO] default - search using userid
+[2019-03-24T20:43:52.754] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:51:04.186] [INFO] default - Setting up API middleware
+[2019-03-24T20:51:04.234] [INFO] default - Server is running on port 3001
+[2019-03-24T20:51:04.452] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-24T20:51:20.337] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:51:20.338] [INFO] default - authenticated
+[2019-03-24T20:51:20.339] [INFO] default - search using userid
+[2019-03-24T20:51:20.340] [INFO] default - getting note for userID :  pri
+[2019-03-24T20:51:59.070] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:51:59.071] [INFO] default - authenticated
+[2019-03-24T20:51:59.073] [INFO] default - adding notes to group: group1,group2
+[2019-03-24T20:51:59.948] [INFO] default - notes found: [ { state: 'started',
+    createdOn: '1552735724693',
+    modifiedOn: '1553439977133',
+    sharedTo: [ 'pri2', 'pri3' ],
+    isFavourite: false,
+    groupName: [ 'g1', 'g2', 'g3', 'g444', 'g444' ],
+    _id: 5c8cde50f5772f1a39172a36,
+    id: 'e3c3e9d0-47de-11e9-a85e-6b6df9d90109',
+    title: 'Complete assignment',
+    text: 'Complete final assignemnet',
+    userId: 'pri',
+    __v: 0 } ]
+[2019-03-24T20:52:00.542] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-03-24T20:55:28.247] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-24T20:55:28.247] [INFO] default - authenticated
+[2019-03-24T20:55:28.247] [INFO] default - search using userid
+[2019-03-24T20:55:28.247] [INFO] default - getting note for userID :  pri

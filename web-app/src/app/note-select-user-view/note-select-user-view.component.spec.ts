@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NoteShareViewComponent } from './note-share-view.component';
+import { NoteSelectUserViewComponent } from './note-select-user-view.component';
 
-describe('NoteShareViewComponent', () => {
-  let component: NoteShareViewComponent;
-  let fixture: ComponentFixture<NoteShareViewComponent>;
+describe('NoteSelectUserViewComponent', () => {
+  let component: NoteSelectUserViewComponent;
+  let fixture: ComponentFixture<NoteSelectUserViewComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NoteShareViewComponent ]
+      declarations: [ NoteSelectUserViewComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NoteShareViewComponent);
+    fixture = TestBed.createComponent(NoteSelectUserViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
