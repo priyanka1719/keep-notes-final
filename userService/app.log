@@ -2090,3 +2090,239 @@
 [2019-03-25T14:26:20.160] [INFO] default - User authenticated
 [2019-03-25T14:26:29.580] [INFO] default - Authentication check
 [2019-03-25T14:26:29.581] [INFO] default - User authenticated
+[2019-03-25T14:45:17.256] [INFO] default - Authentication check
+[2019-03-25T14:45:17.264] [INFO] default - User authenticated
+[2019-03-25T14:45:23.329] [INFO] default - Authentication check
+[2019-03-25T14:45:23.329] [INFO] default - User authenticated
+[2019-03-25T14:45:29.319] [INFO] default - Authentication check
+[2019-03-25T14:45:29.320] [INFO] default - User authenticated
+[2019-03-25T14:45:55.937] [INFO] default - Authentication check
+[2019-03-25T14:45:55.939] [INFO] default - User authenticated
+[2019-03-25T14:45:59.452] [INFO] default - Authentication check
+[2019-03-25T14:45:59.453] [INFO] default - User authenticated
+[2019-03-25T15:04:58.386] [INFO] default - user login route
+[2019-03-25T15:04:58.533] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-03-25T15:05:00.723] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-03-25T15:05:00.966] [INFO] default - Authentication check
+[2019-03-25T15:05:01.115] [INFO] default - User authenticated
+[2019-03-25T15:05:02.853] [INFO] default - Authentication check
+[2019-03-25T15:05:02.854] [INFO] default - User authenticated
+[2019-03-25T15:05:42.351] [INFO] default - getUsers route
+[2019-03-25T15:05:42.856] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:06:02.279] [INFO] default - getUsers route
+[2019-03-25T15:06:02.292] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:06:45.353] [INFO] default - Authentication check
+[2019-03-25T15:06:45.354] [INFO] default - User authenticated
+[2019-03-25T15:06:45.541] [INFO] default - Authentication check
+[2019-03-25T15:06:45.541] [INFO] default - User authenticated
+[2019-03-25T15:06:49.896] [INFO] default - getUsers route
+[2019-03-25T15:06:49.900] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:07:10.360] [INFO] default - getUsers route
+[2019-03-25T15:07:10.379] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:07:31.272] [INFO] default - getUsers route
+[2019-03-25T15:07:31.274] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:07:47.504] [INFO] default - getUsers route
+[2019-03-25T15:07:47.508] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:08:51.917] [INFO] default - Authentication check
+[2019-03-25T15:08:51.924] [INFO] default - User authenticated
+[2019-03-25T15:08:52.214] [INFO] default - Authentication check
+[2019-03-25T15:08:52.215] [INFO] default - User authenticated
+[2019-03-25T15:09:05.778] [INFO] default - Authentication check
+[2019-03-25T15:09:05.785] [INFO] default - User authenticated
+[2019-03-25T15:09:06.208] [INFO] default - Authentication check
+[2019-03-25T15:09:06.210] [INFO] default - User authenticated
+[2019-03-25T15:09:21.706] [INFO] default - getUsers route
+[2019-03-25T15:09:21.709] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:10:45.521] [INFO] default - Authentication check
+[2019-03-25T15:10:45.541] [INFO] default - User authenticated
+[2019-03-25T15:10:52.393] [INFO] default - getUsers route
+[2019-03-25T15:10:52.396] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:10:52.553] [INFO] default - Authentication check
+[2019-03-25T15:10:52.556] [INFO] default - User authenticated
+[2019-03-25T15:10:53.919] [INFO] default - Authentication check
+[2019-03-25T15:10:53.921] [INFO] default - User authenticated
+[2019-03-25T15:10:53.996] [INFO] default - Authentication check
+[2019-03-25T15:10:53.997] [INFO] default - User authenticated
+[2019-03-25T15:10:54.022] [INFO] default - getUsers route
+[2019-03-25T15:10:54.025] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:11:01.399] [INFO] default - Authentication check
+[2019-03-25T15:11:01.412] [INFO] default - User authenticated
+[2019-03-25T15:11:01.525] [INFO] default - getUsers route
+[2019-03-25T15:11:01.538] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:11:01.731] [INFO] default - Authentication check
+[2019-03-25T15:11:01.732] [INFO] default - User authenticated
+[2019-03-25T15:11:08.216] [INFO] default - Authentication check
+[2019-03-25T15:11:08.221] [INFO] default - User authenticated
+[2019-03-25T15:11:08.314] [INFO] default - getUsers route
+[2019-03-25T15:11:08.317] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:11:08.416] [INFO] default - Authentication check
+[2019-03-25T15:11:08.419] [INFO] default - User authenticated
+[2019-03-25T15:11:27.482] [INFO] default - Authentication check
+[2019-03-25T15:11:27.558] [INFO] default - User authenticated
+[2019-03-25T15:11:27.678] [INFO] default - getUsers route
+[2019-03-25T15:11:27.687] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:11:27.820] [INFO] default - Authentication check
+[2019-03-25T15:11:27.821] [INFO] default - User authenticated
+[2019-03-25T15:11:42.364] [INFO] default - Authentication check
+[2019-03-25T15:11:42.373] [INFO] default - User authenticated
+[2019-03-25T15:15:32.094] [INFO] default - Authentication check
+[2019-03-25T15:15:32.096] [INFO] default - User authenticated
+[2019-03-25T15:15:33.785] [INFO] default - getUsers route
+[2019-03-25T15:15:33.791] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:15:34.589] [INFO] default - Authentication check
+[2019-03-25T15:15:34.590] [INFO] default - User authenticated
+[2019-03-25T15:15:46.655] [INFO] default - getUsers route
+[2019-03-25T15:15:46.660] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:15:52.336] [INFO] default - Authentication check
+[2019-03-25T15:15:52.337] [INFO] default - User authenticated
+[2019-03-25T15:19:36.926] [INFO] default - getUsers route
+[2019-03-25T15:19:36.932] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:19:42.425] [INFO] default - Authentication check
+[2019-03-25T15:19:42.426] [INFO] default - User authenticated
+[2019-03-25T15:20:54.348] [INFO] default - Authentication check
+[2019-03-25T15:20:54.350] [INFO] default - User authenticated
+[2019-03-25T15:20:54.711] [INFO] default - Authentication check
+[2019-03-25T15:20:54.712] [INFO] default - User authenticated
+[2019-03-25T15:21:23.040] [INFO] default - Authentication check
+[2019-03-25T15:21:23.041] [INFO] default - User authenticated
+[2019-03-25T15:21:23.194] [INFO] default - Authentication check
+[2019-03-25T15:21:23.195] [INFO] default - User authenticated
+[2019-03-25T15:21:26.595] [INFO] default - getUsers route
+[2019-03-25T15:21:26.598] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:21:38.071] [INFO] default - Authentication check
+[2019-03-25T15:21:38.072] [INFO] default - User authenticated
+[2019-03-25T15:21:40.445] [INFO] default - getUsers route
+[2019-03-25T15:21:40.448] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:21:45.329] [INFO] default - Authentication check
+[2019-03-25T15:21:45.349] [INFO] default - User authenticated
+[2019-03-25T15:22:20.161] [INFO] default - Authentication check
+[2019-03-25T15:22:20.179] [INFO] default - User authenticated
+[2019-03-25T15:22:20.408] [INFO] default - Authentication check
+[2019-03-25T15:22:20.415] [INFO] default - User authenticated
+[2019-03-25T15:24:28.656] [INFO] default - Authentication check
+[2019-03-25T15:24:28.658] [INFO] default - User authenticated
+[2019-03-25T15:24:28.916] [INFO] default - Authentication check
+[2019-03-25T15:24:28.917] [INFO] default - User authenticated
+[2019-03-25T15:34:39.246] [INFO] default - Authentication check
+[2019-03-25T15:34:39.276] [INFO] default - User authenticated
+[2019-03-25T15:34:39.428] [INFO] default - Authentication check
+[2019-03-25T15:34:39.428] [INFO] default - User authenticated
+[2019-03-25T15:36:24.429] [INFO] default - Authentication check
+[2019-03-25T15:36:24.430] [INFO] default - User authenticated
+[2019-03-25T15:36:24.625] [INFO] default - Authentication check
+[2019-03-25T15:36:24.639] [INFO] default - User authenticated
+[2019-03-25T15:36:31.060] [INFO] default - getUsers route
+[2019-03-25T15:36:31.063] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:37:20.160] [INFO] default - Authentication check
+[2019-03-25T15:37:20.162] [INFO] default - User authenticated
+[2019-03-25T15:37:20.405] [INFO] default - Authentication check
+[2019-03-25T15:37:20.406] [INFO] default - User authenticated
+[2019-03-25T15:37:50.714] [INFO] default - Authentication check
+[2019-03-25T15:37:50.720] [INFO] default - User authenticated
+[2019-03-25T15:37:50.990] [INFO] default - Authentication check
+[2019-03-25T15:37:50.991] [INFO] default - User authenticated
+[2019-03-25T15:37:57.403] [INFO] default - Authentication check
+[2019-03-25T15:37:57.410] [INFO] default - User authenticated
+[2019-03-25T15:37:57.534] [INFO] default - Authentication check
+[2019-03-25T15:37:57.535] [INFO] default - User authenticated
+[2019-03-25T15:38:01.697] [INFO] default - getUsers route
+[2019-03-25T15:38:01.699] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:38:26.096] [INFO] default - Authentication check
+[2019-03-25T15:38:26.097] [INFO] default - User authenticated
+[2019-03-25T15:38:26.187] [INFO] default - getUsers route
+[2019-03-25T15:38:26.189] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:38:26.277] [INFO] default - Authentication check
+[2019-03-25T15:38:26.279] [INFO] default - User authenticated
+[2019-03-25T15:38:31.623] [INFO] default - getUsers route
+[2019-03-25T15:38:31.625] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:38:59.006] [INFO] default - Authentication check
+[2019-03-25T15:38:59.011] [INFO] default - User authenticated
+[2019-03-25T15:38:59.107] [INFO] default - getUsers route
+[2019-03-25T15:38:59.110] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:38:59.219] [INFO] default - Authentication check
+[2019-03-25T15:38:59.220] [INFO] default - User authenticated
+[2019-03-25T15:39:21.990] [INFO] default - getUsers route
+[2019-03-25T15:39:22.008] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:40:12.757] [INFO] default - Authentication check
+[2019-03-25T15:40:12.770] [INFO] default - User authenticated
+[2019-03-25T15:40:12.924] [INFO] default - getUsers route
+[2019-03-25T15:40:12.946] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:40:13.211] [INFO] default - Authentication check
+[2019-03-25T15:40:13.211] [INFO] default - User authenticated
+[2019-03-25T15:40:51.238] [INFO] default - Authentication check
+[2019-03-25T15:40:51.239] [INFO] default - User authenticated
+[2019-03-25T15:40:51.367] [INFO] default - getUsers route
+[2019-03-25T15:40:51.391] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:40:51.599] [INFO] default - Authentication check
+[2019-03-25T15:40:51.611] [INFO] default - User authenticated
+[2019-03-25T15:40:59.190] [INFO] default - Authentication check
+[2019-03-25T15:40:59.191] [INFO] default - User authenticated
+[2019-03-25T15:40:59.335] [INFO] default - Authentication check
+[2019-03-25T15:40:59.359] [INFO] default - User authenticated
+[2019-03-25T15:41:03.085] [INFO] default - getUsers route
+[2019-03-25T15:41:03.088] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-03-25T15:43:04.549] [INFO] default - Authentication check
+[2019-03-25T15:43:04.571] [INFO] default - User authenticated
+[2019-03-25T15:43:04.915] [INFO] default - Authentication check
+[2019-03-25T15:43:04.917] [INFO] default - User authenticated
+[2019-03-25T15:43:15.499] [INFO] default - Authentication check
+[2019-03-25T15:43:15.506] [INFO] default - User authenticated
+[2019-03-25T15:43:15.737] [INFO] default - Authentication check
+[2019-03-25T15:43:15.738] [INFO] default - User authenticated
+[2019-03-25T15:44:10.603] [INFO] default - Authentication check
+[2019-03-25T15:44:10.604] [INFO] default - User authenticated
+[2019-03-25T15:44:11.012] [INFO] default - Authentication check
+[2019-03-25T15:44:11.013] [INFO] default - User authenticated
