@@ -2016,3 +2016,10 @@
 [2019-03-24T20:55:27.462] [INFO] default - User authenticated
 [2019-03-24T20:55:28.090] [INFO] default - Authentication check
 [2019-03-24T20:55:28.245] [INFO] default - User authenticated
+[2019-03-25T13:20:46.234] [INFO] default - Setting up API middleware
+[2019-03-25T13:20:46.266] [INFO] default - Server is running on port 3000
+[2019-03-25T13:20:47.285] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-03-25T13:21:13.451] [INFO] default - getUsers route
+[2019-03-25T13:21:13.506] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
