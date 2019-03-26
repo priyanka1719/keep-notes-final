@@ -4119,3 +4119,7 @@
 [2019-03-25T20:06:37.106] [INFO] default - getting note for userID :  pri
 [2019-03-25T20:06:46.458] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
 [2019-03-25T20:06:46.474] [INFO] default - authenticated
+[2019-03-26T00:27:42.241] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-03-26T00:27:43.139] [INFO] default - authenticated
+[2019-03-26T00:27:43.152] [INFO] default - search using userid
+[2019-03-26T00:27:43.153] [INFO] default - getting note for userID :  pri
