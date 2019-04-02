@@ -2623,3 +2623,330 @@
     at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
     at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
     at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-02T11:03:30.512] [INFO] default - Setting up API middleware
+[2019-04-02T11:03:30.546] [INFO] default - Server is running on port 3000
+[2019-04-02T11:03:32.044] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-02T11:10:47.623] [INFO] default - user login route
+[2019-04-02T11:10:47.624] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-02T11:10:48.501] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-02T11:10:48.569] [INFO] default - Authentication check
+[2019-04-02T11:10:48.572] [INFO] default - User authenticated
+[2019-04-02T11:18:13.565] [INFO] default - Authentication check
+[2019-04-02T11:18:13.567] [INFO] default - User authenticated
+[2019-04-02T11:18:13.637] [INFO] default - Authentication check
+[2019-04-02T11:18:13.638] [INFO] default - User authenticated
+[2019-04-02T11:23:40.065] [INFO] default - Authentication check
+[2019-04-02T11:23:40.067] [INFO] default - User authenticated
+[2019-04-02T11:23:40.073] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:63:12)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-02T11:24:04.423] [INFO] default - Authentication check
+[2019-04-02T11:24:04.485] [INFO] default - User authenticated
+[2019-04-02T11:24:04.497] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:63:12)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-02T11:24:12.692] [INFO] default - user login route
+[2019-04-02T11:24:12.693] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-02T11:24:12.711] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-02T11:24:12.738] [INFO] default - Authentication check
+[2019-04-02T11:24:12.739] [INFO] default - User authenticated
+[2019-04-02T11:25:27.140] [INFO] default - Authentication check
+[2019-04-02T11:25:27.143] [INFO] default - User authenticated
+[2019-04-02T11:25:27.157] [INFO] default - Authentication check
+[2019-04-02T11:25:27.160] [INFO] default - User authenticated
+[2019-04-02T11:25:51.327] [INFO] default - Authentication check
+[2019-04-02T11:25:51.337] [INFO] default - User authenticated
+[2019-04-02T11:25:51.339] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:63:12)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-02T11:26:52.025] [INFO] default - user login route
+[2019-04-02T11:26:52.026] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-02T11:26:52.047] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-02T11:26:52.064] [INFO] default - Authentication check
+[2019-04-02T11:26:52.065] [INFO] default - User authenticated
+[2019-04-02T11:29:37.547] [INFO] default - Authentication check
+[2019-04-02T11:29:37.553] [INFO] default - User authenticated
+[2019-04-02T11:29:37.574] [INFO] default - Authentication check
+[2019-04-02T11:29:37.575] [INFO] default - User authenticated
+[2019-04-02T11:29:43.953] [INFO] default - Authentication check
+[2019-04-02T11:29:43.954] [INFO] default - User authenticated
+[2019-04-02T11:32:09.251] [INFO] default - Authentication check
+[2019-04-02T11:32:09.252] [INFO] default - User authenticated
+[2019-04-02T11:32:19.763] [INFO] default - Authentication check
+[2019-04-02T11:32:19.764] [INFO] default - User authenticated
+[2019-04-02T11:35:33.188] [INFO] default - Authentication check
+[2019-04-02T11:35:33.192] [INFO] default - User authenticated
+[2019-04-02T11:35:33.194] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:63:12)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-02T11:35:48.816] [INFO] default - user login route
+[2019-04-02T11:35:48.853] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-02T11:35:48.886] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-02T11:35:48.915] [INFO] default - Authentication check
+[2019-04-02T11:35:48.917] [INFO] default - User authenticated
+[2019-04-02T11:35:49.000] [INFO] default - Authentication check
+[2019-04-02T11:35:49.001] [INFO] default - User authenticated
+[2019-04-02T11:37:38.495] [INFO] default - Authentication check
+[2019-04-02T11:37:38.498] [INFO] default - User authenticated
+[2019-04-02T11:37:38.502] [INFO] default - Authentication check
+[2019-04-02T11:37:38.505] [INFO] default - User authenticated
+[2019-04-02T11:37:38.641] [INFO] default - Authentication check
+[2019-04-02T11:37:38.642] [INFO] default - User authenticated
+[2019-04-02T11:38:06.114] [INFO] default - Authentication check
+[2019-04-02T11:38:06.115] [INFO] default - User authenticated
+[2019-04-02T11:38:06.121] [INFO] default - Authentication check
+[2019-04-02T11:38:06.123] [INFO] default - User authenticated
+[2019-04-02T11:38:06.406] [INFO] default - Authentication check
+[2019-04-02T11:38:06.408] [INFO] default - User authenticated
+[2019-04-02T11:38:20.592] [INFO] default - Authentication check
+[2019-04-02T11:38:20.594] [INFO] default - User authenticated
+[2019-04-02T11:38:20.601] [INFO] default - Authentication check
+[2019-04-02T11:38:20.604] [INFO] default - User authenticated
+[2019-04-02T11:38:20.808] [INFO] default - Authentication check
+[2019-04-02T11:38:20.810] [INFO] default - User authenticated
+[2019-04-02T11:39:55.890] [INFO] default - Authentication check
+[2019-04-02T11:39:55.893] [INFO] default - User authenticated
+[2019-04-02T11:39:55.898] [INFO] default - Authentication check
+[2019-04-02T11:39:55.899] [INFO] default - User authenticated
+[2019-04-02T11:39:56.026] [INFO] default - Authentication check
+[2019-04-02T11:39:56.027] [INFO] default - User authenticated
+[2019-04-02T11:39:56.133] [INFO] default - Authentication check
+[2019-04-02T11:39:56.136] [INFO] default - User authenticated
+[2019-04-02T11:40:13.810] [INFO] default - Authentication check
+[2019-04-02T11:40:13.812] [INFO] default - User authenticated
+[2019-04-02T11:40:13.913] [INFO] default - Authentication check
+[2019-04-02T11:40:13.915] [INFO] default - User authenticated
+[2019-04-02T11:40:13.985] [INFO] default - Authentication check
+[2019-04-02T11:40:13.986] [INFO] default - User authenticated
+[2019-04-02T11:41:30.785] [INFO] default - Authentication check
+[2019-04-02T11:41:30.787] [INFO] default - User authenticated
+[2019-04-02T11:41:30.862] [INFO] default - Authentication check
+[2019-04-02T11:41:30.863] [INFO] default - User authenticated
+[2019-04-02T11:41:30.953] [INFO] default - Authentication check
+[2019-04-02T11:41:30.954] [INFO] default - User authenticated
+[2019-04-02T11:41:42.294] [INFO] default - Authentication check
+[2019-04-02T11:41:42.305] [INFO] default - User authenticated
+[2019-04-02T11:41:42.395] [INFO] default - Authentication check
+[2019-04-02T11:41:42.397] [INFO] default - User authenticated
+[2019-04-02T11:41:42.525] [INFO] default - Authentication check
+[2019-04-02T11:41:42.526] [INFO] default - User authenticated
+[2019-04-02T11:42:04.436] [INFO] default - Authentication check
+[2019-04-02T11:42:04.438] [INFO] default - User authenticated
+[2019-04-02T11:42:04.519] [INFO] default - Authentication check
+[2019-04-02T11:42:04.520] [INFO] default - User authenticated
+[2019-04-02T11:42:04.594] [INFO] default - Authentication check
+[2019-04-02T11:42:04.595] [INFO] default - User authenticated
+[2019-04-02T11:43:50.572] [INFO] default - Authentication check
+[2019-04-02T11:43:50.573] [INFO] default - User authenticated
+[2019-04-02T11:43:50.648] [INFO] default - Authentication check
+[2019-04-02T11:43:50.649] [INFO] default - User authenticated
+[2019-04-02T11:43:50.717] [INFO] default - Authentication check
+[2019-04-02T11:43:50.719] [INFO] default - User authenticated
+[2019-04-02T11:50:12.711] [INFO] default - Authentication check
+[2019-04-02T11:50:12.718] [INFO] default - User authenticated
+[2019-04-02T11:50:12.802] [INFO] default - Authentication check
+[2019-04-02T11:50:12.803] [INFO] default - User authenticated
+[2019-04-02T11:50:12.869] [INFO] default - Authentication check
+[2019-04-02T11:50:12.871] [INFO] default - User authenticated
+[2019-04-02T11:52:18.075] [INFO] default - Authentication check
+[2019-04-02T11:52:18.076] [INFO] default - User authenticated
+[2019-04-02T11:52:18.159] [INFO] default - Authentication check
+[2019-04-02T11:52:18.159] [INFO] default - User authenticated
+[2019-04-02T11:52:18.239] [INFO] default - Authentication check
+[2019-04-02T11:52:18.243] [INFO] default - User authenticated
+[2019-04-02T11:53:35.992] [INFO] default - Authentication check
+[2019-04-02T11:53:35.993] [INFO] default - User authenticated
+[2019-04-02T11:53:36.064] [INFO] default - Authentication check
+[2019-04-02T11:53:36.065] [INFO] default - User authenticated
+[2019-04-02T11:53:36.138] [INFO] default - Authentication check
+[2019-04-02T11:53:36.139] [INFO] default - User authenticated
+[2019-04-02T11:54:13.050] [INFO] default - Authentication check
+[2019-04-02T11:54:13.051] [INFO] default - User authenticated
+[2019-04-02T11:54:13.142] [INFO] default - Authentication check
+[2019-04-02T11:54:13.143] [INFO] default - User authenticated
+[2019-04-02T11:54:13.225] [INFO] default - Authentication check
+[2019-04-02T11:54:13.226] [INFO] default - User authenticated
+[2019-04-02T11:54:28.050] [INFO] default - Authentication check
+[2019-04-02T11:54:28.051] [INFO] default - User authenticated
+[2019-04-02T11:54:28.104] [INFO] default - Authentication check
+[2019-04-02T11:54:28.121] [INFO] default - User authenticated
+[2019-04-02T11:54:28.154] [INFO] default - Authentication check
+[2019-04-02T11:54:28.155] [INFO] default - User authenticated
+[2019-04-02T11:56:27.460] [INFO] default - Authentication check
+[2019-04-02T11:56:27.461] [INFO] default - User authenticated
+[2019-04-02T11:56:27.560] [INFO] default - Authentication check
+[2019-04-02T11:56:27.561] [INFO] default - User authenticated
+[2019-04-02T11:56:27.645] [INFO] default - Authentication check
+[2019-04-02T11:56:27.646] [INFO] default - User authenticated
+[2019-04-02T11:57:31.248] [INFO] default - Authentication check
+[2019-04-02T11:57:31.250] [INFO] default - User authenticated
+[2019-04-02T11:58:01.491] [INFO] default - Authentication check
+[2019-04-02T11:58:01.492] [INFO] default - User authenticated
+[2019-04-02T11:58:26.609] [INFO] default - Authentication check
+[2019-04-02T11:58:26.610] [INFO] default - User authenticated
+[2019-04-02T11:58:26.689] [INFO] default - Authentication check
+[2019-04-02T11:58:26.690] [INFO] default - User authenticated
+[2019-04-02T11:58:26.760] [INFO] default - Authentication check
+[2019-04-02T11:58:26.762] [INFO] default - User authenticated
+[2019-04-02T11:59:27.976] [INFO] default - Authentication check
+[2019-04-02T11:59:27.977] [INFO] default - User authenticated
+[2019-04-02T11:59:28.070] [INFO] default - Authentication check
+[2019-04-02T11:59:28.071] [INFO] default - User authenticated
+[2019-04-02T11:59:28.233] [INFO] default - Authentication check
+[2019-04-02T11:59:28.234] [INFO] default - User authenticated
+[2019-04-02T11:59:42.395] [INFO] default - Authentication check
+[2019-04-02T11:59:42.396] [INFO] default - User authenticated
+[2019-04-02T11:59:42.516] [INFO] default - Authentication check
+[2019-04-02T11:59:42.517] [INFO] default - User authenticated
+[2019-04-02T11:59:52.261] [INFO] default - Authentication check
+[2019-04-02T11:59:52.268] [INFO] default - User authenticated
+[2019-04-02T11:59:52.348] [INFO] default - Authentication check
+[2019-04-02T11:59:52.349] [INFO] default - User authenticated
+[2019-04-02T11:59:53.568] [INFO] default - Authentication check
+[2019-04-02T11:59:53.568] [INFO] default - User authenticated
+[2019-04-02T12:00:00.918] [INFO] default - Authentication check
+[2019-04-02T12:00:00.919] [INFO] default - User authenticated
+[2019-04-02T12:00:08.054] [INFO] default - Authentication check
+[2019-04-02T12:00:08.055] [INFO] default - User authenticated
+[2019-04-02T12:00:08.109] [INFO] default - Authentication check
+[2019-04-02T12:00:08.110] [INFO] default - User authenticated
+[2019-04-02T12:00:11.634] [INFO] default - Authentication check
+[2019-04-02T12:00:11.636] [INFO] default - User authenticated
+[2019-04-02T12:00:54.118] [INFO] default - Authentication check
+[2019-04-02T12:00:54.119] [INFO] default - User authenticated
+[2019-04-02T12:00:54.203] [INFO] default - Authentication check
+[2019-04-02T12:00:54.204] [INFO] default - User authenticated
+[2019-04-02T12:00:54.253] [INFO] default - Authentication check
+[2019-04-02T12:00:54.256] [INFO] default - User authenticated
+[2019-04-02T12:00:57.387] [INFO] default - Authentication check
+[2019-04-02T12:00:57.388] [INFO] default - User authenticated
+[2019-04-02T12:01:01.844] [INFO] default - Authentication check
+[2019-04-02T12:01:01.845] [INFO] default - User authenticated
+[2019-04-02T12:01:07.438] [INFO] default - Authentication check
+[2019-04-02T12:01:07.439] [INFO] default - User authenticated
+[2019-04-02T12:01:44.389] [INFO] default - Authentication check
+[2019-04-02T12:01:44.391] [INFO] default - User authenticated
+[2019-04-02T12:01:44.487] [INFO] default - Authentication check
+[2019-04-02T12:01:44.489] [INFO] default - User authenticated
+[2019-04-02T12:01:44.558] [INFO] default - Authentication check
+[2019-04-02T12:01:44.560] [INFO] default - User authenticated
+[2019-04-02T12:01:47.964] [INFO] default - Authentication check
+[2019-04-02T12:01:47.965] [INFO] default - User authenticated
+[2019-04-02T12:02:13.508] [INFO] default - Authentication check
+[2019-04-02T12:02:13.509] [INFO] default - User authenticated
+[2019-04-02T12:02:13.588] [INFO] default - Authentication check
+[2019-04-02T12:02:13.589] [INFO] default - User authenticated
+[2019-04-02T12:02:13.662] [INFO] default - Authentication check
+[2019-04-02T12:02:13.664] [INFO] default - User authenticated
+[2019-04-02T12:03:32.210] [INFO] default - Authentication check
+[2019-04-02T12:03:32.211] [INFO] default - User authenticated
+[2019-04-02T12:03:32.304] [INFO] default - Authentication check
+[2019-04-02T12:03:32.305] [INFO] default - User authenticated
+[2019-04-02T12:03:32.380] [INFO] default - Authentication check
+[2019-04-02T12:03:32.384] [INFO] default - User authenticated
+[2019-04-02T12:03:35.180] [INFO] default - Authentication check
+[2019-04-02T12:03:35.180] [INFO] default - User authenticated
+[2019-04-02T12:03:41.219] [INFO] default - Authentication check
+[2019-04-02T12:03:41.220] [INFO] default - User authenticated
+[2019-04-02T12:03:45.665] [INFO] default - Authentication check
+[2019-04-02T12:03:45.666] [INFO] default - User authenticated
+[2019-04-02T12:03:51.774] [INFO] default - Authentication check
+[2019-04-02T12:03:51.775] [INFO] default - User authenticated
+[2019-04-02T12:07:42.004] [INFO] default - Authentication check
+[2019-04-02T12:07:42.008] [INFO] default - User authenticated
+[2019-04-02T12:07:42.085] [INFO] default - Authentication check
+[2019-04-02T12:07:42.086] [INFO] default - User authenticated
+[2019-04-02T12:07:42.209] [INFO] default - Authentication check
+[2019-04-02T12:07:42.211] [INFO] default - User authenticated
+[2019-04-02T12:07:54.041] [INFO] default - Authentication check
+[2019-04-02T12:07:54.042] [INFO] default - User authenticated
+[2019-04-02T12:07:54.123] [INFO] default - Authentication check
+[2019-04-02T12:07:54.124] [INFO] default - User authenticated
+[2019-04-02T12:07:54.191] [INFO] default - Authentication check
+[2019-04-02T12:07:54.192] [INFO] default - User authenticated
+[2019-04-02T12:08:21.339] [INFO] default - Authentication check
+[2019-04-02T12:08:21.342] [INFO] default - User authenticated
+[2019-04-02T12:08:21.451] [INFO] default - Authentication check
+[2019-04-02T12:08:21.453] [INFO] default - User authenticated
+[2019-04-02T12:08:21.617] [INFO] default - Authentication check
+[2019-04-02T12:08:21.619] [INFO] default - User authenticated
+[2019-04-02T12:08:41.293] [INFO] default - Authentication check
+[2019-04-02T12:08:41.294] [INFO] default - User authenticated
+[2019-04-02T12:08:41.485] [INFO] default - Authentication check
+[2019-04-02T12:08:41.486] [INFO] default - User authenticated
+[2019-04-02T12:08:54.349] [INFO] default - Authentication check
+[2019-04-02T12:08:54.352] [INFO] default - User authenticated
+[2019-04-02T12:08:54.519] [INFO] default - Authentication check
+[2019-04-02T12:08:54.531] [INFO] default - User authenticated
+[2019-04-02T12:08:57.916] [INFO] default - Authentication check
+[2019-04-02T12:08:57.918] [INFO] default - User authenticated
+[2019-04-02T12:24:10.071] [INFO] default - Authentication check
+[2019-04-02T12:24:10.072] [INFO] default - User authenticated
+[2019-04-02T12:24:10.271] [INFO] default - Authentication check
+[2019-04-02T12:24:10.272] [INFO] default - User authenticated
+[2019-04-02T12:24:30.084] [INFO] default - Authentication check
+[2019-04-02T12:24:30.085] [INFO] default - User authenticated
+[2019-04-02T12:24:30.375] [INFO] default - Authentication check
+[2019-04-02T12:24:30.376] [INFO] default - User authenticated
+[2019-04-02T18:55:41.668] [INFO] default - Authentication check
+[2019-04-02T18:55:42.491] [INFO] default - User authenticated

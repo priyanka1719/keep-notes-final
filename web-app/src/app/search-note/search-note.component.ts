@@ -14,6 +14,8 @@ export class SearchNoteComponent {
   searchNote() {
     if(this.searchtext) {
       this.notesvc.searchNotes(this.searchtext);
+    } else {
+      this.notesvc.fetchNotesFromServer();
     }
   }
 

@@ -28,7 +28,7 @@ export class NotesService {
     };
     const userId = this.authSvc.getLoginUserID();
 
-    const getNoteObserver = this.httpClient.get<Array<Note>>(environment.url_notes_create_get +  + `?userId=${userId}`, httpOptions);
+    const getNoteObserver = this.httpClient.get<Array<Note>>(`${environment.url_notes_create_get}?userId=${userId}`, httpOptions);
 
     getNoteObserver.subscribe(response => {
 
@@ -54,12 +54,12 @@ export class NotesService {
       headers: new HttpHeaders().set('Authorization', `Bearer ${token}`)
     };
     const userId = this.authSvc.getLoginUserID();
-
-    const getNoteObserver = this.httpClient.get<Array<Note>>(environment.url_notes_create_get + `?userId=${userId}` + `?title=${searchText}`, httpOptions);
+    
+    const getNoteObserver = this.httpClient.get<Array<Note>>(`${environment.url_notes_create_get}?userId=${userId}&title=${searchText}`, httpOptions);
 
     getNoteObserver.subscribe(response => {
 
-      //this.notes = [];
+      this.notes = [];
       if (response['notes']) {
         this.notes = response['notes'];
 
@@ -69,9 +69,11 @@ export class NotesService {
       }
 
       this.notesSubject.next(this.notes);
-    },
-      err => console.log('Error in fetchNotesFromServer.', err)
-    );
+    }, err => {
+        console.log('Error in searchNotes.', err);
+        this.notes = [];
+        this.notesSubject.next(this.notes);
+    });
   }
 
   getNotes(): BehaviorSubject<Array<Note>> {
@@ -85,7 +87,7 @@ export class NotesService {
       headers: new HttpHeaders().set('Authorization', `Bearer ${token}`)
     };
 
-    const addNoteObserver = this.httpClient.post<Note>(environment.url_notes_create_get +  + `?userId=${note.userId}`, note, httpOptions);
+    const addNoteObserver = this.httpClient.post<Note>(`${environment.url_notes_create_get}?userId=${note.userId}`, note, httpOptions);
 
     return addNoteObserver.pipe(tap(response => {
       let addedNote = response['note'];
