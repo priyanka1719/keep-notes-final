@@ -4340,3 +4340,52 @@
 [2019-04-02T18:55:43.007] [INFO] default - authenticated
 [2019-04-02T18:55:43.008] [INFO] default - search using userid
 [2019-04-02T18:55:43.067] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:11:01.773] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:11:01.879] [INFO] default - authenticated
+[2019-04-03T17:11:01.940] [INFO] default - search using userid
+[2019-04-03T17:11:01.941] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:11:28.324] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:11:28.325] [INFO] default - authenticated
+[2019-04-03T17:11:28.975] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-03T17:11:33.566] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:11:33.567] [INFO] default - authenticated
+[2019-04-03T17:25:37.848] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:25:37.848] [INFO] default - authenticated
+[2019-04-03T17:25:37.849] [INFO] default - search using userid
+[2019-04-03T17:25:37.849] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:26:31.516] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:26:31.601] [INFO] default - authenticated
+[2019-04-03T17:26:31.602] [INFO] default - search using userid
+[2019-04-03T17:26:31.602] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:26:50.856] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:26:50.857] [INFO] default - authenticated
+[2019-04-03T17:26:50.857] [INFO] default - search using userid
+[2019-04-03T17:26:50.857] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:27:29.523] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:27:29.567] [INFO] default - authenticated
+[2019-04-03T17:27:29.568] [INFO] default - search using userid
+[2019-04-03T17:27:29.568] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:28:53.449] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:28:53.450] [INFO] default - authenticated
+[2019-04-03T17:28:53.450] [INFO] default - search using userid
+[2019-04-03T17:28:53.450] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:29:30.813] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:29:30.813] [INFO] default - authenticated
+[2019-04-03T17:29:30.819] [INFO] default - search using userid
+[2019-04-03T17:29:30.820] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:29:59.579] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:29:59.580] [INFO] default - authenticated
+[2019-04-03T17:29:59.580] [INFO] default - search using userid
+[2019-04-03T17:29:59.580] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:32:30.725] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:32:30.726] [INFO] default - authenticated
+[2019-04-03T17:32:30.726] [INFO] default - search using userid
+[2019-04-03T17:32:30.727] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:32:33.664] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:32:33.665] [INFO] default - authenticated
+[2019-04-03T17:32:33.665] [INFO] default - search using userid
+[2019-04-03T17:32:33.665] [INFO] default - getting note for userID :  pri
+[2019-04-03T17:35:02.032] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-03T17:35:02.069] [INFO] default - authenticated
+[2019-04-03T17:35:02.069] [INFO] default - search using userid
+[2019-04-03T17:35:02.069] [INFO] default - getting note for userID :  pri
