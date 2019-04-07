@@ -1,13 +1,17 @@
 const NotificationModel = require('./notifications.entity');
+const uuidv1 = require('uuid/v1');
+
 const log = require('../../../logging');
 
-const notifyUers = (userId, notificationNotes) => {
+//Adds notification with self=false for the userID passed.
+const addNotificationsForUserID = (userId, notificationNotes) => {
   return new Promise((resolve, reject) => {
     log.info('adding notification');
 
     try {
       const notificationsToAdd = notificationNotes.notes.map(n => {
         return new NotificationModel({
+          notificationID : uuidv1(),
           userId: userId,
           userName: notificationNotes.userName,
           isReminded: false,
@@ -35,12 +39,14 @@ const notifyUers = (userId, notificationNotes) => {
   });
 };
 
-const addNotificationsForUserID = (userId, notification) => {
+//Adds notification with self=true for the userID passed.
+const addSelfNotifications = (userId, notification) => {
   return new Promise((resolve, reject) => {
-    log.info('adding notification/ adding reminder');
+    log.info('adding notification/ adding reminder - ', notification);
 
     try {
       const notificationToAdd = new NotificationModel({
+        notificationID : uuidv1(),
         userId: userId,
         userName: notification.userName,
         isReminded: false,
@@ -99,7 +105,7 @@ const updateReminderForNotificationID = (notificationId, notification) => {
 
     try {
       const query = {
-        _id: notificationId
+        notificationID : notificationId
       };
 
       const updateData = {
@@ -130,7 +136,7 @@ const deleteReminderForNotificationID = (notificationId) => {
     log.info('deleting notification/reminder for id - ', notificationId);
 
     try {  
-      NotificationModel.deleteOne({ _id: notificationId }, (err) => {
+      NotificationModel.deleteOne({ notificationID: notificationId }, (err) => {
         if(err) throw err;
         log.info('reminder deleted');
         resolve({ 
@@ -152,7 +158,7 @@ const markNotificationSentForNotificationID = (notificationId) => {
 
     try {
       const query = {
-        _id: notificationId
+        notificationID: notificationId
       };
 
       const updateData = {
@@ -189,7 +195,7 @@ const getReminderForNotificationID = (notificationId) => {
 
     try {
       const query = {
-        _id: notificationId
+        notificationID: notificationId
       };
 
       NotificationModel.find(query, (err, notifications) => {
@@ -211,8 +217,8 @@ const getReminderForNotificationID = (notificationId) => {
 };
 
 module.exports = {
-  notifyUers,
   addNotificationsForUserID,
+  addSelfNotifications,
   getNotificationsForSelf,
   updateReminderForNotificationID,
   deleteReminderForNotificationID,

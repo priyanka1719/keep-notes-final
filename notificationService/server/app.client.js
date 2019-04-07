@@ -4,10 +4,10 @@ const notificationsDao = require('./api/v1/notifications/notifications.dao');
 const socket = require('./socket');
 const async = require('async');
 
-const registerWorker = () => {
+const registerSocket = () => {
   async.forever(
-    (next) => {
-      doWork();
+    (next) => { //Function to repeated
+      processNotifications();
       //Repeat after the delay
       setTimeout(() => { /* eslint-disable-line no-undef */
         next();
@@ -20,20 +20,22 @@ const registerWorker = () => {
   )
 }
 
-const doWork = () => {
-  log.info('starting process');
-  notificationsDao.getNotificationsToProcess((err, notifications) => {
+const processNotifications = () => {
+  log.info('starting notification process');
+
+  notificationsDao.getAllNotificationsToProcess((err, notifications) => {
     if(err) {
-      log.error('Error occurred while fetching notifications');
-      log.error(err);
+      log.error('Error occurred while fetching notifications', err);
     }
-    log.info('notifications fetched from db');
+    
     if (notifications && notifications.length > 0) {
-      log.info('notifications found');
+      log.info('notifications found - count = ' , notifications.length);
+      
       notifications.map(n => {
         if (IsLessThanCurrentTime(n.remindAt) && !n.isSent) {
-          const res = socket.notify(n);
-          if(res) {
+          
+          const response = socket.sendNotification(n);
+          if(response) {
             notificationsDao.markNotificationSent(n._id)
             .then(res => log.debug(res))
             .catch(err => log.error(err));
@@ -42,6 +44,7 @@ const doWork = () => {
       });
     }
   });
+
   log.info('process completed, waiting for next round ...');
 }
 
@@ -52,5 +55,5 @@ const IsLessThanCurrentTime = (remindAt) => {
 }
 
 module.exports = {
-  registerWorker
+  registerSocket
 };
