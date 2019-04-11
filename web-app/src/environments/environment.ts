@@ -14,7 +14,8 @@ export const environment = {
   url_notes_remove_favourite : 'http://localhost:3001/api/v1/notes/removeFavorites',
   url_notes_delete : 'http://localhost:3001/api/v1/notes/delete',
   url_notes_share : 'http://localhost:3001/api/v1/notes/share',
-  url_notes_addGroup : 'http://localhost:3001/api/v1/notes/addGroup'
+  url_notes_addGroup : 'http://localhost:3001/api/v1/notes/addGroup',
+  url_notification_gateway : 'http://localhost:3003/'
 };
 
 /*

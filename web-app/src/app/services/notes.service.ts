@@ -245,8 +245,6 @@ export class NotesService {
     }));    
   }
 
-  
-
   getNoteById(noteId): Note {
     //console.log('notes in getNoteById :', this.notes);
 
@@ -256,5 +254,9 @@ export class NotesService {
     return notefound;
   }
 
+  addNoteShared(note: Note) {
+    this.notes.push(note);
+    this.notesSubject.next(this.notes);
+  }
 
 }

@@ -4389,3 +4389,6 @@
 [2019-04-03T17:35:02.069] [INFO] default - authenticated
 [2019-04-03T17:35:02.069] [INFO] default - search using userid
 [2019-04-03T17:35:02.069] [INFO] default - getting note for userID :  pri
+[2019-04-11T13:03:38.824] [INFO] default - Setting up API middleware
+[2019-04-11T13:03:38.861] [INFO] default - Server is running on port 3001
+[2019-04-11T13:03:39.896] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep

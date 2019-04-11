@@ -29,6 +29,7 @@ import { EditNoteOpenerComponent } from './edit-note-opener/edit-note-opener.com
 import { AuthenticationService } from './services/authentication.service';
 import { NotesService } from './services/notes.service';
 import { RouterService } from './services/router.service';
+import { SocketService } from './services/socket.service';
 import { CanActivateRouteGuard } from './can-activate-route.guard';
 import { NoteComponent } from './note/note.component';
 import { NoteTakerComponent } from './note-taker/note-taker.component';
@@ -87,6 +88,7 @@ import { SearchNoteComponent } from './search-note/search-note.component';
     AuthenticationService,
     NotesService,
     RouterService,
+    SocketService,
     CanActivateRouteGuard
   ],
   bootstrap: [AppComponent],
