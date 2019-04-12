@@ -113,7 +113,7 @@ const updateReminderForNotificationID = (notificationId, notification) => {
         isSent: false
       }
   
-      NotificationModel.findOneAndUpdate(query, updateData, (err, savedNotification) => {
+      NotificationModel.findOneAndUpdate(query, updateData, { new: true }, (err, savedNotification) => {
         if(err) throw err;
         log.info('reminder updated : ', savedNotification);
         
@@ -165,7 +165,7 @@ const markNotificationSentForNotificationID = (notificationId) => {
         isSent: true
       };
   
-      NotificationModel.findOneAndUpdate(query, updateData, (err, savedNotification) => {
+      NotificationModel.findOneAndUpdate(query, updateData, { new: true }, (err, savedNotification) => {
         if(err) throw err;
         log.info('notification marked sent - ', savedNotification);
 
@@ -184,7 +184,7 @@ const markNotificationSentForNotificationID = (notificationId) => {
 };
 
 const getAllNotificationsToProcess = (callback) => {
-  log.info('getting all notifications to process');
+  //log.info('getting all notifications to process');
   NotificationModel.find()
     .exec(callback);
 };

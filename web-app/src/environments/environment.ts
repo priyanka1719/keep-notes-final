@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  reminder_snooze_minutes: 5,
+  reminder_snooze_minutes: 20,
   url_user_register : 'http://localhost:3000/api/v1/users/register',
   url_user_login : 'http://localhost:3000/api/v1/users/login',
   url_user_getusers : 'http://localhost:3000/api/v1/users/getUsers',

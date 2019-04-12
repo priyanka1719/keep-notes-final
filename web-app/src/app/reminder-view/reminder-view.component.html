@@ -1,0 +1,34 @@
+<h3>Set a reminder for {{ note.title }}:</h3>
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errorMsg }}</label>
+
+<div class="remind-notes-container">
+  <div class="note-remind-form">
+    <mat-form-field>
+      <input matInput [min]="today" [matDatepicker]="picker" [formControl]="dateSelector" placeholder="Choose a date">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select name="theHour" placeholder="Choose Hour" [(ngModel)]="selectedHour">
+        <mat-option *ngFor="let theHour of listOfHours" [value]="theHour">
+          {{ theHour }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select name="theMinute" placeholder="Choose Minutes" [(ngModel)]="selectedMinute">
+        <mat-option *ngFor="let theMinute of listOfMinutes" [value]="theMinute">
+          {{ theMinute }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="btn-remind-note">
+      <button mat-raised-button color="primary" (click)="saveReminder()">Save Reminder</button>
+    </div>
+
+  </div>
+</div>

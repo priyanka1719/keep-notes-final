@@ -21,7 +21,7 @@ const registerSocket = () => {
 }
 
 const processNotifications = () => {
-  log.info('starting notification process');
+  //log.info('starting notification process');
 
   notificationsDao.getAllNotificationsToProcess((err, notifications) => {
     if(err) {
@@ -29,17 +29,20 @@ const processNotifications = () => {
     }
     
     if (notifications && notifications.length > 0) {
-      log.info('notifications found - count = ' , notifications.length);
+      //log.info('notifications found - count = ' , notifications.length);
       
       notifications.map(n => {
         if (IsLessThanCurrentTime(n.remindAt) && !n.isSent) {
-          
+
+          log.info('notification sent for note.');
           const response = socket.sendNotification(n);
           if(response) {
-            notificationsDao.markNotificationSent(n._id)
+            notificationsDao.markNotificationSentForNotificationID(n.notificationID)
             .then(res => log.debug(res))
             .catch(err => log.error(err));
           }
+        } else {
+          log.info('notification not sent for note.');
         }
       });
     }

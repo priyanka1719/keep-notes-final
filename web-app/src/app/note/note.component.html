@@ -2,6 +2,10 @@
 
   <mat-card-title class="keep-card-note-title">
     {{note.title}}
+
+    <mat-icon *ngIf='note.isFavourite' class='keep-note-actions' color="warn" aria-label="Favourite" matTooltip="Favourite">favorite</mat-icon>
+    <mat-icon *ngIf='!note.isFavourite' class='keep-note-actions' aria-label="Favourite" matTooltip="Favourite">favorite</mat-icon>
+
   </mat-card-title>
   <mat-card-content class="keep-card-note-content">
     {{note.text}}
@@ -10,12 +14,11 @@
   <mat-card-actions>
     <mat-checkbox class='keep-note-checkbox' color="primary" (click)='toggleSelection();showActions()'></mat-checkbox>
 
-    <button mat-stroked-button class='keep-note-actions' matTooltip="View Note" (click)='openNoteReminder()'>Reminder</button>
-    <button mat-stroked-button class='keep-note-actions' matTooltip="View Note" (click)='openNoteEditView()'>Open</button>
+    <button mat-stroked-button class='keep-note-actions' matTooltip="Add a reminder" (click)='openNoteReminder()'>Add Reminder</button>
+    <button mat-stroked-button class='keep-note-actions' matTooltip="Show all reminders" (click)='showAllNoteReminder()'>View Reminders</button>
+    <button mat-stroked-button class='keep-note-actions' matTooltip="View Note" (click)='openNoteEditView()'>Open Note</button>
     
-    <mat-icon *ngIf='note.isFavourite' class='keep-note-actions' color="warn" aria-label="Favourite" matTooltip="Favourite">favorite</mat-icon>
-    <mat-icon *ngIf='!note.isFavourite' class='keep-note-actions' aria-label="Favourite" matTooltip="Favourite">favorite</mat-icon>
-
+    
   </mat-card-actions>
 
 </mat-card>

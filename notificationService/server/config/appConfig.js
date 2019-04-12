@@ -2,7 +2,7 @@
 
 const appConfig = {
   port: 3003,
-  sleepDuration: 5000
+  sleepDuration: 10000
 };
 
 const dbConfig = {

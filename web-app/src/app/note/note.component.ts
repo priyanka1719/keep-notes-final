@@ -35,7 +35,8 @@ export class NoteComponent implements OnInit{
   }
 
   openNoteReminder() {
-    
+    const noteID = this.note.id;
+    this.routeSvc.routeToNoteReminderView(noteID);
   }
 
 }

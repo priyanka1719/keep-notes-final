@@ -38,7 +38,7 @@ export class NotificationComponent implements OnInit {
         if (notification) {
           //Open notification alert -- changed to snackbar
           this.snackBar.open(notification, 'Done', {
-            duration: 1000 //Close snackbar
+            duration: 3000 //Close snackbar
           });
         }
 
@@ -73,7 +73,7 @@ export class NotificationComponent implements OnInit {
       response => {
         //Open snooze alert -- changed to snackbar
         this.snackBar.open(`Reminder snooze for ${environment.reminder_snooze_minutes} seconds`, 'Done', {
-          duration: 1000 //Close snackbar
+          duration: 3000 //Close snackbar
         });
       }, error => {
         console.log('error in setSnoozeReminder. ', error);

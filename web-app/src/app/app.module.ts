@@ -22,6 +22,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NoteViewComponent } from './note-view/note-view.component';
@@ -44,6 +45,9 @@ import { NoteSelectUserOpenerComponent } from './note-select-user-opener/note-se
 import { NoteSelectUserViewComponent } from './note-select-user-view/note-select-user-view.component';
 import { SearchNoteComponent } from './search-note/search-note.component';
 import { NotificationComponent } from './notification/notification.component';
+import { ReminderOpenerComponent } from './reminder-opener/reminder-opener.component';
+import { ReminderViewComponent } from './reminder-view/reminder-view.component';
+import { MatNativeDateModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -63,7 +67,9 @@ import { NotificationComponent } from './notification/notification.component';
     NoteSelectUserOpenerComponent,
     NoteSelectUserViewComponent,
     SearchNoteComponent,
-    NotificationComponent
+    NotificationComponent,
+    ReminderOpenerComponent,
+    ReminderViewComponent
   ],
   imports: [
     AppRoutingModule,
@@ -86,7 +92,9 @@ import { NotificationComponent } from './notification/notification.component';
     MatTooltipModule,
     MatCheckboxModule,
     MatAutocompleteModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [
     AuthenticationService,
@@ -94,12 +102,15 @@ import { NotificationComponent } from './notification/notification.component';
     RouterService,
     SocketService,
     ReminderService,
-    CanActivateRouteGuard
+    CanActivateRouteGuard,
+    MatDatepickerModule
+    
   ],
   bootstrap: [AppComponent],
   entryComponents: [
     EditNoteViewComponent,
-    NoteSelectUserViewComponent
+    NoteSelectUserViewComponent,
+    ReminderViewComponent
   ]
 })
 export class AppModule { }

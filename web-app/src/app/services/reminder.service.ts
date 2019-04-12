@@ -13,12 +13,14 @@ export class ReminderService {
 
   reminders: Array<any>;
   remindersSubject: BehaviorSubject<Array<any>>;
+  userId: string;
 
   constructor(private httpClient: HttpClient, private authSvc: AuthenticationService) {
     this.reminders = [];
     this.remindersSubject = new BehaviorSubject(this.reminders);
+    this.userId = this.authSvc.getLoginUserID();
 
-    this.fetchAllRemindersFromServer();
+      this.fetchAllRemindersFromServer();
   }
 
   getAuthHeader() {
@@ -31,7 +33,7 @@ export class ReminderService {
   }
 
   fetchAllRemindersFromServer() {
-    let reminderObserver = this.httpClient.get<Array<any>>(environment.url_notification_reminder, this.getAuthHeader());
+    let reminderObserver = this.httpClient.get<Array<any>>(`${environment.url_notification_reminder}?userId=${this.userId}`, this.getAuthHeader());
 
     reminderObserver.subscribe(response => {
       this.reminders = response;
@@ -52,7 +54,7 @@ export class ReminderService {
       userName: this.authSvc.getLoginUserID()
     };
 
-    let reminderObserver = this.httpClient.post<any>(environment.url_notification_reminder, reminder, this.getAuthHeader());
+    let reminderObserver = this.httpClient.post<any>(`${environment.url_notification_reminder}?userId=${this.userId}`, reminder, this.getAuthHeader());
 
     return reminderObserver.pipe(tap(response => {
       this.reminders.push(response.notification);
@@ -74,7 +76,7 @@ export class ReminderService {
 
     reminder.remindAt = dateRemindAt;
 
-    let reminderObserver = this.httpClient.put<any>(`${environment.url_notification_reminder}/${reminderID}`, reminder, this.getAuthHeader())
+    let reminderObserver = this.httpClient.put<any>(`${environment.url_notification_reminder}/${reminderID}?userId=${this.userId}`, reminder, this.getAuthHeader())
 
     return reminderObserver.pipe(tap(response => {
 
