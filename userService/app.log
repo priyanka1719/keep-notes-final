@@ -3059,3 +3059,25 @@
 [2019-04-11T13:03:15.868] [INFO] default - Setting up API middleware
 [2019-04-11T13:03:15.894] [INFO] default - Server is running on port 3000
 [2019-04-11T13:03:16.927] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-12T19:13:30.621] [INFO] default - user login route
+[2019-04-12T19:13:30.726] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-12T19:13:32.870] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-12T19:13:33.391] [INFO] default - Authentication check
+[2019-04-12T19:13:33.890] [INFO] default - User authenticated
+[2019-04-12T19:13:40.552] [INFO] default - Authentication check
+[2019-04-12T19:13:40.554] [INFO] default - User authenticated
+[2019-04-12T19:13:44.599] [INFO] default - Authentication check
+[2019-04-12T19:13:44.600] [INFO] default - User authenticated
+[2019-04-12T19:15:06.576] [INFO] default - Authentication check
+[2019-04-12T19:15:06.576] [INFO] default - User authenticated
+[2019-04-12T19:15:06.971] [INFO] default - Authentication check
+[2019-04-12T19:15:06.972] [INFO] default - User authenticated
+[2019-04-12T19:15:07.117] [INFO] default - Authentication check
+[2019-04-12T19:15:07.117] [INFO] default - User authenticated
+[2019-04-12T19:15:26.814] [INFO] default - Authentication check
+[2019-04-12T19:15:26.815] [INFO] default - User authenticated
+[2019-04-12T19:15:26.977] [INFO] default - Authentication check
+[2019-04-12T19:15:26.983] [INFO] default - User authenticated
+[2019-04-12T19:15:26.987] [INFO] default - Authentication check
+[2019-04-12T19:15:26.987] [INFO] default - User authenticated

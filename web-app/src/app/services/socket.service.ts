@@ -8,14 +8,14 @@ import { NotesService } from './notes.service';
 @Injectable()
 export class SocketService {
 
-  socket : any;
+  socket: any;
   notificationSubject: BehaviorSubject<string>;
   reminderSubject: BehaviorSubject<string>;
   userName: string;
   notificationId: string;
 
-  constructor(private authSvc : AuthenticationService,
-    private noteSvc : NotesService) { 
+  constructor(private authSvc: AuthenticationService,
+    private noteSvc: NotesService) {
 
     this.socket = io(environment.url_notification_gateway);
     this.notificationSubject = new BehaviorSubject('');
@@ -30,9 +30,9 @@ export class SocketService {
     });
 
     this.socket.on('share-note', (shareInfo) => {
-      
+
       this.notificationId = shareInfo.notificationID;
-      
+
       if (shareInfo.note) {
         const title = shareInfo.note.title;
         this.notificationSubject.next('A note has been shared with you: ' + title);
@@ -43,12 +43,32 @@ export class SocketService {
     this.socket.on('reminder', (shareInfo) => {
 
       this.notificationId = shareInfo.notificationID;
-      
+
       if (shareInfo.note) {
         const title = shareInfo.note.title;
         this.reminderSubject.next('Reminder: ' + title);
       }
     });
 
+    this.socket.on('disconnect', () => {
+      this.notificationSubject.next('Disconnected from the socket server');
+    });
+
+  }
+
+  getNotificationSubject(): BehaviorSubject<string> {
+    return this.notificationSubject;
+  }
+
+  getReminderSubject(): BehaviorSubject<string> {
+    return this.reminderSubject;
+  }
+
+  getNotificationId(): string {
+    return this.notificationId;
+  }
+
+  disconnect(): void {
+    this.socket.emit('deregister', this.userName);
   }
 }

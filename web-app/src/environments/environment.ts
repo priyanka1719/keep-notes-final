@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  reminder_snooze_minutes: 5,
   url_user_register : 'http://localhost:3000/api/v1/users/register',
   url_user_login : 'http://localhost:3000/api/v1/users/login',
   url_user_getusers : 'http://localhost:3000/api/v1/users/getUsers',
@@ -15,7 +16,8 @@ export const environment = {
   url_notes_delete : 'http://localhost:3001/api/v1/notes/delete',
   url_notes_share : 'http://localhost:3001/api/v1/notes/share',
   url_notes_addGroup : 'http://localhost:3001/api/v1/notes/addGroup',
-  url_notification_gateway : 'http://localhost:3003/'
+  url_notification_gateway : 'http://localhost:3003/',
+  url_notification_reminder : 'http://localhost:3003/api/v1/notifications/reminders'
 };
 
 /*

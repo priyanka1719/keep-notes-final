@@ -4392,3 +4392,15 @@
 [2019-04-11T13:03:38.824] [INFO] default - Setting up API middleware
 [2019-04-11T13:03:38.861] [INFO] default - Server is running on port 3001
 [2019-04-11T13:03:39.896] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-12T19:13:40.698] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-12T19:13:40.819] [INFO] default - authenticated
+[2019-04-12T19:13:40.827] [INFO] default - search using userid
+[2019-04-12T19:13:40.828] [INFO] default - getting note for userID :  pri
+[2019-04-12T19:15:06.975] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-12T19:15:07.011] [INFO] default - authenticated
+[2019-04-12T19:15:07.012] [INFO] default - search using userid
+[2019-04-12T19:15:07.012] [INFO] default - getting note for userID :  pri
+[2019-04-12T19:15:26.986] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-12T19:15:26.987] [INFO] default - authenticated
+[2019-04-12T19:15:26.987] [INFO] default - search using userid
+[2019-04-12T19:15:26.988] [INFO] default - getting note for userID :  pri
