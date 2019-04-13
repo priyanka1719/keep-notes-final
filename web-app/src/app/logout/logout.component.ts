@@ -11,18 +11,24 @@ import { SocketService } from '../services/socket.service';
 export class LogoutComponent implements OnInit {
 
   constructor(private routerSvc: RouterService,
-    private authSvc : AuthenticationService,
-    private socketSvc : SocketService) { }
+    private authSvc: AuthenticationService,
+    private socketSvc: SocketService) { }
 
   ngOnInit() {
 
     setTimeout(() => {
+
+      let resp = {
+        status: 200,
+        message: 'Logout successfull.'
+      }
+      this.socketSvc.enableNotification(resp);
       this.authSvc.logout();
       this.socketSvc.disconnect();
       this.routerSvc.routeToLogin();
     }, 1000);
 
-    
+
   }
 
 }

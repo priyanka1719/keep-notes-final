@@ -4710,3 +4710,89 @@
 [2019-04-13T23:26:03.846] [INFO] default - User authenticated
 [2019-04-13T23:26:44.176] [INFO] default - Authentication check
 [2019-04-13T23:26:44.177] [INFO] default - User authenticated
+[2019-04-13T23:29:18.968] [INFO] default - Authentication check
+[2019-04-13T23:29:18.968] [INFO] default - User authenticated
+[2019-04-13T23:29:19.248] [INFO] default - Authentication check
+[2019-04-13T23:29:19.249] [INFO] default - User authenticated
+[2019-04-13T23:29:19.290] [INFO] default - Authentication check
+[2019-04-13T23:29:19.293] [INFO] default - User authenticated
+[2019-04-13T23:30:17.536] [INFO] default - Authentication check
+[2019-04-13T23:30:17.537] [INFO] default - User authenticated
+[2019-04-13T23:30:17.801] [INFO] default - Authentication check
+[2019-04-13T23:30:17.802] [INFO] default - User authenticated
+[2019-04-13T23:30:17.865] [INFO] default - Authentication check
+[2019-04-13T23:30:17.866] [INFO] default - User authenticated
+[2019-04-13T23:31:11.456] [INFO] default - Authentication check
+[2019-04-13T23:31:11.457] [INFO] default - User authenticated
+[2019-04-13T23:31:11.846] [INFO] default - Authentication check
+[2019-04-13T23:31:11.849] [INFO] default - User authenticated
+[2019-04-13T23:31:11.941] [INFO] default - Authentication check
+[2019-04-13T23:31:11.942] [INFO] default - User authenticated
+[2019-04-13T23:32:48.680] [INFO] default - Authentication check
+[2019-04-13T23:32:48.681] [INFO] default - User authenticated
+[2019-04-13T23:32:48.970] [INFO] default - Authentication check
+[2019-04-13T23:32:48.971] [INFO] default - User authenticated
+[2019-04-13T23:32:49.079] [INFO] default - Authentication check
+[2019-04-13T23:32:49.080] [INFO] default - User authenticated
+[2019-04-13T23:33:02.354] [INFO] default - Authentication check
+[2019-04-13T23:33:02.355] [INFO] default - User authenticated
+[2019-04-13T23:33:02.771] [INFO] default - Authentication check
+[2019-04-13T23:33:02.771] [INFO] default - User authenticated
+[2019-04-13T23:33:02.854] [INFO] default - Authentication check
+[2019-04-13T23:33:02.855] [INFO] default - User authenticated
+[2019-04-13T23:33:13.055] [INFO] default - user login route
+[2019-04-13T23:33:13.056] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:33:13.234] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:33:13.343] [INFO] default - Authentication check
+[2019-04-13T23:33:13.344] [INFO] default - User authenticated
+[2019-04-13T23:33:13.462] [INFO] default - Authentication check
+[2019-04-13T23:33:13.463] [INFO] default - User authenticated
+[2019-04-13T23:33:50.398] [INFO] default - user login route
+[2019-04-13T23:33:50.399] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:33:50.402] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:34:06.362] [INFO] default - Authentication check
+[2019-04-13T23:34:06.363] [INFO] default - User authenticated
+[2019-04-13T23:34:06.517] [INFO] default - Authentication check
+[2019-04-13T23:34:06.518] [INFO] default - User authenticated
+[2019-04-13T23:36:28.451] [INFO] default - Authentication check
+[2019-04-13T23:36:28.456] [INFO] default - User authenticated
+[2019-04-13T23:36:28.852] [INFO] default - Authentication check
+[2019-04-13T23:36:28.856] [INFO] default - User authenticated
+[2019-04-13T23:36:28.968] [INFO] default - Authentication check
+[2019-04-13T23:36:28.969] [INFO] default - User authenticated
+[2019-04-13T23:36:37.185] [INFO] default - user login route
+[2019-04-13T23:36:37.187] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:36:37.190] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:36:37.245] [INFO] default - Authentication check
+[2019-04-13T23:36:37.245] [INFO] default - User authenticated
+[2019-04-13T23:36:37.367] [INFO] default - Authentication check
+[2019-04-13T23:36:37.368] [INFO] default - User authenticated
+[2019-04-13T23:36:55.663] [INFO] default - user login route
+[2019-04-13T23:36:55.666] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:36:55.675] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:37:34.303] [INFO] default - Authentication check
+[2019-04-13T23:37:34.304] [INFO] default - User authenticated
+[2019-04-13T23:37:34.466] [INFO] default - Authentication check
+[2019-04-13T23:37:34.467] [INFO] default - User authenticated
+[2019-04-13T23:37:47.413] [INFO] default - user login route
+[2019-04-13T23:37:47.413] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:37:47.416] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:38:00.397] [INFO] default - Authentication check
+[2019-04-13T23:38:00.397] [INFO] default - User authenticated
+[2019-04-13T23:38:00.540] [INFO] default - Authentication check
+[2019-04-13T23:38:00.541] [INFO] default - User authenticated
+[2019-04-13T23:38:51.837] [INFO] default - user login route
+[2019-04-13T23:38:51.837] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-13T23:38:51.840] [INFO] default - login with payload { userName: 'pri',
+  userId: '00c28640-4433-11e9-b5dd-9f2f7b335125' }
+[2019-04-13T23:38:51.874] [INFO] default - Authentication check
+[2019-04-13T23:38:51.875] [INFO] default - User authenticated
+[2019-04-13T23:38:52.012] [INFO] default - Authentication check
+[2019-04-13T23:38:52.013] [INFO] default - User authenticated
+[2019-04-13T23:38:52.020] [INFO] default - Authentication check
+[2019-04-13T23:38:52.021] [INFO] default - User authenticated
