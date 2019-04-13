@@ -3,6 +3,7 @@ import { NotesService } from '../services/notes.service';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AuthenticationService } from '../services/authentication.service';
 import { ReminderService } from '../services/reminder.service';
+import { SocketService } from '../services/socket.service';
 
 @Component({
   selector: 'app-note-select-user-view',
@@ -30,6 +31,7 @@ export class NoteSelectUserViewComponent {
   constructor(private noteService: NotesService,
     private authService: AuthenticationService,
     private reminderSvc: ReminderService,
+    private socketSvc: SocketService,
     private dialogRef: MatDialogRef<NoteSelectUserViewComponent>,
     @Inject(MAT_DIALOG_DATA) private data: any) {
 
@@ -66,12 +68,16 @@ export class NoteSelectUserViewComponent {
 
             reminderObs.subscribe(resp => {
               console.log('Note Shared with reminder');
+              this.socketSvc.enableNotification(response);
               this.dialogRef.close();
             });
             
             
           },
-          error => console.log('error in share note', error)
+          error => {
+            console.log('error in share note', error);
+            this.socketSvc.enableNotification(error);
+          }
         );
       } else {
         this.errorMessage = 'Input data invalid.';

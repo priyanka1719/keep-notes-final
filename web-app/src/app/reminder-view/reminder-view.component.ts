@@ -4,6 +4,7 @@ import { NotesService } from '../services/notes.service';
 import { ReminderService } from '../services/reminder.service';
 import { Note } from '../note';
 import { FormControl } from '@angular/forms';
+import { SocketService } from '../services/socket.service';
 
 @Component({
   selector: 'app-reminder-view',
@@ -29,7 +30,8 @@ export class ReminderViewComponent implements OnInit {
   constructor(private dialogRef: MatDialogRef<ReminderViewComponent>,
     @Inject(MAT_DIALOG_DATA) private data: any,
     private noteSvc: NotesService,
-    private reminderSvc: ReminderService) {
+    private reminderSvc: ReminderService,
+    private socketSvc : SocketService) {
 
     this.listOfHours = [];
     this.listOfMinutes = [];
@@ -63,8 +65,14 @@ export class ReminderViewComponent implements OnInit {
     let reminderObserver = this.reminderSvc.setReminderAt(selectedDate, this.note);
 
     reminderObserver.subscribe(
-      response => this.dialogRef.close(),
-      error => this.errorMsg = error.message
+      response => {
+        this.dialogRef.close();
+        this.socketSvc.enableNotification(response);
+      },
+      error => {
+        this.errorMsg = error.message;
+        this.socketSvc.enableNotification(error);
+      }
     );
 
   }
@@ -125,8 +133,12 @@ export class ReminderViewComponent implements OnInit {
       response => {
         console.log('resposne after delete', response);
         this.viewAllReminders(false);
+        this.socketSvc.enableNotification(response);
       },
-      error => console.log('error after delete', error)
+      error => {
+        console.log('error after delete', error);
+        this.socketSvc.enableNotification(error);
+      }
     );
   }
 

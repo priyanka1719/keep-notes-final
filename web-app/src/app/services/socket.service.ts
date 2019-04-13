@@ -56,6 +56,10 @@ export class SocketService {
 
   }
 
+  showNotificationMessage(message : string) {
+    this.notificationSubject.next(message);
+  }
+
   getNotificationSubject(): BehaviorSubject<string> {
     return this.notificationSubject;
   }
@@ -70,5 +74,17 @@ export class SocketService {
 
   disconnect(): void {
     this.socket.emit('deregister', this.userName);
+  }
+
+  enableNotification(response) {
+    if (response.status === 200 || response.status === 201) {
+      if(response.message) {
+        this.showNotificationMessage(`Action Success! - ${response.message}`);
+      } else {
+        this.showNotificationMessage(`Action Success!`);
+      }
+    } else {
+      this.showNotificationMessage(`Action Failed! Please retry.`);
+    }
   }
 }
