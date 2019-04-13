@@ -1,10 +1,13 @@
 const svc = require('./notifications.service');
+const log = require('../../../logging');
 
 const notifyUsers = (req, res) => {
 
   try {
     const userId = req.query.userId;
     const notificationWithNotes = req.body;
+
+    //log.info('notificationWithNotes ctrl : ', notificationWithNotes);
     svc.notifyUsers(userId, notificationWithNotes)
       .then(response => {
         res.status(response.status).send(response);

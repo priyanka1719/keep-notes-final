@@ -22,13 +22,22 @@ export class ReminderViewComponent implements OnInit {
   today: Date;
   errorMsg: string;
 
+  showReminderList: boolean;
+  reminderListPending: Array<any>;
+  reminderListCompleted: Array<any>;
+
   constructor(private dialogRef: MatDialogRef<ReminderViewComponent>,
     @Inject(MAT_DIALOG_DATA) private data: any,
     private noteSvc: NotesService,
     private reminderSvc: ReminderService) {
 
-      this.listOfHours = [];
-      this.listOfMinutes = [];
+    this.listOfHours = [];
+    this.listOfMinutes = [];
+
+    this.showReminderList = false;
+    this.reminderListPending = [];
+    this.reminderListCompleted = [];
+
   }
 
   ngOnInit() {
@@ -58,6 +67,67 @@ export class ReminderViewComponent implements OnInit {
       error => this.errorMsg = error.message
     );
 
+  }
+
+  cancel() {
+
+    setTimeout(() => {
+      this.showReminderList = false;
+      this.dialogRef.close();
+    }, 500);
+  }
+
+  viewAllReminders(toggleFlag : boolean) {
+    
+    this.reminderListCompleted = [];
+      this.reminderListPending = [];
+      
+    if(toggleFlag) {
+      this.showReminderList = !this.showReminderList;
+    }
+
+    if (this.showReminderList) {
+      let reminderObserver = this.reminderSvc.getReminderSubject();
+
+      reminderObserver.subscribe(
+        response => {
+
+          if (response) {
+            response.forEach(reminder => {
+
+              if (reminder && reminder.note && reminder.note.title === this.note.title && reminder.note.text === this.note.text) {
+                if (reminder.isSent) {
+                  this.reminderListCompleted.push(reminder);
+                } else {
+                  this.reminderListPending.push(reminder);
+                }
+              }
+
+            });
+          }
+
+        }
+      );
+    } else {
+      this.reminderListCompleted = [];
+      this.reminderListPending = [];
+    }
+
+  }
+
+
+  deleteNote(reminder : any) {
+    
+    let reminderID = reminder.notificationID;
+
+    //Delete the note
+    this.reminderSvc.dismissReminder(reminderID).subscribe(
+      response => {
+        console.log('resposne after delete', response);
+        this.viewAllReminders(false);
+      },
+      error => console.log('error after delete', error)
+    );
   }
 
 }

@@ -9,6 +9,7 @@ const addNotificationsForUserID = (userId, notificationNotes) => {
     log.info('adding notification');
 
     try {
+      log.info('notificationWithNotes dao : ', notificationNotes);
       const notificationsToAdd = notificationNotes.notes.map(n => {
         return new NotificationModel({
           notificationID : uuidv1(),
@@ -17,7 +18,8 @@ const addNotificationsForUserID = (userId, notificationNotes) => {
           isReminded: false,
           remindAt: new Date().toISOString(),
           self: false,
-          note: n
+          note: n,
+          edittype : notificationNotes.edittype
         });
       });
 

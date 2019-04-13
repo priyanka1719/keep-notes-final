@@ -46,6 +46,26 @@ export class ReminderService {
     return this.remindersSubject;
   }
 
+  shareNoteWithReminderAt(notes: Note[], selectedUsers : string[], edittype : string): Observable<string> {
+
+    const reminder = {
+      remindAt: new Date(), //Sending reminder with current time
+      notes: notes,
+      userName: selectedUsers[0],
+      self : false,
+      edittype: edittype
+    };
+
+    let reminderObserver = this.httpClient.post<any>(`${environment.url_notification}?userId=${this.userId}`, reminder, this.getAuthHeader());
+
+    return reminderObserver.pipe(tap(response => {
+      this.reminders.push(response.notification);
+      this.remindersSubject.next(this.reminders);
+    },
+      error => console.log('Error in setReminderAt.', error)
+    ));
+  }
+
   setReminderAt(remindAt: Date, note: Note): Observable<string> {
 
     const reminder = {
@@ -87,5 +107,42 @@ export class ReminderService {
     },
       error => console.log('Error in snoozeReminder.', error)
     ));
+  }
+
+  dismissReminder(reminderID: string) {
+
+    if (this.reminders.length === 0) {
+      this.fetchAllRemindersFromServer();
+    }
+    const reminder = this.reminders.find(reminder => reminder.notificationID === reminderID);
+
+    let reminderObserver = this.httpClient.delete<any>(`${environment.url_notification_reminder}/${reminder.notificationID}?userId=${this.userId}`, this.getAuthHeader());
+
+    return reminderObserver.pipe(tap(response => {
+
+      this.reminders = this.reminders.filter(reminder => reminder.notificationID !== reminderID);
+
+      this.reminders.push(response);
+      this.remindersSubject.next(this.reminders);
+    },
+      error => console.log('Error in snoozeReminder.', error)
+    ));
+
+  }
+
+  getNotificationIDForNote(note : Note) {
+
+    let reminderIDs = [];
+
+    this.reminders.forEach(reminder => {
+      let reminderNote = reminder.note;
+
+      if(reminderNote && reminderNote.title === note.title && reminderNote.text === note.text) {
+        reminderIDs.push(reminder.notificationID);
+      }
+    });
+
+    return reminderIDs;
+
   }
 }

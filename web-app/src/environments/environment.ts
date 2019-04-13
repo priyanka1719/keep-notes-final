@@ -17,7 +17,8 @@ export const environment = {
   url_notes_share : 'http://localhost:3001/api/v1/notes/share',
   url_notes_addGroup : 'http://localhost:3001/api/v1/notes/addGroup',
   url_notification_gateway : 'http://localhost:3003/',
-  url_notification_reminder : 'http://localhost:3003/api/v1/notifications/reminders'
+  url_notification_reminder : 'http://localhost:3003/api/v1/notifications/reminders',
+  url_notification : 'http://localhost:3003/api/v1/notifications'
 };
 
 /*

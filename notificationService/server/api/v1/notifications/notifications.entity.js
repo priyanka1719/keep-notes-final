@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 let notificationsSchema = new mongoose.Schema({
-  notificationID : {
+  notificationID: {
     type: String,
     required: true
   },
@@ -36,6 +36,11 @@ let notificationsSchema = new mongoose.Schema({
   isSent: {
     type: Boolean,
     default: false
+  },
+  edittype: {
+    type: String,
+    enum: ['View', 'Edit'],
+    default: 'View'
   }
 });
 
@@ -48,7 +53,8 @@ notificationsSchema.methods.findByUserId = function (callback) {
 notificationsSchema.methods.findAndUpdateNotification = function (callback) {
   return this.model('notification').findOneAndUpdate(
     { _id: this._id },
-    { $set: {
+    {
+      $set: {
         remindAt: this.remindAt,
         isSent: this.isSent
       }
@@ -60,7 +66,8 @@ notificationsSchema.methods.findAndUpdateNotification = function (callback) {
 notificationsSchema.methods.markNotificationSent = function (callback) {
   return this.model('notification').findOneAndUpdate(
     { _id: this._id },
-    { $set: {
+    {
+      $set: {
         isSent: true
       }
     },
