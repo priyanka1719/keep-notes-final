@@ -4796,3 +4796,296 @@
 [2019-04-13T23:38:52.013] [INFO] default - User authenticated
 [2019-04-13T23:38:52.020] [INFO] default - Authentication check
 [2019-04-13T23:38:52.021] [INFO] default - User authenticated
+[2019-04-15T11:06:21.442] [INFO] default - Setting up API middleware
+[2019-04-15T11:06:21.479] [INFO] default - Server is running on port 3000
+[2019-04-15T11:06:22.524] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T11:30:44.908] [INFO] default - getUsers route
+[2019-04-15T11:30:45.296] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-04-15T11:42:35.589] [INFO] default - getUsers route
+[2019-04-15T11:42:35.592] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-04-15T11:52:46.650] [INFO] default - Setting up API middleware
+[2019-04-15T11:52:46.699] [INFO] default - Server is running on port 3000
+[2019-04-15T11:52:47.886] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T11:57:06.157] [INFO] default - getUsers route
+[2019-04-15T11:57:06.178] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4' ] }
+[2019-04-15T11:57:15.865] [INFO] default - user login route
+[2019-04-15T11:57:15.866] [INFO] default - login user: {}
+[2019-04-15T11:57:40.676] [INFO] default - user login route
+[2019-04-15T11:57:40.677] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-15T11:57:40.697] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-15T11:59:19.133] [INFO] default - user register route
+[2019-04-15T11:59:19.134] [INFO] default - register user: {"username":"pri","password":"pri"}
+[2019-04-15T11:59:20.408] [ERROR] default - { MongoError: E11000 duplicate key error index: keep.users.$username_1 dup key: { : "pri" }
+    at Function.create (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb\lib\operations\collection_ops.js:859:39)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb-core\lib\connection\pool.js:532:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg:
+   'E11000 duplicate key error index: keep.users.$username_1 dup key: { : "pri" }',
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-15T11:59:24.483] [INFO] default - user register route
+[2019-04-15T11:59:24.484] [INFO] default - register user: {"username":"pri2345","password":"pri2342345"}
+[2019-04-15T11:59:24.517] [INFO] default - registration done
+[2019-04-15T11:59:24.517] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'pri2345',
+     userId: 'cfc85440-5f47-11e9-8998-a5d974f945ab' } }
+[2019-04-15T12:00:09.295] [INFO] default - getUsers route
+[2019-04-15T12:00:09.298] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-15T12:00:32.336] [INFO] default - Setting up API middleware
+[2019-04-15T12:00:32.370] [INFO] default - Server is running on port 3000
+[2019-04-15T12:00:33.409] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T12:19:57.381] [INFO] default - Authentication check
+[2019-04-15T12:19:57.384] [INFO] default - User authenticated
+[2019-04-15T12:20:04.912] [INFO] default - Authentication check
+[2019-04-15T12:20:04.913] [INFO] default - User authenticated
+[2019-04-15T12:21:02.195] [INFO] default - Authentication check
+[2019-04-15T12:21:02.196] [INFO] default - User authenticated
+[2019-04-15T12:22:38.871] [INFO] default - Authentication check
+[2019-04-15T12:22:38.872] [INFO] default - User authenticated
+[2019-04-15T12:22:44.016] [INFO] default - Authentication check
+[2019-04-15T12:22:44.017] [INFO] default - User authenticated
+[2019-04-15T12:23:56.262] [INFO] default - Authentication check
+[2019-04-15T12:23:56.263] [INFO] default - User authenticated
+[2019-04-15T12:26:03.545] [INFO] default - Authentication check
+[2019-04-15T12:26:03.547] [INFO] default - User authenticated
+[2019-04-15T12:26:15.466] [INFO] default - Authentication check
+[2019-04-15T12:26:15.467] [INFO] default - User authenticated
+[2019-04-15T12:27:34.290] [INFO] default - Authentication check
+[2019-04-15T12:27:34.291] [INFO] default - User authenticated
+[2019-04-15T12:27:38.720] [INFO] default - Authentication check
+[2019-04-15T12:27:38.721] [INFO] default - User authenticated
+[2019-04-15T12:30:06.579] [INFO] default - Authentication check
+[2019-04-15T12:30:06.580] [INFO] default - User authenticated
+[2019-04-15T12:30:48.644] [INFO] default - Authentication check
+[2019-04-15T12:30:48.645] [INFO] default - User authenticated
+[2019-04-15T12:30:54.589] [INFO] default - Authentication check
+[2019-04-15T12:30:54.591] [INFO] default - User authenticated
+[2019-04-15T12:43:37.573] [INFO] default - Authentication check
+[2019-04-15T12:43:37.594] [INFO] default - User authenticated
+[2019-04-15T12:49:13.137] [INFO] default - Authentication check
+[2019-04-15T12:49:13.142] [INFO] default - User authenticated
+[2019-04-15T12:49:13.247] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:152:16
+    at getSecret (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-15T12:59:16.404] [INFO] default - Authentication check
+[2019-04-15T12:59:16.426] [INFO] default - User authenticated
+[2019-04-15T13:02:55.460] [INFO] default - user login route
+[2019-04-15T13:02:55.460] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-15T13:02:56.074] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-15T13:03:08.729] [INFO] default - Authentication check
+[2019-04-15T13:03:08.729] [INFO] default - User authenticated
+[2019-04-15T13:04:50.499] [INFO] default - user login route
+[2019-04-15T13:04:50.500] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-15T13:04:50.659] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-15T13:04:50.689] [INFO] default - Authentication check
+[2019-04-15T13:04:50.690] [INFO] default - User authenticated
+[2019-04-15T13:04:50.936] [INFO] default - Authentication check
+[2019-04-15T13:04:50.948] [INFO] default - User authenticated
+[2019-04-15T13:04:51.677] [INFO] default - Authentication check
+[2019-04-15T13:04:51.684] [INFO] default - User authenticated
+[2019-04-15T13:05:01.861] [INFO] default - Authentication check
+[2019-04-15T13:05:01.863] [INFO] default - User authenticated
+[2019-04-15T13:05:27.505] [INFO] default - Authentication check
+[2019-04-15T13:05:27.506] [INFO] default - User authenticated
+[2019-04-15T13:06:26.245] [INFO] default - Authentication check
+[2019-04-15T13:06:26.246] [INFO] default - User authenticated
+[2019-04-15T13:06:26.347] [INFO] default - Authentication check
+[2019-04-15T13:06:26.348] [INFO] default - User authenticated
+[2019-04-15T13:06:26.387] [INFO] default - Authentication check
+[2019-04-15T13:06:26.388] [INFO] default - User authenticated
+[2019-04-15T13:07:23.952] [INFO] default - Authentication check
+[2019-04-15T13:07:23.953] [INFO] default - User authenticated
+[2019-04-15T13:07:41.684] [INFO] default - Authentication check
+[2019-04-15T13:07:41.686] [INFO] default - User authenticated
+[2019-04-15T13:47:03.480] [INFO] default - Authentication check
+[2019-04-15T13:47:03.514] [INFO] default - User authenticated
+[2019-04-15T13:47:03.631] [INFO] default - Authentication check
+[2019-04-15T13:47:03.632] [INFO] default - User authenticated
+[2019-04-15T13:47:03.746] [INFO] default - Authentication check
+[2019-04-15T13:47:03.753] [INFO] default - User authenticated
+[2019-04-15T13:47:21.492] [INFO] default - Authentication check
+[2019-04-15T13:47:21.500] [INFO] default - User authenticated
+[2019-04-15T13:47:21.650] [INFO] default - Authentication check
+[2019-04-15T13:47:21.668] [INFO] default - User authenticated
+[2019-04-15T13:47:21.681] [INFO] default - Authentication check
+[2019-04-15T13:47:21.681] [INFO] default - User authenticated
+[2019-04-15T13:47:27.927] [INFO] default - Authentication check
+[2019-04-15T13:47:27.928] [INFO] default - User authenticated
+[2019-04-15T13:47:28.007] [INFO] default - Authentication check
+[2019-04-15T13:47:28.008] [INFO] default - User authenticated
+[2019-04-15T13:47:28.024] [INFO] default - Authentication check
+[2019-04-15T13:47:28.025] [INFO] default - User authenticated
+[2019-04-15T13:47:48.884] [INFO] default - Authentication check
+[2019-04-15T13:47:48.885] [INFO] default - User authenticated
+[2019-04-15T13:50:44.221] [INFO] default - Authentication check
+[2019-04-15T13:50:44.222] [INFO] default - User authenticated
+[2019-04-15T13:50:44.490] [INFO] default - Authentication check
+[2019-04-15T13:50:44.492] [INFO] default - User authenticated
+[2019-04-15T13:50:44.507] [INFO] default - Authentication check
+[2019-04-15T13:50:44.561] [INFO] default - User authenticated
+[2019-04-15T13:50:57.484] [INFO] default - Authentication check
+[2019-04-15T13:50:57.484] [INFO] default - User authenticated
+[2019-04-15T13:50:57.625] [INFO] default - Authentication check
+[2019-04-15T13:50:57.625] [INFO] default - User authenticated
+[2019-04-15T13:50:57.627] [INFO] default - Authentication check
+[2019-04-15T13:50:57.628] [INFO] default - User authenticated
+[2019-04-15T13:51:58.863] [INFO] default - Authentication check
+[2019-04-15T13:51:58.893] [INFO] default - User authenticated
+[2019-04-15T13:51:59.130] [INFO] default - Authentication check
+[2019-04-15T13:51:59.131] [INFO] default - User authenticated
+[2019-04-15T13:51:59.136] [INFO] default - Authentication check
+[2019-04-15T13:51:59.137] [INFO] default - User authenticated
+[2019-04-15T13:52:35.877] [INFO] default - Authentication check
+[2019-04-15T13:52:35.878] [INFO] default - User authenticated
+[2019-04-15T13:52:36.037] [INFO] default - Authentication check
+[2019-04-15T13:52:36.053] [INFO] default - User authenticated
+[2019-04-15T13:52:36.056] [INFO] default - Authentication check
+[2019-04-15T13:52:36.056] [INFO] default - User authenticated
+[2019-04-15T13:54:33.720] [INFO] default - Authentication check
+[2019-04-15T13:54:33.721] [INFO] default - User authenticated
+[2019-04-15T13:54:33.962] [INFO] default - Authentication check
+[2019-04-15T13:54:33.963] [INFO] default - User authenticated
+[2019-04-15T13:54:33.993] [INFO] default - Authentication check
+[2019-04-15T13:54:34.017] [INFO] default - User authenticated
+[2019-04-15T13:54:41.614] [INFO] default - Authentication check
+[2019-04-15T13:54:41.615] [INFO] default - User authenticated
+[2019-04-15T13:54:41.708] [INFO] default - Authentication check
+[2019-04-15T13:54:41.721] [INFO] default - User authenticated
+[2019-04-15T13:54:41.725] [INFO] default - Authentication check
+[2019-04-15T13:54:41.726] [INFO] default - User authenticated
+[2019-04-15T13:55:08.841] [INFO] default - Authentication check
+[2019-04-15T13:55:08.843] [INFO] default - User authenticated
+[2019-04-15T13:55:09.102] [INFO] default - Authentication check
+[2019-04-15T13:55:09.103] [INFO] default - User authenticated
+[2019-04-15T13:55:09.107] [INFO] default - Authentication check
+[2019-04-15T13:55:09.149] [INFO] default - User authenticated
+[2019-04-15T13:56:47.282] [INFO] default - Authentication check
+[2019-04-15T13:56:47.283] [INFO] default - User authenticated
+[2019-04-15T13:56:47.390] [INFO] default - Authentication check
+[2019-04-15T13:56:47.391] [INFO] default - User authenticated
+[2019-04-15T13:56:47.393] [INFO] default - Authentication check
+[2019-04-15T13:56:47.407] [INFO] default - User authenticated
+[2019-04-15T13:57:44.812] [INFO] default - Authentication check
+[2019-04-15T13:57:44.813] [INFO] default - User authenticated
+[2019-04-15T13:57:44.984] [INFO] default - Authentication check
+[2019-04-15T13:57:44.986] [INFO] default - User authenticated
+[2019-04-15T13:57:44.989] [INFO] default - Authentication check
+[2019-04-15T13:57:44.989] [INFO] default - User authenticated
+[2019-04-15T13:59:49.972] [INFO] default - Authentication check
+[2019-04-15T13:59:49.973] [INFO] default - User authenticated
+[2019-04-15T13:59:50.139] [INFO] default - Authentication check
+[2019-04-15T13:59:50.145] [INFO] default - User authenticated
+[2019-04-15T13:59:50.151] [INFO] default - Authentication check
+[2019-04-15T13:59:50.152] [INFO] default - User authenticated
+[2019-04-15T14:00:04.420] [INFO] default - Authentication check
+[2019-04-15T14:00:04.421] [INFO] default - User authenticated
+[2019-04-15T14:00:04.522] [INFO] default - Authentication check
+[2019-04-15T14:00:04.523] [INFO] default - User authenticated
+[2019-04-15T14:00:04.526] [INFO] default - Authentication check
+[2019-04-15T14:00:04.528] [INFO] default - User authenticated
+[2019-04-15T14:00:41.165] [INFO] default - Authentication check
+[2019-04-15T14:00:41.166] [INFO] default - User authenticated
+[2019-04-15T14:00:41.248] [INFO] default - Authentication check
+[2019-04-15T14:00:41.259] [INFO] default - User authenticated
+[2019-04-15T14:00:41.261] [INFO] default - Authentication check
+[2019-04-15T14:00:41.262] [INFO] default - User authenticated
+[2019-04-15T14:00:57.630] [INFO] default - Authentication check
+[2019-04-15T14:00:57.630] [INFO] default - User authenticated
+[2019-04-15T14:00:57.755] [INFO] default - Authentication check
+[2019-04-15T14:00:57.756] [INFO] default - User authenticated
+[2019-04-15T14:00:57.761] [INFO] default - Authentication check
+[2019-04-15T14:00:57.763] [INFO] default - User authenticated
+[2019-04-15T14:02:06.449] [INFO] default - Authentication check
+[2019-04-15T14:02:06.469] [INFO] default - User authenticated
+[2019-04-15T14:02:06.726] [INFO] default - Authentication check
+[2019-04-15T14:02:06.727] [INFO] default - User authenticated
+[2019-04-15T14:02:06.758] [INFO] default - Authentication check
+[2019-04-15T14:02:06.759] [INFO] default - User authenticated
+[2019-04-15T14:02:44.704] [INFO] default - Authentication check
+[2019-04-15T14:02:44.710] [INFO] default - User authenticated
+[2019-04-15T14:02:44.852] [INFO] default - Authentication check
+[2019-04-15T14:02:44.854] [INFO] default - User authenticated
+[2019-04-15T14:02:44.869] [INFO] default - Authentication check
+[2019-04-15T14:02:44.870] [INFO] default - User authenticated
+[2019-04-15T14:02:58.403] [INFO] default - Authentication check
+[2019-04-15T14:02:58.404] [INFO] default - User authenticated
+[2019-04-15T14:02:58.513] [INFO] default - Authentication check
+[2019-04-15T14:02:58.515] [INFO] default - User authenticated
+[2019-04-15T14:02:58.547] [INFO] default - Authentication check
+[2019-04-15T14:02:58.547] [INFO] default - User authenticated
+[2019-04-15T14:04:07.857] [INFO] default - Authentication check
+[2019-04-15T14:04:07.858] [INFO] default - User authenticated
+[2019-04-15T14:04:08.047] [INFO] default - Authentication check
+[2019-04-15T14:04:08.048] [INFO] default - User authenticated
+[2019-04-15T14:04:08.059] [INFO] default - Authentication check
+[2019-04-15T14:04:08.059] [INFO] default - User authenticated
+[2019-04-15T14:04:47.596] [INFO] default - Authentication check
+[2019-04-15T14:04:47.598] [INFO] default - User authenticated
+[2019-04-15T14:05:03.961] [INFO] default - Authentication check
+[2019-04-15T14:05:03.962] [INFO] default - User authenticated
+[2019-04-15T14:05:32.455] [INFO] default - Authentication check
+[2019-04-15T14:05:32.456] [INFO] default - User authenticated
+[2019-04-15T14:05:32.693] [INFO] default - Authentication check
+[2019-04-15T14:05:32.694] [INFO] default - User authenticated
+[2019-04-15T14:05:32.718] [INFO] default - Authentication check
+[2019-04-15T14:05:32.719] [INFO] default - User authenticated
+[2019-04-15T14:06:17.748] [INFO] default - Authentication check
+[2019-04-15T14:06:17.749] [INFO] default - User authenticated
+[2019-04-15T14:07:52.948] [INFO] default - Authentication check
+[2019-04-15T14:07:52.948] [INFO] default - User authenticated
+[2019-04-15T14:08:11.890] [INFO] default - Authentication check
+[2019-04-15T14:08:11.969] [INFO] default - User authenticated
+[2019-04-15T14:08:12.136] [INFO] default - Authentication check
+[2019-04-15T14:08:12.137] [INFO] default - User authenticated
+[2019-04-15T14:08:12.147] [INFO] default - Authentication check
+[2019-04-15T14:08:12.148] [INFO] default - User authenticated
+[2019-04-15T14:11:13.427] [INFO] default - Authentication check
+[2019-04-15T14:11:13.428] [INFO] default - User authenticated
+[2019-04-15T14:11:13.640] [INFO] default - Authentication check
+[2019-04-15T14:11:13.641] [INFO] default - User authenticated
+[2019-04-15T14:11:13.645] [INFO] default - Authentication check
+[2019-04-15T14:11:13.646] [INFO] default - User authenticated
+[2019-04-15T14:13:59.387] [INFO] default - Authentication check
+[2019-04-15T14:13:59.388] [INFO] default - User authenticated
+[2019-04-15T14:13:59.483] [INFO] default - Authentication check
+[2019-04-15T14:13:59.489] [INFO] default - User authenticated
+[2019-04-15T14:13:59.494] [INFO] default - Authentication check
+[2019-04-15T14:13:59.495] [INFO] default - User authenticated
+[2019-04-15T14:14:48.283] [INFO] default - Authentication check
+[2019-04-15T14:14:48.284] [INFO] default - User authenticated
+[2019-04-15T14:14:48.453] [INFO] default - Authentication check
+[2019-04-15T14:14:48.476] [INFO] default - User authenticated
+[2019-04-15T14:14:48.482] [INFO] default - Authentication check
+[2019-04-15T14:14:48.484] [INFO] default - User authenticated

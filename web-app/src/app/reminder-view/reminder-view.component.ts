@@ -112,6 +112,11 @@ export class ReminderViewComponent implements OnInit {
               }
 
             });
+
+            if(this.reminderListPending.length === 0 && this.reminderListCompleted.length === 0) {
+              this.showReminderList = false;
+              this.socketSvc.showNotificationMessage('No reminder present for the Note');
+            }
           }
 
         }

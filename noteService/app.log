@@ -5642,3 +5642,223 @@
 [2019-04-13T23:38:52.023] [INFO] default - authenticated
 [2019-04-13T23:38:52.023] [INFO] default - search using userid
 [2019-04-13T23:38:52.024] [INFO] default - getting note for userID :  pri
+[2019-04-15T11:06:16.290] [INFO] default - Setting up API middleware
+[2019-04-15T11:06:16.457] [INFO] default - Server is running on port 3001
+[2019-04-15T11:06:18.245] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T12:19:14.255] [INFO] default - Setting up API middleware
+[2019-04-15T12:19:14.296] [INFO] default - Server is running on port 3001
+[2019-04-15T12:19:15.332] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T12:19:57.389] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:19:57.389] [INFO] default - authenticated
+[2019-04-15T12:19:57.390] [INFO] default - search using userid
+[2019-04-15T12:19:57.390] [INFO] default - getting note for userID :  undefined
+[2019-04-15T12:20:04.915] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:20:04.915] [INFO] default - authenticated
+[2019-04-15T12:20:04.916] [INFO] default - search using userid
+[2019-04-15T12:20:04.916] [INFO] default - getting note for userID :  pri
+[2019-04-15T12:21:02.199] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:21:02.201] [INFO] default - authenticated
+[2019-04-15T12:22:38.871] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:22:38.872] [INFO] default - authenticated
+[2019-04-15T12:22:44.018] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:22:44.018] [INFO] default - authenticated
+[2019-04-15T12:22:44.019] [INFO] default - inside share
+[2019-04-15T12:22:44.020] [INFO] default - noteID[] :  d54888b0-5f4a-11e9-bb7d-a336a5cc89d2
+[2019-04-15T12:22:44.020] [INFO] default - userIds[] :  jhgfj
+[2019-04-15T12:22:44.237] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-15T12:23:56.263] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:23:56.264] [INFO] default - authenticated
+[2019-04-15T12:23:56.265] [INFO] default - note id to delete [ 'd54888b0-5f4a-11e9-bb7d-a336a5cc89d2' ]
+[2019-04-15T12:23:56.290] [DEBUG] default - notes deleted
+[2019-04-15T12:26:03.548] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:26:03.550] [INFO] default - authenticated
+[2019-04-15T12:26:03.553] [ERROR] default - { ValidationError: note validation failed: title: Path `title` is required., text: Path `text` is required.
+    at ValidationError.inspect (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (internal/util/inspect.js:493:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:84:12)
+    at Object.format (util.js:72:10)
+    at basicLayout (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\layouts.js:65:57)
+    at app (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\appenders\file.js:55:18)
+    at categoryAppenders.forEach (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:45:12)
+  errors:
+   { title:
+      { ValidatorError: Path `title` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `title` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'title',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     text:
+      { ValidatorError: Path `text` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `text` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'text',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-04-15T12:26:15.471] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:26:15.472] [INFO] default - authenticated
+[2019-04-15T12:27:27.098] [INFO] default - Setting up API middleware
+[2019-04-15T12:27:27.125] [INFO] default - Server is running on port 3001
+[2019-04-15T12:27:28.193] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-15T12:27:34.293] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:27:34.294] [INFO] default - authenticated
+[2019-04-15T12:27:38.722] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:27:38.723] [INFO] default - authenticated
+[2019-04-15T12:27:38.725] [INFO] default - checking note(90019700-5f4b-11e9-bb7d-a336a5cc89d2) permissions for user: pri 
+[2019-04-15T12:30:06.582] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:30:06.582] [INFO] default - authenticated
+[2019-04-15T12:30:48.646] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:30:48.647] [INFO] default - authenticated
+[2019-04-15T12:30:54.593] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T12:30:54.593] [INFO] default - authenticated
+[2019-04-15T13:04:51.688] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:04:52.056] [INFO] default - authenticated
+[2019-04-15T13:04:52.056] [INFO] default - search using userid
+[2019-04-15T13:04:52.057] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:05:01.867] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:05:01.867] [INFO] default - authenticated
+[2019-04-15T13:05:01.868] [INFO] default - note id to delete [ '90019700-5f4b-11e9-bb7d-a336a5cc89d2' ]
+[2019-04-15T13:05:02.486] [DEBUG] default - notes deleted
+[2019-04-15T13:06:26.350] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:06:26.351] [INFO] default - authenticated
+[2019-04-15T13:06:26.351] [INFO] default - search using userid
+[2019-04-15T13:06:26.351] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:47:03.754] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:47:03.755] [INFO] default - authenticated
+[2019-04-15T13:47:03.756] [INFO] default - search using userid
+[2019-04-15T13:47:03.756] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:47:21.683] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:47:21.707] [INFO] default - authenticated
+[2019-04-15T13:47:21.709] [INFO] default - search using userid
+[2019-04-15T13:47:21.711] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:47:28.028] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:47:28.030] [INFO] default - authenticated
+[2019-04-15T13:47:28.031] [INFO] default - search using userid
+[2019-04-15T13:47:28.032] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:50:44.562] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:50:44.568] [INFO] default - authenticated
+[2019-04-15T13:50:44.569] [INFO] default - search using userid
+[2019-04-15T13:50:44.570] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:50:57.626] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:50:57.627] [INFO] default - authenticated
+[2019-04-15T13:50:57.628] [INFO] default - search using userid
+[2019-04-15T13:50:57.630] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:51:59.138] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:51:59.139] [INFO] default - authenticated
+[2019-04-15T13:51:59.140] [INFO] default - search using userid
+[2019-04-15T13:51:59.143] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:52:36.057] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:52:36.058] [INFO] default - authenticated
+[2019-04-15T13:52:36.059] [INFO] default - search using userid
+[2019-04-15T13:52:36.062] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:54:34.047] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:54:34.048] [INFO] default - authenticated
+[2019-04-15T13:54:34.050] [INFO] default - search using userid
+[2019-04-15T13:54:34.051] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:54:41.728] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:54:41.731] [INFO] default - authenticated
+[2019-04-15T13:54:41.732] [INFO] default - search using userid
+[2019-04-15T13:54:41.733] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:55:09.151] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:55:09.151] [INFO] default - authenticated
+[2019-04-15T13:55:09.153] [INFO] default - search using userid
+[2019-04-15T13:55:09.166] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:56:47.408] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:56:47.409] [INFO] default - authenticated
+[2019-04-15T13:56:47.410] [INFO] default - search using userid
+[2019-04-15T13:56:47.411] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:57:44.991] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:57:44.992] [INFO] default - authenticated
+[2019-04-15T13:57:45.007] [INFO] default - search using userid
+[2019-04-15T13:57:45.010] [INFO] default - getting note for userID :  pri
+[2019-04-15T13:59:50.155] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T13:59:50.156] [INFO] default - authenticated
+[2019-04-15T13:59:50.158] [INFO] default - search using userid
+[2019-04-15T13:59:50.159] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:00:04.530] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:00:04.531] [INFO] default - authenticated
+[2019-04-15T14:00:04.533] [INFO] default - search using userid
+[2019-04-15T14:00:04.534] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:00:41.264] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:00:41.278] [INFO] default - authenticated
+[2019-04-15T14:00:41.279] [INFO] default - search using userid
+[2019-04-15T14:00:41.280] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:00:57.765] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:00:57.766] [INFO] default - authenticated
+[2019-04-15T14:00:57.767] [INFO] default - search using userid
+[2019-04-15T14:00:57.768] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:02:06.729] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:02:06.733] [INFO] default - authenticated
+[2019-04-15T14:02:06.734] [INFO] default - search using userid
+[2019-04-15T14:02:06.736] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:02:44.872] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:02:44.873] [INFO] default - authenticated
+[2019-04-15T14:02:44.874] [INFO] default - search using userid
+[2019-04-15T14:02:44.875] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:02:58.564] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:02:58.564] [INFO] default - authenticated
+[2019-04-15T14:02:58.565] [INFO] default - search using userid
+[2019-04-15T14:02:58.566] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:04:08.061] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:04:08.062] [INFO] default - authenticated
+[2019-04-15T14:04:08.064] [INFO] default - search using userid
+[2019-04-15T14:04:08.065] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:05:32.769] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:05:32.771] [INFO] default - authenticated
+[2019-04-15T14:05:32.772] [INFO] default - search using userid
+[2019-04-15T14:05:32.773] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:06:17.750] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:06:17.750] [INFO] default - authenticated
+[2019-04-15T14:06:17.752] [INFO] default - search using userid
+[2019-04-15T14:06:17.753] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:07:52.949] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:07:52.950] [INFO] default - authenticated
+[2019-04-15T14:07:52.951] [INFO] default - search using userid
+[2019-04-15T14:07:52.951] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:08:12.138] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:08:12.139] [INFO] default - authenticated
+[2019-04-15T14:08:12.141] [INFO] default - search using userid
+[2019-04-15T14:08:12.142] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:11:13.665] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:11:13.665] [INFO] default - authenticated
+[2019-04-15T14:11:13.667] [INFO] default - search using userid
+[2019-04-15T14:11:13.668] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:13:59.492] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:13:59.508] [INFO] default - authenticated
+[2019-04-15T14:13:59.611] [INFO] default - search using userid
+[2019-04-15T14:13:59.612] [INFO] default - getting note for userID :  pri
+[2019-04-15T14:14:48.477] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-15T14:14:48.478] [INFO] default - authenticated
+[2019-04-15T14:14:48.481] [INFO] default - search using userid
+[2019-04-15T14:14:48.482] [INFO] default - getting note for userID :  pri
