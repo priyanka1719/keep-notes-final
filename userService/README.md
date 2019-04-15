@@ -1,4 +1,5 @@
 ## User Service
+
 Micro service using Node.js & MongoDB for user login/register etc.
 
 ### Steps to start service
@@ -6,8 +7,8 @@ Micro service using Node.js & MongoDB for user login/register etc.
 2. Start Server  - ```npm start```
 
 ### Run using docker
-Build Docker image - ```docker build -t priyankasaha2/keep-note-final-userservice .```
-Run Docker image - ```docker run -p 4000:3000 --net=host priyankasaha2/keep-note-final-userservice```
+1. Build Docker image - ```docker build -t priyankasaha2/keep-note-final-userservice .```
+2. Run Docker image (docker port = 3000(1) - app port = (3000)) - ```docker run -p 3000:3000 priyankasaha2/keep-note-final-userservice```
 
 ### API Spec
 YTS
