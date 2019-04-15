@@ -1,3 +1,17 @@
+## Proxy Middleware Service
+Micro service using http-proxy middleware to enable proxy
+
+### Steps to start service
+1. Start MongoDB - ```mongod```
+2. Start Server  - ```npm start```
+
+### Run using docker
+YTS
+
+### API Spec
+YTS
+
+### Proxy URLs
 Users API - URLs:
 -----------------
 Login (POST) - http://localhost:8000/users/login
