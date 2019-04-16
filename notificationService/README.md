@@ -6,7 +6,11 @@ Micro service using Node.js, MongoDB & socket.io for sending Notifications.
 2. Start Server  - ```npm start```
 
 ### Run using docker
-YTS
+1. Build Docker image - ```docker build -t priyankasaha2/keep-note-final-notificationservice .```
+2. Run Docker image (docker port = 3003(1) - app port = (3003)) - ```docker run -p 3003:3003 priyankasaha2/keep-note-final-notificationservice```
+3. App will be accessible using - http://localhost:3003
+4. Login into docker: ```docker login```
+5. Push to Docker hub Repository  - ```docker push priyankasaha2/keep-note-final-notificationservice:latest```
 
 ### API Spec
 YTS
