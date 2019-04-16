@@ -5092,3 +5092,115 @@
 [2019-04-15T18:00:36.097] [INFO] default - Setting up API middleware
 [2019-04-15T18:00:36.135] [INFO] default - Server is running on port 3000
 [2019-04-15T18:00:37.160] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-16T16:36:58.645] [INFO] default - Setting up API middleware
+[2019-04-16T16:36:58.677] [INFO] default - Server is running on port 3000
+[2019-04-16T16:37:00.790] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-16T17:03:35.063] [INFO] default - user login route
+[2019-04-16T17:03:35.064] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-16T17:03:35.821] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-16T17:06:25.794] [INFO] default - Authentication check
+[2019-04-16T17:06:25.797] [INFO] default - User authenticated
+[2019-04-16T17:06:38.843] [INFO] default - Authentication check
+[2019-04-16T17:06:38.844] [INFO] default - User authenticated
+[2019-04-16T17:19:04.918] [INFO] default - Authentication check
+[2019-04-16T17:19:04.969] [INFO] default - User authenticated
+[2019-04-16T17:19:04.994] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:152:16
+    at getSecret (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-16T17:19:45.683] [INFO] default - user login route
+[2019-04-16T17:19:45.684] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-16T17:19:45.726] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-16T17:19:45.741] [INFO] default - Authentication check
+[2019-04-16T17:19:45.742] [INFO] default - User authenticated
+[2019-04-16T17:19:45.850] [INFO] default - Authentication check
+[2019-04-16T17:19:45.852] [INFO] default - User authenticated
+[2019-04-16T17:19:57.340] [INFO] default - Authentication check
+[2019-04-16T17:19:57.341] [INFO] default - User authenticated
+[2019-04-16T17:20:01.238] [INFO] default - Authentication check
+[2019-04-16T17:20:01.240] [INFO] default - User authenticated
+[2019-04-16T17:20:09.621] [INFO] default - Authentication check
+[2019-04-16T17:20:09.622] [INFO] default - User authenticated
+[2019-04-16T17:20:19.288] [INFO] default - Authentication check
+[2019-04-16T17:20:19.290] [INFO] default - User authenticated
+[2019-04-16T17:20:43.732] [INFO] default - Authentication check
+[2019-04-16T17:20:43.734] [INFO] default - User authenticated
+[2019-04-16T17:21:40.003] [INFO] default - Authentication check
+[2019-04-16T17:21:40.006] [INFO] default - User authenticated
+[2019-04-16T17:22:15.679] [INFO] default - user login route
+[2019-04-16T17:22:15.680] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-16T17:22:15.683] [INFO] default - login with payload { userName: 'pri',
+  userId: 'e1b03d40-4637-11e9-9c25-0b3b6c294f91' }
+[2019-04-16T17:22:15.701] [INFO] default - Authentication check
+[2019-04-16T17:22:15.702] [INFO] default - User authenticated
+[2019-04-16T17:22:15.796] [INFO] default - Authentication check
+[2019-04-16T17:22:15.796] [INFO] default - User authenticated
+[2019-04-16T17:23:59.479] [INFO] default - Authentication check
+[2019-04-16T17:23:59.480] [INFO] default - User authenticated
+[2019-04-16T17:24:04.394] [INFO] default - Authentication check
+[2019-04-16T17:24:04.399] [INFO] default - User authenticated
+[2019-04-16T17:24:04.707] [INFO] default - Authentication check
+[2019-04-16T17:24:04.708] [INFO] default - User authenticated
+[2019-04-16T17:24:10.471] [INFO] default - Authentication check
+[2019-04-16T17:24:10.472] [INFO] default - User authenticated
+[2019-04-16T17:24:10.619] [INFO] default - Authentication check
+[2019-04-16T17:24:10.620] [INFO] default - User authenticated
+[2019-04-16T17:24:29.322] [INFO] default - Authentication check
+[2019-04-16T17:24:29.323] [INFO] default - User authenticated
+[2019-04-16T17:24:32.391] [INFO] default - Authentication check
+[2019-04-16T17:24:32.393] [INFO] default - User authenticated
+[2019-04-16T17:24:33.928] [INFO] default - Authentication check
+[2019-04-16T17:24:33.930] [INFO] default - User authenticated
+[2019-04-16T17:25:03.822] [INFO] default - Authentication check
+[2019-04-16T17:25:03.823] [INFO] default - User authenticated
+[2019-04-16T17:25:08.135] [INFO] default - Authentication check
+[2019-04-16T17:25:08.136] [INFO] default - User authenticated
+[2019-04-16T17:25:11.305] [INFO] default - getUsers route
+[2019-04-16T17:25:11.491] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:26:35.341] [INFO] default - getUsers route
+[2019-04-16T17:26:35.345] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:26:40.349] [INFO] default - getUsers route
+[2019-04-16T17:26:40.355] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:26:52.306] [INFO] default - getUsers route
+[2019-04-16T17:26:52.309] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:27:00.825] [INFO] default - getUsers route
+[2019-04-16T17:27:00.832] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:27:08.561] [INFO] default - getUsers route
+[2019-04-16T17:27:08.565] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 201,
+  userInfo: [ 'testUser', 'pri', 'pri2', 'pri3', 'pri4', 'pri2345' ] }
+[2019-04-16T17:27:16.651] [INFO] default - Authentication check
+[2019-04-16T17:27:16.652] [INFO] default - User authenticated
+[2019-04-16T17:27:37.602] [INFO] default - Authentication check
+[2019-04-16T17:27:37.603] [INFO] default - User authenticated
+[2019-04-16T17:28:08.113] [INFO] default - Authentication check
+[2019-04-16T17:28:08.114] [INFO] default - User authenticated
+[2019-04-16T17:33:49.693] [INFO] default - Authentication check
+[2019-04-16T17:33:49.699] [INFO] default - User authenticated
+[2019-04-16T17:33:49.920] [INFO] default - Authentication check
+[2019-04-16T17:33:49.922] [INFO] default - User authenticated

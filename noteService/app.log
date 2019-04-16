@@ -5868,3 +5868,178 @@
 [2019-04-15T17:59:32.737] [INFO] default - Setting up API middleware
 [2019-04-15T17:59:32.765] [INFO] default - Server is running on port 3001
 [2019-04-15T17:59:33.796] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-16T16:38:23.532] [INFO] default - Setting up API middleware
+[2019-04-16T16:38:23.567] [INFO] default - Server is running on port 3001
+[2019-04-16T16:38:24.600] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-16T17:04:03.613] [INFO] default - body in auth svc undefined
+[2019-04-16T17:04:03.633] [INFO] default - error in notes auth svc Error: Invalid URI "undefined/api/v1/auth"
+    at Request.init (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\request.js:273:31)
+    at new Request (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\request.js:127:8)
+    at request (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\index.js:53:10)
+    at Function.post (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\index.js:61:12)
+    at checkAuth (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\server\services\auth.service.js:26:13)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-16T17:04:35.908] [INFO] default - body in auth svc undefined
+[2019-04-16T17:04:35.908] [INFO] default - error in notes auth svc Error: Invalid URI "undefined/api/v1/auth"
+    at Request.init (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\request.js:273:31)
+    at new Request (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\request.js:127:8)
+    at request (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\index.js:53:10)
+    at Function.post (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\request\index.js:61:12)
+    at checkAuth (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\server\services\auth.service.js:26:13)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\express\lib\router\index.js:335:12)
+[2019-04-16T17:06:22.747] [INFO] default - Setting up API middleware
+[2019-04-16T17:06:22.771] [INFO] default - Server is running on port 3001
+[2019-04-16T17:06:23.830] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-16T17:06:25.802] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:06:25.803] [INFO] default - authenticated
+[2019-04-16T17:06:25.818] [ERROR] default - { ValidationError: note validation failed: title: Path `title` is required., text: Path `text` is required.
+    at ValidationError.inspect (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (internal/util/inspect.js:493:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:84:12)
+    at Object.format (util.js:72:10)
+    at basicLayout (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\layouts.js:65:57)
+    at app (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\appenders\file.js:55:18)
+    at categoryAppenders.forEach (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:45:12)
+  errors:
+   { title:
+      { ValidatorError: Path `title` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `title` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'title',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true },
+     text:
+      { ValidatorError: Path `text` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `text` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'text',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-04-16T17:06:38.847] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:06:38.850] [INFO] default - authenticated
+[2019-04-16T17:19:45.856] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:19:45.857] [INFO] default - authenticated
+[2019-04-16T17:19:45.859] [INFO] default - search using userid
+[2019-04-16T17:19:45.860] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:19:57.345] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:19:57.345] [INFO] default - authenticated
+[2019-04-16T17:19:57.347] [INFO] default - search using title and userid
+[2019-04-16T17:19:57.349] [INFO] default - searching notes by title - 1 by user - pri 
+[2019-04-16T17:19:57.350] [INFO] default - { title: { '$regex': '1', '$options': 'i' }, userId: 'pri' }
+[2019-04-16T17:20:01.243] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:20:01.246] [INFO] default - authenticated
+[2019-04-16T17:20:01.246] [INFO] default - search using userid
+[2019-04-16T17:20:01.247] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:20:09.622] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:20:09.640] [INFO] default - authenticated
+[2019-04-16T17:20:09.640] [INFO] default - search using title and userid
+[2019-04-16T17:20:09.641] [INFO] default - searching notes by title - No by user - pri 
+[2019-04-16T17:20:09.642] [INFO] default - { title: { '$regex': 'No', '$options': 'i' }, userId: 'pri' }
+[2019-04-16T17:20:19.293] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:20:19.294] [INFO] default - authenticated
+[2019-04-16T17:20:19.295] [INFO] default - search using userid
+[2019-04-16T17:20:19.296] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:20:43.738] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:20:43.739] [INFO] default - authenticated
+[2019-04-16T17:21:40.009] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:21:40.009] [INFO] default - authenticated
+[2019-04-16T17:21:40.011] [INFO] default - search using userid
+[2019-04-16T17:21:40.012] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:22:15.795] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:22:15.796] [INFO] default - authenticated
+[2019-04-16T17:22:15.797] [INFO] default - search using userid
+[2019-04-16T17:22:15.798] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:23:59.483] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:23:59.484] [INFO] default - authenticated
+[2019-04-16T17:23:59.898] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-16T17:24:04.707] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:24:04.708] [INFO] default - authenticated
+[2019-04-16T17:24:04.711] [INFO] default - search using userid
+[2019-04-16T17:24:04.712] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:24:10.619] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:24:10.620] [INFO] default - authenticated
+[2019-04-16T17:24:10.622] [INFO] default - search using userid
+[2019-04-16T17:24:10.624] [INFO] default - getting note for userID :  pri
+[2019-04-16T17:24:29.326] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:24:29.328] [INFO] default - authenticated
+[2019-04-16T17:24:29.330] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-16T17:24:32.396] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:24:32.397] [INFO] default - authenticated
+[2019-04-16T17:24:32.399] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-16T17:24:33.935] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:24:33.937] [INFO] default - authenticated
+[2019-04-16T17:24:33.940] [INFO] default - data : { ok: 1, nModified: 1, n: 1 }
+[2019-04-16T17:25:03.822] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:25:03.823] [INFO] default - authenticated
+[2019-04-16T17:25:03.824] [INFO] default - note id to delete [ 'dbaa3480-4edb-11e9-93b8-412020cf6e3c' ]
+[2019-04-16T17:25:03.889] [DEBUG] default - notes deleted
+[2019-04-16T17:25:08.135] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:25:08.136] [INFO] default - authenticated
+[2019-04-16T17:25:08.137] [INFO] default - note id to delete [ 'e5ef4130-603b-11e9-a4ae-9999f1779cee' ]
+[2019-04-16T17:25:08.140] [DEBUG] default - notes deleted
+[2019-04-16T17:27:16.654] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:27:16.655] [INFO] default - authenticated
+[2019-04-16T17:27:16.658] [INFO] default - adding notes to group: group3
+[2019-04-16T17:27:16.676] [INFO] default - data : { ok: 1, nModified: 2, n: 2 }
+[2019-04-16T17:27:37.606] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:27:37.607] [INFO] default - authenticated
+[2019-04-16T17:27:37.608] [INFO] default - note id to delete [ '2165f2f0-4ed9-11e9-9d2e-05edd9e0b831',
+  '6ab5e190-4f0b-11e9-93b8-412020cf6e3c' ]
+[2019-04-16T17:27:37.611] [DEBUG] default - notes deleted
+[2019-04-16T17:28:08.113] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:28:08.115] [INFO] default - authenticated
+[2019-04-16T17:33:49.925] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-16T17:33:49.927] [INFO] default - authenticated
+[2019-04-16T17:33:49.928] [INFO] default - search using userid
+[2019-04-16T17:33:49.940] [INFO] default - getting note for userID :  pri

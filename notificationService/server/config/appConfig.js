@@ -20,7 +20,7 @@ const authConfig = {
 
 const externalAPI = {
   userAuthentication : {
-    URL : process.env.USER_PROFILE_URL || 'http://localhost:3000/api/v1/auth',
+    URL : process.env.USER_URL || 'http://localhost:3000/api/v1/auth',
     method : 'POST'
   }
 }

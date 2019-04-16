@@ -12,7 +12,7 @@ const setAppMiddleWare = (app) => {
     // app.use(bodyParser.urlencoded({ extended: false }));
 
     // app.use(cors());
-    app.use(cors({credentials: true, origin: 'http://localhost:4200'}));
+    app.use(cors({ credentials: true, origin: 'http://localhost:4200' }));
 
     morgan.token('time', () => new Date().toISOString());
     app.use(morgan('[:time] :remote-addr :method :url :status :res[content-length] :response-time ms'));
@@ -75,7 +75,7 @@ const setAPIproxy = (app) => {
 
     //authentication proxy
     app.use('/auth/', getAuthenticationProxy());
-    
+
     //error
     app.use((request, response) => {
         response.status(404).send({
