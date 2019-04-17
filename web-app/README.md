@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Docker
+
+1. Build Docker image - ```docker build -t priyankasaha2/keep-note-final-webapp .```
+2. Run Docker image (docker port = 4200(1) - app port = (4200)) - ```docker run -p 4200:4200 priyankasaha2/keep-note-final-webapp```
+3. App will be accessible using - http://localhost:4200
+4. Login into docker: ```docker login```
+5. Push to Docker hub Repository  - ```docker push priyankasaha2/keep-note-final-webapp:latest```
