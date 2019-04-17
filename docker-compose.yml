@@ -22,9 +22,9 @@ services:
       - na_network
     environment:
       - MONGO_URL=mongodb://na_mongodb:27017/keep
-      - USER_URL=http://localhost:3000
-      - NOTES_URL=http://localhost:3001
-      - NOTIFICATIONS_URL=http://localhost:3003
+      - - USER_URL=http://na_users:3000
+      - NOTES_URL=http://na_notes:3001
+      - NOTIFICATIONS_URL=http://na_notification:3003
     restart: on-failure
     depends_on:
       - na_users
