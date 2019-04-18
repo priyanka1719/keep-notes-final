@@ -5204,3 +5204,55 @@
 [2019-04-16T17:33:49.699] [INFO] default - User authenticated
 [2019-04-16T17:33:49.920] [INFO] default - Authentication check
 [2019-04-16T17:33:49.922] [INFO] default - User authenticated
+[2019-04-19T01:46:36.922] [INFO] default - Setting up API middleware
+[2019-04-19T01:46:37.097] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T01:46:38.184] [INFO] default - user register route
+[2019-04-19T01:46:38.185] [INFO] default - register user: {"username":"user1","password":"pass1","email":"test4@mail.com"}
+[2019-04-19T01:46:38.230] [INFO] default - registration done
+[2019-04-19T01:46:38.231] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'user1',
+     userId: 'df0378a0-6216-11e9-a970-bdee3c29ec4c' } }
+[2019-04-19T01:46:38.262] [INFO] default - user register route
+[2019-04-19T01:46:38.262] [INFO] default - register user: {"password":"pass2","email":"test2@mail.com"}
+[2019-04-19T01:46:38.273] [INFO] default - user login route
+[2019-04-19T01:46:38.273] [INFO] default - login user: {"username":"user1","password":"pass1"}
+[2019-04-19T01:46:38.283] [INFO] default - login with payload { userName: 'user1',
+  userId: 'df0378a0-6216-11e9-a970-bdee3c29ec4c' }
+[2019-04-19T01:46:38.295] [INFO] default - user login route
+[2019-04-19T01:46:38.295] [INFO] default - login user: {"username":"user1","password":"1346546"}
+[2019-04-19T01:46:38.303] [INFO] default - user login route
+[2019-04-19T01:46:38.304] [INFO] default - login user: {"username":"user11111","password":"pass1"}
+[2019-04-19T01:46:38.311] [INFO] default - user login route
+[2019-04-19T01:46:38.311] [INFO] default - login user: {"username":"user2","password":"pass2","email":"test2@mail.com"}
+[2019-04-19T01:46:38.319] [INFO] default - getUsers route
+[2019-04-19T01:46:38.326] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1' ] }
+[2019-04-19T01:47:38.173] [INFO] default - Setting up API middleware
+[2019-04-19T01:47:38.256] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T01:47:38.332] [INFO] default - user register route
+[2019-04-19T01:47:38.333] [INFO] default - register user: {"username":"user1","password":"pass1","email":"test4@mail.com"}
+[2019-04-19T01:47:38.374] [INFO] default - registration done
+[2019-04-19T01:47:38.375] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'user1',
+     userId: '02dd53e0-6217-11e9-8de3-ed96d8bd3fd0' } }
+[2019-04-19T01:47:38.399] [INFO] default - user register route
+[2019-04-19T01:47:38.400] [INFO] default - register user: {"password":"pass2","email":"test2@mail.com"}
+[2019-04-19T01:47:38.409] [INFO] default - user login route
+[2019-04-19T01:47:38.409] [INFO] default - login user: {"username":"user1","password":"pass1"}
+[2019-04-19T01:47:38.551] [INFO] default - login with payload { userName: 'user1',
+  userId: '02dd53e0-6217-11e9-8de3-ed96d8bd3fd0' }
+[2019-04-19T01:47:38.566] [INFO] default - user login route
+[2019-04-19T01:47:38.566] [INFO] default - login user: {"username":"user1","password":"1346546"}
+[2019-04-19T01:47:38.574] [INFO] default - user login route
+[2019-04-19T01:47:38.574] [INFO] default - login user: {"username":"user11111","password":"pass1"}
+[2019-04-19T01:47:38.581] [INFO] default - user login route
+[2019-04-19T01:47:38.582] [INFO] default - login user: {"username":"user2","password":"pass2","email":"test2@mail.com"}
+[2019-04-19T01:47:38.590] [INFO] default - getUsers route
+[2019-04-19T01:47:38.598] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1' ] }
