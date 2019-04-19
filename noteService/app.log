@@ -6043,3 +6043,285 @@
 [2019-04-16T17:33:49.927] [INFO] default - authenticated
 [2019-04-16T17:33:49.928] [INFO] default - search using userid
 [2019-04-16T17:33:49.940] [INFO] default - getting note for userID :  pri
+[2019-04-19T16:35:43.480] [INFO] default - Setting up API middleware
+[2019-04-19T16:35:43.513] [INFO] default - Server is running on port 3001
+[2019-04-19T16:35:44.544] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:36:17.971] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:36:17.972] [INFO] default - authenticated
+[2019-04-19T16:37:05.963] [INFO] default - Setting up API middleware
+[2019-04-19T16:37:05.985] [INFO] default - Server is running on port 3001
+[2019-04-19T16:37:07.034] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:37:10.281] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:37:10.282] [INFO] default - authenticated
+[2019-04-19T16:37:24.456] [INFO] default - Setting up API middleware
+[2019-04-19T16:37:24.478] [INFO] default - Server is running on port 3001
+[2019-04-19T16:37:24.888] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:37:24.888] [INFO] default - authenticated
+[2019-04-19T16:37:25.509] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:37:46.131] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:37:46.131] [INFO] default - authenticated
+[2019-04-19T16:38:11.515] [INFO] default - Setting up API middleware
+[2019-04-19T16:38:11.546] [INFO] default - Server is running on port 3001
+[2019-04-19T16:38:12.572] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:38:16.678] [INFO] default - Setting up API middleware
+[2019-04-19T16:38:16.707] [INFO] default - Server is running on port 3001
+[2019-04-19T16:38:17.733] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:38:30.613] [INFO] default - Setting up API middleware
+[2019-04-19T16:38:30.642] [INFO] default - Server is running on port 3001
+[2019-04-19T16:38:31.669] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:38:35.706] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:38:35.710] [INFO] default - authenticated
+[2019-04-19T16:39:04.280] [INFO] default - Setting up API middleware
+[2019-04-19T16:39:04.305] [INFO] default - Server is running on port 3001
+[2019-04-19T16:39:05.329] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:39:06.710] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:39:06.714] [INFO] default - authenticated
+[2019-04-19T16:39:20.912] [INFO] default - Setting up API middleware
+[2019-04-19T16:39:20.937] [INFO] default - Server is running on port 3001
+[2019-04-19T16:39:21.964] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:39:24.892] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:39:24.895] [INFO] default - authenticated
+[2019-04-19T16:39:40.083] [INFO] default - Setting up API middleware
+[2019-04-19T16:39:40.108] [INFO] default - Server is running on port 3001
+[2019-04-19T16:39:40.700] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:39:40.703] [INFO] default - authenticated
+[2019-04-19T16:39:41.132] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:41:06.918] [INFO] default - Setting up API middleware
+[2019-04-19T16:41:06.944] [INFO] default - Server is running on port 3001
+[2019-04-19T16:41:07.964] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:44:55.234] [INFO] default - Setting up API middleware
+[2019-04-19T16:44:55.266] [INFO] default - Server is running on port 3001
+[2019-04-19T16:44:56.296] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:45:02.848] [INFO] default - Setting up API middleware
+[2019-04-19T16:45:02.870] [INFO] default - Server is running on port 3001
+[2019-04-19T16:45:03.902] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:49:20.481] [INFO] default - Setting up API middleware
+[2019-04-19T16:49:20.517] [INFO] default - Server is running on port 3001
+[2019-04-19T16:49:21.548] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:49:44.422] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T16:49:44.423] [INFO] default - authenticated
+[2019-04-19T16:51:16.972] [INFO] default - Setting up API middleware
+[2019-04-19T16:51:17.004] [INFO] default - Server is running on port 3001
+[2019-04-19T16:51:18.040] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:52:00.817] [INFO] default - Setting up API middleware
+[2019-04-19T16:52:00.845] [INFO] default - Server is running on port 3001
+[2019-04-19T16:52:01.867] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:53:31.479] [INFO] default - Setting up API middleware
+[2019-04-19T16:53:31.505] [INFO] default - Server is running on port 3001
+[2019-04-19T16:53:32.560] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:53:52.789] [INFO] default - Setting up API middleware
+[2019-04-19T16:53:52.817] [INFO] default - Server is running on port 3001
+[2019-04-19T16:53:53.837] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:54:56.787] [INFO] default - Setting up API middleware
+[2019-04-19T16:54:56.817] [INFO] default - Server is running on port 3001
+[2019-04-19T16:54:57.847] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:55:06.158] [INFO] default - Setting up API middleware
+[2019-04-19T16:55:07.238] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:10:06.068] [INFO] default - Setting up API middleware
+[2019-04-19T17:10:07.160] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:13:58.210] [INFO] default - Setting up API middleware
+[2019-04-19T17:13:58.237] [INFO] default - Server is running on port 3001
+[2019-04-19T17:13:59.271] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:14:13.013] [INFO] default - Setting up API middleware
+[2019-04-19T17:14:14.061] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:14:47.577] [INFO] default - Setting up API middleware
+[2019-04-19T17:14:47.608] [INFO] default - Server is running on port 3001
+[2019-04-19T17:14:48.655] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:14:59.022] [INFO] default - Setting up API middleware
+[2019-04-19T17:14:59.051] [INFO] default - Server is running on port 3001
+[2019-04-19T17:15:00.072] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:15:05.474] [INFO] default - Setting up API middleware
+[2019-04-19T17:15:05.496] [INFO] default - Server is running on port 3001
+[2019-04-19T17:15:06.539] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:15:22.822] [INFO] default - Setting up API middleware
+[2019-04-19T17:15:23.953] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:15:38.771] [INFO] default - Setting up API middleware
+[2019-04-19T17:15:38.806] [INFO] default - Server is running on port 3001
+[2019-04-19T17:15:39.836] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:15:45.051] [INFO] default - Setting up API middleware
+[2019-04-19T17:15:45.073] [INFO] default - Server is running on port 3001
+[2019-04-19T17:15:46.091] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:15:53.095] [INFO] default - Setting up API middleware
+[2019-04-19T17:15:53.122] [INFO] default - Server is running on port 3001
+[2019-04-19T17:15:54.143] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:16:09.918] [INFO] default - Setting up API middleware
+[2019-04-19T17:16:09.955] [INFO] default - Server is running on port 3001
+[2019-04-19T17:16:10.974] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:16:14.090] [INFO] default - Setting up API middleware
+[2019-04-19T17:16:15.193] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:18:07.166] [INFO] default - Setting up API middleware
+[2019-04-19T17:18:07.190] [INFO] default - Server is running on port 3001
+[2019-04-19T17:18:08.216] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:18:41.381] [INFO] default - Setting up API middleware
+[2019-04-19T17:18:42.460] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:18:54.674] [INFO] default - Setting up API middleware
+[2019-04-19T17:18:54.695] [INFO] default - Server is running on port 3001
+[2019-04-19T17:18:55.716] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:19:43.598] [INFO] default - Setting up API middleware
+[2019-04-19T17:19:44.651] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:20:08.864] [INFO] default - Setting up API middleware
+[2019-04-19T17:20:09.913] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:21:21.928] [INFO] default - Setting up API middleware
+[2019-04-19T17:21:23.006] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:24:30.998] [INFO] default - Setting up API middleware
+[2019-04-19T17:24:32.079] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:26:11.435] [INFO] default - Setting up API middleware
+[2019-04-19T17:26:12.496] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:27:26.171] [INFO] default - Setting up API middleware
+[2019-04-19T17:27:27.229] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:28:37.236] [INFO] default - Setting up API middleware
+[2019-04-19T17:28:38.301] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:28:59.939] [INFO] default - Setting up API middleware
+[2019-04-19T17:29:01.002] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:29:58.061] [INFO] default - Setting up API middleware
+[2019-04-19T17:29:59.136] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:30:44.675] [INFO] default - Setting up API middleware
+[2019-04-19T17:30:45.741] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:28:36.027] [INFO] default - Setting up API middleware
+[2019-04-19T18:28:37.119] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:30:38.549] [INFO] default - Setting up API middleware
+[2019-04-19T18:30:39.601] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:31:16.678] [INFO] default - Setting up API middleware
+[2019-04-19T18:31:17.742] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:32:00.088] [INFO] default - Setting up API middleware
+[2019-04-19T18:32:01.145] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:32:46.597] [INFO] default - Setting up API middleware
+[2019-04-19T18:32:47.656] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:32:48.888] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:32:48.889] [INFO] default - authenticated
+[2019-04-19T18:32:48.901] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (internal/util/inspect.js:493:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:84:12)
+    at Object.format (util.js:72:10)
+    at basicLayout (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\layouts.js:65:57)
+    at app (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\appenders\file.js:55:18)
+    at categoryAppenders.forEach (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as error] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:84:10)
+    at newNote.save (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\server\api\v1\notes\notes.dao.js:27:25)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\model.js:4719:16
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\utils.js:255:11
+    at $__save.error (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\model.js:475:16)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:246:48
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:167:27)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:169:9)
+    at Kareem.execPost (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:217:3)
+    at _handleWrapError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:245:21)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:272:14
+    at _next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:94:14)
+    at process.nextTick (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:499:38)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-04-19T18:32:48.993] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:32:48.996] [INFO] default - authenticated
+[2019-04-19T18:32:49.002] [ERROR] default - { ValidationError: note validation failed: userId: Path `userId` is required.
+    at ValidationError.inspect (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validation.js:59:24)
+    at formatValue (internal/util/inspect.js:493:31)
+    at inspect (internal/util/inspect.js:191:10)
+    at formatWithOptions (util.js:84:12)
+    at Object.format (util.js:72:10)
+    at basicLayout (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\layouts.js:65:57)
+    at app (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\appenders\file.js:55:18)
+    at categoryAppenders.forEach (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:42:5)
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\log4js.js:41:21)
+    at listeners.forEach.l (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:26)
+    at Array.forEach (<anonymous>)
+    at sendToListeners (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:16:13)
+    at Object.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\clustering.js:78:7)
+    at Logger._log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:56:16)
+    at Logger.log (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:45:12)
+    at Logger.(anonymous function) [as error] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\log4js\lib\logger.js:84:10)
+    at newNote.save (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\server\api\v1\notes\notes.dao.js:27:25)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\model.js:4719:16
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\utils.js:255:11
+    at $__save.error (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\model.js:475:16)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:246:48
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:167:27)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:169:9)
+    at Kareem.execPost (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:217:3)
+    at _handleWrapError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:245:21)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:272:14
+    at _next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:94:14)
+    at process.nextTick (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\kareem\index.js:499:38)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  errors:
+   { userId:
+      { ValidatorError: Path `userId` is required.
+          at new ValidatorError (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\error\validator.js:29:11)
+          at validate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:930:13)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:983:11
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\schematype.js:939:19)
+          at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\noteService\node_modules\mongoose\lib\document.js:1936:9
+          at process._tickCallback (internal/process/next_tick.js:61:11)
+        message: 'Path `userId` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'userId',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true } },
+  _message: 'note validation failed',
+  name: 'ValidationError' }
+[2019-04-19T18:36:35.446] [INFO] default - Setting up API middleware
+[2019-04-19T18:36:36.525] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:36:37.756] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:36:37.758] [INFO] default - authenticated
+[2019-04-19T18:36:37.897] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:36:37.900] [INFO] default - authenticated
+[2019-04-19T18:37:25.381] [INFO] default - Setting up API middleware
+[2019-04-19T18:37:26.432] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:37:27.529] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:37:27.530] [INFO] default - authenticated
+[2019-04-19T18:37:27.653] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:37:27.653] [INFO] default - authenticated
+[2019-04-19T18:38:18.636] [INFO] default - Setting up API middleware
+[2019-04-19T18:38:19.692] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:38:19.842] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:38:19.843] [INFO] default - authenticated
+[2019-04-19T18:38:19.911] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:38:19.912] [INFO] default - authenticated
+[2019-04-19T18:43:27.282] [INFO] default - Setting up API middleware
+[2019-04-19T18:43:28.343] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:43:28.414] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:43:28.415] [INFO] default - authenticated
+[2019-04-19T18:43:28.460] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:43:28.463] [INFO] default - authenticated
+[2019-04-19T18:43:28.493] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:43:28.496] [INFO] default - authenticated
+[2019-04-19T18:43:28.500] [INFO] default - search using userid
+[2019-04-19T18:43:28.504] [INFO] default - getting note for userID :  user-id-1
+[2019-04-19T18:43:28.657] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-19T18:43:28.659] [INFO] default - authenticated
+[2019-04-19T18:43:28.663] [INFO] default - search using userid
+[2019-04-19T18:43:28.667] [INFO] default - getting note for userID :  user-id-2

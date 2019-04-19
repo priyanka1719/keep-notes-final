@@ -5256,3 +5256,277 @@
 [2019-04-19T01:47:38.598] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
   status: 200,
   userInfo: [ 'user1' ] }
+[2019-04-19T14:29:49.324] [INFO] default - Setting up API middleware
+[2019-04-19T14:29:49.349] [INFO] default - Server is running on port 3000
+[2019-04-19T14:29:50.367] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:35:43.413] [INFO] default - Setting up API middleware
+[2019-04-19T14:35:43.450] [INFO] default - Server is running on port 3000
+[2019-04-19T14:35:44.487] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:36:17.936] [INFO] default - Setting up API middleware
+[2019-04-19T14:36:18.985] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:36:21.448] [INFO] default - user register route
+[2019-04-19T14:36:21.449] [INFO] default - register user: {"username":"user1","password":"pass1","email":"test4@mail.com"}
+[2019-04-19T14:36:22.503] [INFO] default - registration done
+[2019-04-19T14:36:22.504] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'user1',
+     userId: '66624ea0-6282-11e9-abd0-837420cd87f8' } }
+[2019-04-19T14:36:22.535] [INFO] default - user register route
+[2019-04-19T14:36:22.536] [INFO] default - register user: {"password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:36:22.556] [INFO] default - user login route
+[2019-04-19T14:36:22.558] [INFO] default - login user: {"username":"user1","password":"pass1"}
+[2019-04-19T14:36:22.616] [INFO] default - login with payload { userName: 'user1',
+  userId: '66624ea0-6282-11e9-abd0-837420cd87f8' }
+[2019-04-19T14:36:22.709] [INFO] default - user login route
+[2019-04-19T14:36:22.709] [INFO] default - login user: {"username":"user1","password":"1346546"}
+[2019-04-19T14:36:22.727] [INFO] default - user login route
+[2019-04-19T14:36:22.731] [INFO] default - login user: {"username":"user11111","password":"pass1"}
+[2019-04-19T14:36:22.742] [INFO] default - user login route
+[2019-04-19T14:36:22.742] [INFO] default - login user: {"username":"user2","password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:36:22.753] [INFO] default - getUsers route
+[2019-04-19T14:36:22.759] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1' ] }
+[2019-04-19T14:37:34.783] [INFO] default - Setting up API middleware
+[2019-04-19T14:37:34.807] [INFO] default - Server is running on port 3000
+[2019-04-19T14:37:35.834] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:37:45.338] [INFO] default - Setting up API middleware
+[2019-04-19T14:37:46.401] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:37:48.508] [INFO] default - user register route
+[2019-04-19T14:37:48.510] [INFO] default - register user: {"username":"user1","password":"pass1","email":"test4@mail.com"}
+[2019-04-19T14:37:49.540] [INFO] default - registration done
+[2019-04-19T14:37:49.544] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'user1',
+     userId: '9a475f30-6282-11e9-975a-19728ca7dee2' } }
+[2019-04-19T14:37:49.578] [INFO] default - user register route
+[2019-04-19T14:37:49.580] [INFO] default - register user: {"password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:37:49.603] [INFO] default - user login route
+[2019-04-19T14:37:49.606] [INFO] default - login user: {"username":"user1","password":"pass1"}
+[2019-04-19T14:37:49.614] [INFO] default - login with payload { userName: 'user1',
+  userId: '9a475f30-6282-11e9-975a-19728ca7dee2' }
+[2019-04-19T14:37:49.634] [INFO] default - user login route
+[2019-04-19T14:37:49.637] [INFO] default - login user: {"username":"user1","password":"1346546"}
+[2019-04-19T14:37:49.653] [INFO] default - user login route
+[2019-04-19T14:37:49.655] [INFO] default - login user: {"username":"user11111","password":"pass1"}
+[2019-04-19T14:37:49.671] [INFO] default - user login route
+[2019-04-19T14:37:49.673] [INFO] default - login user: {"username":"user2","password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:37:49.695] [INFO] default - getUsers route
+[2019-04-19T14:37:49.700] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1' ] }
+[2019-04-19T14:38:33.685] [INFO] default - Setting up API middleware
+[2019-04-19T14:38:33.706] [INFO] default - Server is running on port 3000
+[2019-04-19T14:38:34.729] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:38:44.757] [INFO] default - Setting up API middleware
+[2019-04-19T14:38:45.828] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T14:38:46.911] [INFO] default - user register route
+[2019-04-19T14:38:46.912] [INFO] default - register user: {"username":"user1","password":"pass1","email":"test4@mail.com"}
+[2019-04-19T14:38:47.949] [INFO] default - registration done
+[2019-04-19T14:38:47.951] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'user1',
+     userId: 'bd163310-6282-11e9-b60f-95d1fcb37681' } }
+[2019-04-19T14:38:47.976] [INFO] default - user register route
+[2019-04-19T14:38:47.978] [INFO] default - register user: {"password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:38:47.988] [INFO] default - user login route
+[2019-04-19T14:38:47.989] [INFO] default - login user: {"username":"user1","password":"pass1"}
+[2019-04-19T14:38:47.994] [INFO] default - login with payload { userName: 'user1',
+  userId: 'bd163310-6282-11e9-b60f-95d1fcb37681' }
+[2019-04-19T14:38:48.000] [INFO] default - user login route
+[2019-04-19T14:38:48.001] [INFO] default - login user: {"username":"user1","password":"1346546"}
+[2019-04-19T14:38:48.009] [INFO] default - user login route
+[2019-04-19T14:38:48.010] [INFO] default - login user: {"username":"user11111","password":"pass1"}
+[2019-04-19T14:38:48.016] [INFO] default - user login route
+[2019-04-19T14:38:48.017] [INFO] default - login user: {"username":"user2","password":"pass2","email":"test2@mail.com"}
+[2019-04-19T14:38:48.024] [INFO] default - getUsers route
+[2019-04-19T14:38:48.028] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1' ] }
+[2019-04-19T16:07:36.437] [INFO] default - Setting up API middleware
+[2019-04-19T16:07:36.466] [INFO] default - Server is running on port 3000
+[2019-04-19T16:07:37.484] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:08:13.486] [INFO] default - Setting up API middleware
+[2019-04-19T16:08:13.518] [INFO] default - Server is running on port 3000
+[2019-04-19T16:08:14.543] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:11:04.647] [INFO] default - Setting up API middleware
+[2019-04-19T16:11:04.695] [INFO] default - Server is running on port 3000
+[2019-04-19T16:11:05.732] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:11:22.608] [INFO] default - Setting up API middleware
+[2019-04-19T16:11:22.632] [INFO] default - Server is running on port 3000
+[2019-04-19T16:11:23.656] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:11:38.312] [INFO] default - Setting up API middleware
+[2019-04-19T16:11:38.351] [INFO] default - Server is running on port 3000
+[2019-04-19T16:11:39.368] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:13:58.262] [ERROR] default - TypeError: cb is not a function
+    at jwt.sign (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:5:22)
+    at failure (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:111:12)
+    at Object.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:4:9)
+    at signAndGetJWTToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:54:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:317:13)
+[2019-04-19T16:15:32.163] [INFO] default - Setting up API middleware
+[2019-04-19T16:15:32.187] [INFO] default - Server is running on port 3000
+[2019-04-19T16:15:33.282] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:16:01.405] [ERROR] default - ReferenceError: err is not defined
+    at authService.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:55:7)
+    at jwt.sign (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:5:22)
+    at failure (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:111:12)
+    at Object.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:4:9)
+    at signAndGetJWTToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:54:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-19T16:16:16.761] [INFO] default - Setting up API middleware
+[2019-04-19T16:16:16.784] [INFO] default - Server is running on port 3000
+[2019-04-19T16:16:17.195] [INFO] default - err payload is required
+[2019-04-19T16:16:17.197] [ERROR] default - ReferenceError: reject is not defined
+    at authService.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:57:9)
+    at jwt.sign (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:5:22)
+    at failure (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:111:12)
+    at Object.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:4:9)
+    at signAndGetJWTToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:54:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-19T16:16:17.812] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:16:52.307] [INFO] default - err invalid expiresIn option for string payload
+[2019-04-19T16:16:52.311] [ERROR] default - ReferenceError: reject is not defined
+    at authService.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:57:9)
+    at jwt.sign (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:5:22)
+    at failure (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\sign.js:128:14)
+    at Object.signToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:4:9)
+    at signAndGetJWTToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:54:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-19T16:17:28.422] [INFO] default - Setting up API middleware
+[2019-04-19T16:17:28.450] [INFO] default - Server is running on port 3000
+[2019-04-19T16:17:29.480] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:17:32.885] [INFO] default - err invalid expiresIn option for string payload
+[2019-04-19T16:18:54.299] [INFO] default - Setting up API middleware
+[2019-04-19T16:18:54.343] [INFO] default - Server is running on port 3000
+[2019-04-19T16:18:55.365] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:19:00.098] [INFO] default - authConfig.expiry :  10h
+[2019-04-19T16:19:00.108] [INFO] default - err invalid expiresIn option for string payload
+[2019-04-19T16:20:04.421] [INFO] default - Setting up API middleware
+[2019-04-19T16:20:04.445] [INFO] default - Server is running on port 3000
+[2019-04-19T16:20:05.479] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:20:24.594] [INFO] default - user login route
+[2019-04-19T16:20:24.595] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-19T16:20:44.901] [INFO] default - user register route
+[2019-04-19T16:20:44.902] [INFO] default - register user: {"username":"pri","password":"pri","email":"test@mail.com"}
+[2019-04-19T16:20:45.929] [INFO] default - registration done
+[2019-04-19T16:20:45.930] [INFO] default - register response { message: 'Successfully registered',
+  status: 201,
+  userInfo:
+   { userName: 'pri',
+     userId: 'fbb16370-6290-11e9-aa86-97a08241820c' } }
+[2019-04-19T16:20:53.305] [INFO] default - user login route
+[2019-04-19T16:20:53.306] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-19T16:20:53.310] [INFO] default - login with payload { userName: 'pri',
+  userId: 'fbb16370-6290-11e9-aa86-97a08241820c' }
+[2019-04-19T16:20:53.310] [INFO] default - authConfig.expiry :  10h
+[2019-04-19T16:21:16.090] [INFO] default - Setting up API middleware
+[2019-04-19T16:21:16.115] [INFO] default - Server is running on port 3000
+[2019-04-19T16:21:17.141] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:21:26.795] [INFO] default - authConfig.expiry :  10h
+[2019-04-19T16:21:38.475] [INFO] default - Setting up API middleware
+[2019-04-19T16:21:38.499] [INFO] default - Server is running on port 3000
+[2019-04-19T16:21:39.533] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:21:45.505] [INFO] default - Setting up API middleware
+[2019-04-19T16:21:45.545] [INFO] default - Server is running on port 3000
+[2019-04-19T16:21:46.565] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T16:22:47.649] [INFO] default - Authentication check
+[2019-04-19T16:22:47.655] [INFO] default - User authenticated
+[2019-04-19T16:36:17.967] [INFO] default - Authentication check
+[2019-04-19T16:36:17.968] [INFO] default - User authenticated
+[2019-04-19T16:37:10.279] [INFO] default - Authentication check
+[2019-04-19T16:37:10.280] [INFO] default - User authenticated
+[2019-04-19T16:37:24.883] [INFO] default - Authentication check
+[2019-04-19T16:37:24.884] [INFO] default - User authenticated
+[2019-04-19T16:37:46.128] [INFO] default - Authentication check
+[2019-04-19T16:37:46.128] [INFO] default - User authenticated
+[2019-04-19T16:38:35.699] [INFO] default - Authentication check
+[2019-04-19T16:38:35.700] [INFO] default - User authenticated
+[2019-04-19T16:39:06.705] [INFO] default - Authentication check
+[2019-04-19T16:39:06.706] [INFO] default - User authenticated
+[2019-04-19T16:39:24.886] [INFO] default - Authentication check
+[2019-04-19T16:39:24.887] [INFO] default - User authenticated
+[2019-04-19T16:39:40.692] [INFO] default - Authentication check
+[2019-04-19T16:39:40.693] [INFO] default - User authenticated
+[2019-04-19T16:49:44.413] [INFO] default - Authentication check
+[2019-04-19T16:49:44.414] [INFO] default - User authenticated
+[2019-04-19T17:12:45.967] [INFO] default - Setting up API middleware
+[2019-04-19T17:12:45.999] [INFO] default - Server is running on port 3000
+[2019-04-19T17:12:47.031] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:14:37.972] [INFO] default - Setting up API middleware
+[2019-04-19T17:14:38.018] [INFO] default - Server is running on port 3000
+[2019-04-19T17:14:39.059] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T17:28:34.713] [INFO] default - Setting up API middleware
+[2019-04-19T17:28:34.737] [INFO] default - Server is running on port 3000
+[2019-04-19T17:28:35.772] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:16:54.832] [INFO] default - Setting up API middleware
+[2019-04-19T18:16:54.860] [INFO] default - Server is running on port 3000
+[2019-04-19T18:16:55.928] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-19T18:32:48.875] [INFO] default - Authentication check
+[2019-04-19T18:32:48.879] [INFO] default - User authenticated
+[2019-04-19T18:32:48.988] [INFO] default - Authentication check
+[2019-04-19T18:32:48.989] [INFO] default - User authenticated
+[2019-04-19T18:36:37.759] [INFO] default - Authentication check
+[2019-04-19T18:36:37.761] [INFO] default - User authenticated
+[2019-04-19T18:36:37.903] [INFO] default - Authentication check
+[2019-04-19T18:36:37.904] [INFO] default - User authenticated
+[2019-04-19T18:37:27.532] [INFO] default - Authentication check
+[2019-04-19T18:37:27.533] [INFO] default - User authenticated
+[2019-04-19T18:37:27.638] [INFO] default - Authentication check
+[2019-04-19T18:37:27.658] [INFO] default - User authenticated
+[2019-04-19T18:38:19.843] [INFO] default - Authentication check
+[2019-04-19T18:38:19.844] [INFO] default - User authenticated
+[2019-04-19T18:38:19.914] [INFO] default - Authentication check
+[2019-04-19T18:38:19.915] [INFO] default - User authenticated
+[2019-04-19T18:43:28.411] [INFO] default - Authentication check
+[2019-04-19T18:43:28.412] [INFO] default - User authenticated
+[2019-04-19T18:43:28.459] [INFO] default - Authentication check
+[2019-04-19T18:43:28.460] [INFO] default - User authenticated
+[2019-04-19T18:43:28.492] [INFO] default - Authentication check
+[2019-04-19T18:43:28.493] [INFO] default - User authenticated
+[2019-04-19T18:43:28.655] [INFO] default - Authentication check
+[2019-04-19T18:43:28.657] [INFO] default - User authenticated
