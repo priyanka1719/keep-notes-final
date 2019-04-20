@@ -6325,3 +6325,417 @@
 [2019-04-19T18:43:28.659] [INFO] default - authenticated
 [2019-04-19T18:43:28.663] [INFO] default - search using userid
 [2019-04-19T18:43:28.667] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T01:45:20.235] [INFO] default - Setting up API middleware
+[2019-04-20T01:45:21.007] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T01:46:25.873] [INFO] default - Setting up API middleware
+[2019-04-20T01:46:25.933] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T01:46:26.107] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:46:26.107] [INFO] default - authenticated
+[2019-04-20T01:46:26.297] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:46:26.298] [INFO] default - authenticated
+[2019-04-20T01:46:26.317] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:46:26.317] [INFO] default - authenticated
+[2019-04-20T01:46:26.318] [INFO] default - search using userid
+[2019-04-20T01:46:26.318] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T01:46:26.558] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:46:26.559] [INFO] default - authenticated
+[2019-04-20T01:46:26.560] [INFO] default - search using userid
+[2019-04-20T01:46:26.560] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T01:48:38.686] [INFO] default - Setting up API middleware
+[2019-04-20T01:48:38.779] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T01:48:38.991] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:38.992] [INFO] default - authenticated
+[2019-04-20T01:48:39.057] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:39.058] [INFO] default - authenticated
+[2019-04-20T01:48:39.079] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:39.079] [INFO] default - authenticated
+[2019-04-20T01:48:39.080] [INFO] default - search using userid
+[2019-04-20T01:48:39.081] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T01:48:39.109] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:39.110] [INFO] default - authenticated
+[2019-04-20T01:48:39.110] [INFO] default - search using userid
+[2019-04-20T01:48:39.110] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T01:48:39.131] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:39.131] [INFO] default - authenticated
+[2019-04-20T01:48:39.245] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:39.245] [INFO] default - authenticated
+[2019-04-20T01:48:49.253] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:49.254] [INFO] default - authenticated
+[2019-04-20T01:48:49.255] [INFO] default - inside share
+[2019-04-20T01:48:49.256] [INFO] default - noteID[] :  [ '5789dd40-62e0-11e9-8eba-c15335e4377e' ]
+[2019-04-20T01:48:49.259] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T01:48:49.386] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T01:48:59.263] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:48:59.263] [INFO] default - authenticated
+[2019-04-20T01:52:26.762] [INFO] default - Setting up API middleware
+[2019-04-20T01:52:26.818] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T01:52:26.919] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:26.925] [INFO] default - authenticated
+[2019-04-20T01:52:26.991] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:26.992] [INFO] default - authenticated
+[2019-04-20T01:52:27.013] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:27.013] [INFO] default - authenticated
+[2019-04-20T01:52:27.014] [INFO] default - search using userid
+[2019-04-20T01:52:27.014] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T01:52:27.044] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:27.045] [INFO] default - authenticated
+[2019-04-20T01:52:27.045] [INFO] default - search using userid
+[2019-04-20T01:52:27.045] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T01:52:27.062] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:27.062] [INFO] default - authenticated
+[2019-04-20T01:52:37.076] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:52:37.077] [INFO] default - authenticated
+[2019-04-20T01:54:38.585] [INFO] default - Setting up API middleware
+[2019-04-20T01:54:38.645] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T01:54:38.732] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.732] [INFO] default - authenticated
+[2019-04-20T01:54:38.779] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.780] [INFO] default - authenticated
+[2019-04-20T01:54:38.851] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.852] [INFO] default - authenticated
+[2019-04-20T01:54:38.852] [INFO] default - search using userid
+[2019-04-20T01:54:38.853] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T01:54:38.880] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.881] [INFO] default - authenticated
+[2019-04-20T01:54:38.881] [INFO] default - search using userid
+[2019-04-20T01:54:38.881] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T01:54:38.900] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.901] [INFO] default - authenticated
+[2019-04-20T01:54:38.923] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.923] [INFO] default - authenticated
+[2019-04-20T01:54:38.948] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.948] [INFO] default - authenticated
+[2019-04-20T01:54:38.949] [INFO] default - inside share
+[2019-04-20T01:54:38.949] [INFO] default - noteID[] :  [ '27fa75c0-62e1-11e9-adfa-7df0c6bd17a8' ]
+[2019-04-20T01:54:38.951] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T01:54:38.958] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T01:54:38.970] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T01:54:38.970] [INFO] default - authenticated
+[2019-04-20T21:02:08.913] [INFO] default - Setting up API middleware
+[2019-04-20T21:02:11.264] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:02:12.955] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:12.956] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:12.984] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:12.985] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:12.993] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:12.993] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:13.002] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:13.002] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:13.068] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:13.068] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:13.086] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:13.086] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:13.095] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:13.096] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:13.110] [INFO] default - body in auth svc undefined
+[2019-04-20T21:02:13.111] [INFO] default - error in notes auth svc { Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000 }
+[2019-04-20T21:02:34.271] [INFO] default - Setting up API middleware
+[2019-04-20T21:02:34.328] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:02:34.438] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:34.439] [INFO] default - authenticated
+[2019-04-20T21:02:34.838] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:34.838] [INFO] default - authenticated
+[2019-04-20T21:02:34.856] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:34.857] [INFO] default - authenticated
+[2019-04-20T21:02:34.857] [INFO] default - search using userid
+[2019-04-20T21:02:34.858] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:02:35.136] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:35.137] [INFO] default - authenticated
+[2019-04-20T21:02:35.137] [INFO] default - search using userid
+[2019-04-20T21:02:35.137] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:02:35.189] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:35.190] [INFO] default - authenticated
+[2019-04-20T21:02:35.565] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:35.566] [INFO] default - authenticated
+[2019-04-20T21:02:35.756] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:35.756] [INFO] default - authenticated
+[2019-04-20T21:02:35.757] [INFO] default - inside share
+[2019-04-20T21:02:35.757] [INFO] default - noteID[] :  [ '85c063e0-6381-11e9-ba30-611d50ce6ad2' ]
+[2019-04-20T21:02:35.759] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:02:35.825] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:02:35.844] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:02:35.844] [INFO] default - authenticated
+[2019-04-20T21:03:52.817] [INFO] default - Setting up API middleware
+[2019-04-20T21:03:52.908] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:03:52.994] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:52.994] [INFO] default - authenticated
+[2019-04-20T21:03:53.093] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.093] [INFO] default - authenticated
+[2019-04-20T21:03:53.117] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.118] [INFO] default - authenticated
+[2019-04-20T21:03:53.118] [INFO] default - search using userid
+[2019-04-20T21:03:53.119] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:03:53.145] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.145] [INFO] default - authenticated
+[2019-04-20T21:03:53.146] [INFO] default - search using userid
+[2019-04-20T21:03:53.146] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:03:53.167] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.168] [INFO] default - authenticated
+[2019-04-20T21:03:53.192] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.193] [INFO] default - authenticated
+[2019-04-20T21:03:53.215] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.216] [INFO] default - authenticated
+[2019-04-20T21:03:53.218] [INFO] default - inside share
+[2019-04-20T21:03:53.219] [INFO] default - noteID[] :  [ 'b3ec9c70-6381-11e9-b132-bde080374649' ]
+[2019-04-20T21:03:53.221] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:03:53.229] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:03:53.239] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:03:53.240] [INFO] default - authenticated
+[2019-04-20T21:05:52.900] [INFO] default - Setting up API middleware
+[2019-04-20T21:05:52.960] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:05:53.049] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.049] [INFO] default - authenticated
+[2019-04-20T21:05:53.100] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.100] [INFO] default - authenticated
+[2019-04-20T21:05:53.121] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.121] [INFO] default - authenticated
+[2019-04-20T21:05:53.122] [INFO] default - search using userid
+[2019-04-20T21:05:53.122] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:05:53.156] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.156] [INFO] default - authenticated
+[2019-04-20T21:05:53.156] [INFO] default - search using userid
+[2019-04-20T21:05:53.157] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:05:53.202] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.204] [INFO] default - authenticated
+[2019-04-20T21:05:53.240] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.242] [INFO] default - authenticated
+[2019-04-20T21:05:53.266] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.268] [INFO] default - authenticated
+[2019-04-20T21:05:53.269] [INFO] default - inside share
+[2019-04-20T21:05:53.269] [INFO] default - noteID[] :  [ 'fb7ac990-6381-11e9-9227-8529b2e7b1a1' ]
+[2019-04-20T21:05:53.272] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:05:53.280] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:05:53.292] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:05:53.292] [INFO] default - authenticated
+[2019-04-20T21:07:08.698] [INFO] default - Setting up API middleware
+[2019-04-20T21:07:08.807] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:07:09.118] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.124] [INFO] default - authenticated
+[2019-04-20T21:07:09.196] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.197] [INFO] default - authenticated
+[2019-04-20T21:07:09.216] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.217] [INFO] default - authenticated
+[2019-04-20T21:07:09.217] [INFO] default - search using userid
+[2019-04-20T21:07:09.218] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:07:09.248] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.248] [INFO] default - authenticated
+[2019-04-20T21:07:09.248] [INFO] default - search using userid
+[2019-04-20T21:07:09.249] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:07:09.264] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.265] [INFO] default - authenticated
+[2019-04-20T21:07:09.290] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.290] [INFO] default - authenticated
+[2019-04-20T21:07:09.318] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.319] [INFO] default - authenticated
+[2019-04-20T21:07:09.320] [INFO] default - inside share
+[2019-04-20T21:07:09.320] [INFO] default - noteID[] :  [ '28cef1a0-6382-11e9-b7f8-196ac7ff9d4e' ]
+[2019-04-20T21:07:09.322] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:07:09.329] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:07:09.342] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:07:09.343] [INFO] default - authenticated
+[2019-04-20T21:07:09.344] [INFO] default - noteIds : [ '28d2e940-6382-11e9-b7f8-196ac7ff9d4e' ]
+[2019-04-20T21:07:09.345] [INFO] default - groupName : group1
+[2019-04-20T21:07:09.346] [INFO] default - adding notes to group: group1
+[2019-04-20T21:07:09.351] [INFO] default - error : null
+[2019-04-20T21:07:09.351] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:13:05.365] [INFO] default - Setting up API middleware
+[2019-04-20T21:13:05.442] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:13:05.536] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.537] [INFO] default - authenticated
+[2019-04-20T21:13:05.585] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.585] [INFO] default - authenticated
+[2019-04-20T21:13:05.606] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.607] [INFO] default - authenticated
+[2019-04-20T21:13:05.607] [INFO] default - search using userid
+[2019-04-20T21:13:05.608] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:13:05.637] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.638] [INFO] default - authenticated
+[2019-04-20T21:13:05.638] [INFO] default - search using userid
+[2019-04-20T21:13:05.638] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:13:05.654] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.655] [INFO] default - authenticated
+[2019-04-20T21:13:05.678] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.679] [INFO] default - authenticated
+[2019-04-20T21:13:05.705] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.706] [INFO] default - authenticated
+[2019-04-20T21:13:05.706] [INFO] default - inside share
+[2019-04-20T21:13:05.707] [INFO] default - noteID[] :  [ 'fd3bbe00-6382-11e9-8cf9-213567a2e4ea' ]
+[2019-04-20T21:13:05.708] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:13:05.715] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:13:05.730] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:13:05.730] [INFO] default - authenticated
+[2019-04-20T21:13:05.733] [INFO] default - adding notes to group: group1
+[2019-04-20T21:14:43.605] [INFO] default - Setting up API middleware
+[2019-04-20T21:14:43.700] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:14:43.782] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.782] [INFO] default - authenticated
+[2019-04-20T21:14:43.834] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.835] [INFO] default - authenticated
+[2019-04-20T21:14:43.849] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.850] [INFO] default - authenticated
+[2019-04-20T21:14:43.850] [INFO] default - search using userid
+[2019-04-20T21:14:43.851] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:14:43.879] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.880] [INFO] default - authenticated
+[2019-04-20T21:14:43.880] [INFO] default - search using userid
+[2019-04-20T21:14:43.880] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:14:43.897] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.898] [INFO] default - authenticated
+[2019-04-20T21:14:43.919] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.920] [INFO] default - authenticated
+[2019-04-20T21:14:43.946] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.946] [INFO] default - authenticated
+[2019-04-20T21:14:43.947] [INFO] default - inside share
+[2019-04-20T21:14:43.947] [INFO] default - noteID[] :  [ '37ca2110-6383-11e9-89a7-f742a28db75e' ]
+[2019-04-20T21:14:43.948] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:14:43.955] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:14:43.969] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.971] [INFO] default - authenticated
+[2019-04-20T21:14:43.972] [INFO] default - adding notes to group: group1
+[2019-04-20T21:14:43.985] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:14:43.986] [INFO] default - authenticated
+[2019-04-20T21:15:49.032] [INFO] default - Setting up API middleware
+[2019-04-20T21:15:49.088] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:15:49.212] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.213] [INFO] default - authenticated
+[2019-04-20T21:15:49.283] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.283] [INFO] default - authenticated
+[2019-04-20T21:15:49.304] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.304] [INFO] default - authenticated
+[2019-04-20T21:15:49.305] [INFO] default - search using userid
+[2019-04-20T21:15:49.306] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:15:49.343] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.344] [INFO] default - authenticated
+[2019-04-20T21:15:49.345] [INFO] default - search using userid
+[2019-04-20T21:15:49.345] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:15:49.367] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.367] [INFO] default - authenticated
+[2019-04-20T21:15:49.388] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.388] [INFO] default - authenticated
+[2019-04-20T21:15:49.414] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.415] [INFO] default - authenticated
+[2019-04-20T21:15:49.419] [INFO] default - inside share
+[2019-04-20T21:15:49.420] [INFO] default - noteID[] :  [ '5ecfe7e0-6383-11e9-a251-a373a27b85bc' ]
+[2019-04-20T21:15:49.422] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:15:49.429] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:15:49.443] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.443] [INFO] default - authenticated
+[2019-04-20T21:15:49.444] [INFO] default - adding notes to group: group1
+[2019-04-20T21:15:49.461] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:15:49.462] [INFO] default - authenticated
+[2019-04-20T21:16:31.210] [INFO] default - Setting up API middleware
+[2019-04-20T21:16:31.285] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:16:31.375] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.376] [INFO] default - authenticated
+[2019-04-20T21:16:31.421] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.421] [INFO] default - authenticated
+[2019-04-20T21:16:31.437] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.439] [INFO] default - authenticated
+[2019-04-20T21:16:31.440] [INFO] default - search using userid
+[2019-04-20T21:16:31.441] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:16:31.466] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.466] [INFO] default - authenticated
+[2019-04-20T21:16:31.466] [INFO] default - search using userid
+[2019-04-20T21:16:31.467] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:16:31.485] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.485] [INFO] default - authenticated
+[2019-04-20T21:16:31.512] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.512] [INFO] default - authenticated
+[2019-04-20T21:16:31.537] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.538] [INFO] default - authenticated
+[2019-04-20T21:16:31.539] [INFO] default - inside share
+[2019-04-20T21:16:31.540] [INFO] default - noteID[] :  [ '77eb3680-6383-11e9-a548-6986dc000120' ]
+[2019-04-20T21:16:31.542] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:16:31.550] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:16:31.561] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.562] [INFO] default - authenticated
+[2019-04-20T21:16:31.563] [INFO] default - adding notes to group: group1
+[2019-04-20T21:16:31.583] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:16:31.584] [INFO] default - authenticated
+[2019-04-20T21:16:31.584] [INFO] default - note id to delete [ '77f17810-6383-11e9-a548-6986dc000120' ]
+[2019-04-20T21:16:31.588] [DEBUG] default - notes deleted
+[2019-04-20T21:23:28.477] [INFO] default - Setting up API middleware
+[2019-04-20T21:23:28.537] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-20T21:23:28.624] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.624] [INFO] default - authenticated
+[2019-04-20T21:23:28.713] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.714] [INFO] default - authenticated
+[2019-04-20T21:23:28.733] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.734] [INFO] default - authenticated
+[2019-04-20T21:23:28.734] [INFO] default - search using userid
+[2019-04-20T21:23:28.734] [INFO] default - getting note for userID :  user-id-1
+[2019-04-20T21:23:28.765] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.765] [INFO] default - authenticated
+[2019-04-20T21:23:28.765] [INFO] default - search using userid
+[2019-04-20T21:23:28.766] [INFO] default - getting note for userID :  user-id-2
+[2019-04-20T21:23:28.787] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.787] [INFO] default - authenticated
+[2019-04-20T21:23:28.807] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.808] [INFO] default - authenticated
+[2019-04-20T21:23:28.835] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.835] [INFO] default - authenticated
+[2019-04-20T21:23:28.836] [INFO] default - inside share
+[2019-04-20T21:23:28.836] [INFO] default - noteID[] :  [ '70a5d5a0-6384-11e9-a86e-a91451cf8522' ]
+[2019-04-20T21:23:28.838] [INFO] default - userIds[] :  [ { userID: 'user-id-1', access: 'view' } ]
+[2019-04-20T21:23:28.844] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:23:28.861] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.861] [INFO] default - authenticated
+[2019-04-20T21:23:28.862] [INFO] default - adding notes to group: group1
+[2019-04-20T21:23:28.877] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.877] [INFO] default - authenticated
+[2019-04-20T21:23:28.878] [INFO] default - note id to delete [ '70ac3e40-6384-11e9-a86e-a91451cf8522' ]
+[2019-04-20T21:23:28.884] [DEBUG] default - notes deleted
+[2019-04-20T21:23:28.896] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:28.896] [INFO] default - authenticated
+[2019-04-20T21:23:29.115] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }
+[2019-04-20T21:23:29.136] [INFO] default - body in auth svc {"isAuthenticated":true,"message":"User Authenticated"}
+[2019-04-20T21:23:29.136] [INFO] default - authenticated
+[2019-04-20T21:23:29.139] [INFO] default - data : { n: 1, nModified: 1, ok: 1 }

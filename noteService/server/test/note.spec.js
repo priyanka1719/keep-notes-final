@@ -6,6 +6,8 @@ const config = require('./config.test');
 const app = require('../app');
 const modules = require('../module');
 
+const uuidv1 = require('uuid/v1');
+
 let user1TokenJWT;
 let user2TokenJWT;
 
@@ -174,11 +176,324 @@ describe('Testing Note Retrieval', () => {
       });
   });
 
+  //positive
+  it('get all notes for noteid', (done) => {
+
+    let note1 = config.listOfNotes.note_1_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteid = savednote.id;
+
+        request(app)
+          .get(`/api/v1/notes/${savednoteid}`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .expect(200)
+          .end((err, response) => {
+
+            if (err) {
+              return done(err);
+            } else {
+              let notefound = response.body.note;
+
+              notefound.should.not.equal(undefined);
+              notefound.should.not.equal(null);
+
+              notefound.title.should.equal(note1.title, 'Title of the found note does not match');
+
+              done();
+            }
+          });
+
+      }
+    });
+
+  });
+
 });
 
 describe('Testing Note update', () => {
   it('Should update note for user1', (done) => {
 
+    let note1 = config.listOfNotes.note_1_valid;
+    let note1_updated = config.listOfNotes.note_1_updated;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteid = savednote.id;
+
+        request(app)
+          .put(`/api/v1/notes/${savednoteid}`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .send(note1_updated)
+          .expect(200)
+          .end((err, response) => {
+
+            if (err) {
+              return done(err);
+            } else {
+              let updatednote = response.body.note;
+
+              updatednote.should.not.equal(undefined);
+              updatednote.should.not.equal(null);
+
+              updatednote.text.should.equal(note1_updated.text, 'Text of the updated note does not match');
+
+              done();
+            }
+          });
+
+      }
+    });
+
   });
-  
+
+});
+
+describe('Testing sharing and grouping notes', () => {
+
+  it('should share note to one or multiple users', (done) => {
+
+    let note1 = config.listOfNotes.note_1_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteids = [savednote.id];
+        let sharedTo = [{
+          userID: savednote.userId,
+          access: 'view'
+        }];
+
+        let reqdata = {
+          noteId: savednoteids,
+          sharedTo: sharedTo
+        }
+
+        request(app)
+          .put(`/api/v1/notes/share`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .send(reqdata)
+          .expect(200)
+          .end((err, response) => {
+
+            if (err) {
+              return done(err);
+            } else {
+              let updatednote = response.body.data;
+
+              //data.n > 0
+              updatednote.should.not.equal(undefined);
+              updatednote.should.not.equal(null);
+
+              updatednote.n.should.be.above(0);
+
+              done();
+            }
+          });
+
+      }
+    });
+
+
+  });
+
+
+
+  it('should group note to one or multiple users', (done) => {
+
+    let note2 = config.listOfNotes.note_2_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note2.title,
+      text: note2.text,
+      userId: note2.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteids = [savednote.id];
+
+        let reqdata = {
+          noteId: savednoteids,
+          groupName: 'group1'
+        }
+
+        request(app)
+          .put(`/api/v1/notes/addGroup`)
+          .set('Authorization', `Bearer ${user2TokenJWT}`)
+          .send(reqdata)
+          .expect(200)
+          .end((err, response) => {
+            console.log('error in group notes :', err)
+            if (err) {
+              return done(err);
+            } else {
+              let updatednote = response.body.data;
+
+              //data.n > 0
+              updatednote.should.not.equal(undefined);
+              updatednote.should.not.equal(null);
+
+              updatednote.n.should.be.above(0);
+
+              done();
+            }
+          });
+      }
+    });
+  });
+});
+
+describe('Testing Note delete', () => {
+  it('Should delete one or multiple notes', (done) => {
+
+    let note1 = config.listOfNotes.note_1_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteid = {
+          noteId: [savednote.id]
+        };
+
+        request(app)
+          .post(`/api/v1/notes/delete`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .send(savednoteid)
+          .expect(200)
+          .end((error, response) => {
+            if (error) {
+              return done(error);
+            } else {
+              done();
+            }
+
+          });
+
+      }
+    });
+
+  });
+
+});
+
+describe('Testing Note add/remove favourites', () => {
+  it('Should add to favourite one or multiple notes', (done) => {
+
+    let note1 = config.listOfNotes.note_1_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteid = {
+          noteId: [savednote.id]
+        };
+
+        request(app)
+          .put(`/api/v1/notes/addFavorites`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .send(savednoteid)
+          .expect(200)
+          .end((error, response) => {
+            if (error) {
+              return done(error);
+            } else {
+
+              response.body.message.should.equal('Notes added to favourites.', 'Response message do not match')
+              done();
+            }
+
+          });
+
+      }
+    });
+
+  });
+
+  it('Should remove from favourite one or multiple notes', (done) => {
+
+    let note1 = config.listOfNotes.note_1_valid;
+
+    let note = new modules.noteModel({
+      id: uuidv1(),
+      title: note1.title,
+      text: note1.text,
+      userId: note1.userId
+    });
+
+    note.save((error, savednote) => {
+      if (error) {
+        return done(error);
+      } else {
+        let savednoteid = {
+          noteId: [savednote.id]
+        };
+
+        request(app)
+          .put(`/api/v1/notes/removeFavorites`)
+          .set('Authorization', `Bearer ${user1TokenJWT}`)
+          .send(savednoteid)
+          .expect(200)
+          .end((error, response) => {
+            if (error) {
+              return done(error);
+            } else {
+
+              response.body.message.should.equal('Notes removed from favourites.', 'Response message do not match')
+              done();
+            }
+
+          });
+
+      }
+    });
+
+  });
+
 });
