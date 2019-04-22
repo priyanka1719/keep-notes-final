@@ -122,7 +122,16 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+security:
+  - ApiKeyAuth: []
+  - OAuth2:
+      - read
+      - write
 components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
   schemas:
     User:
       required:
