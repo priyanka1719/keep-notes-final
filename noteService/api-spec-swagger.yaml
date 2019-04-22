@@ -1,0 +1,157 @@
+openapi: 3.0.1
+info:
+  title: Keep Notes - Notes Micro Service
+  version: 1.0.0
+  description: >-
+    This micro service is used creating/saving/modifying and all other
+    operations related to notes. It uses 'Bearer' Token for User authentication
+servers:
+  - url: '''http://localhost:3001/api/v1'''
+paths:
+  /:
+    get:
+      summary: Filters and fetches a note for a user
+      tags:
+        - notes
+        - users
+      responses:
+        200:
+          description: Succesfully fetched notes
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Note'
+        500:
+          description: Unexpected Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: Creates a note for a user
+      tags:
+        - notes
+        - users
+      requestBody:
+        description: Details to create a Note
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Note'
+        required: true
+      responses:
+        201:
+          description: Succesfully created notes
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Note'
+        500:
+          description: Unexpected Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /share:
+    summary: Shares one or multiple Notes as 'notifications' to other users
+    put:
+      tags:
+        - notes
+        - users
+      requestBody: ###recheck and start
+        description: Details to create a Note
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Note'
+        required: true
+      responses:
+        201:
+          description: Succesfully created notes
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Note'
+        500:
+          description: Unexpected Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /delete:
+    summary: Deletes one or multiple Notes
+  /addFavorites:
+    summary: Marks one or multiple Notes as 'favourites'
+  /removeFavorites:
+    summary: Marks one or multiple Notes as 'favourites'
+  /addGroup:
+    summary: Adds one or multiple Notes to a Group
+  '/:noteId':
+    summary: Fetch a Note using id
+  '/:noteId/isAllowed':
+    summary: Checks if the Note is allowed for an user
+security:
+  - ApiKeyAuth: []
+  - OAuth2:
+      - read
+      - write
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    Note:
+      required:
+        - id
+        - title
+        - text
+        - userId
+        - createdOn
+        - modifiedOn
+        - isFavourite
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        text:
+          type: string
+        state:
+          type: string
+          enum:
+            - started
+            - not-started
+            - completed
+        userId:
+          type: string
+        createdOn:
+          type: string
+          format: date-time
+        modifiedOn:
+          type: string
+          format: date-time
+        sharedTo:
+          type: array
+          items:
+            type: string
+        isFavourite:
+          type: boolean
+        groupName:
+          type: string
+    Error:
+      required:
+        - message
+        - status
+      type: object
+      properties:
+        message:
+          type: string
+        status:
+          type: string
+    Auth:
+      type: object
+      properties:
+        Authorization:
+          type: string
