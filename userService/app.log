@@ -5910,3 +5910,283 @@
 [2019-04-22T01:19:59.761] [INFO] default - User authenticated
 [2019-04-23T01:30:54.594] [INFO] default - Server is running on port 3000
 [2019-04-23T01:30:54.646] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-25T15:59:57.650] [INFO] default - Server is running on port 3000
+[2019-04-25T15:59:59.670] [ERROR] default - Failed to connect to database.
+[2019-04-25T15:59:59.672] [ERROR] default - { MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb-core\lib\topologies\server.js:564:11)
+    at Pool.emit (events.js:189:13)
+    at Connection.<anonymous> (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb-core\lib\connection\pool.js:317:12)
+    at Object.onceWrapper (events.js:277:13)
+    at Connection.emit (events.js:189:13)
+    at Socket.<anonymous> (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\mongodb-core\lib\connection\connection.js:246:50)
+    at Object.onceWrapper (events.js:277:13)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-04-25T16:02:12.317] [INFO] default - Server is running on port 3000
+[2019-04-25T16:02:13.453] [INFO] default - Successfully connected to database: mongodb://localhost:27017/keep
+[2019-04-25T16:08:50.110] [INFO] default - Authentication check
+[2019-04-25T16:08:50.143] [INFO] default - User authenticated
+[2019-04-25T16:08:50.144] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\response.js:158:21)
+    at authService.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:37:23)
+    at jwt.verify (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:12:22)
+    at C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:152:16
+    at getSecret (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.verifyToken (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.service.js:11:9)
+    at checkAuthentication (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\server\api\v1\auth\auth.middleware.js:25:17)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\404110\Desktop\StackRoute\Assignments\keep-notes-final\userService\node_modules\express\lib\router\layer.js:95:5)
+[2019-04-25T16:08:57.495] [INFO] default - user login route
+[2019-04-25T16:08:57.497] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-25T16:08:57.919] [INFO] default - login with payload { userName: 'pri',
+  userId: 'fbb16370-6290-11e9-aa86-97a08241820c' }
+[2019-04-25T16:08:57.951] [INFO] default - Authentication check
+[2019-04-25T16:08:57.952] [INFO] default - User authenticated
+[2019-04-25T16:08:58.206] [INFO] default - Authentication check
+[2019-04-25T16:08:58.207] [INFO] default - User authenticated
+[2019-04-25T16:08:58.227] [INFO] default - Authentication check
+[2019-04-25T16:08:58.227] [INFO] default - User authenticated
+[2019-04-25T16:09:04.722] [INFO] default - Authentication check
+[2019-04-25T16:09:04.723] [INFO] default - User authenticated
+[2019-04-25T16:09:08.870] [INFO] default - getUsers route
+[2019-04-25T16:09:08.876] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:10:08.341] [INFO] default - Authentication check
+[2019-04-25T16:10:08.343] [INFO] default - User authenticated
+[2019-04-25T16:12:34.838] [INFO] default - Authentication check
+[2019-04-25T16:12:34.839] [INFO] default - User authenticated
+[2019-04-25T16:12:36.797] [INFO] default - getUsers route
+[2019-04-25T16:12:36.800] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:12:43.747] [INFO] default - Authentication check
+[2019-04-25T16:12:43.748] [INFO] default - User authenticated
+[2019-04-25T16:12:49.248] [INFO] default - Authentication check
+[2019-04-25T16:12:49.249] [INFO] default - User authenticated
+[2019-04-25T16:12:51.553] [INFO] default - getUsers route
+[2019-04-25T16:12:51.556] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:13:01.457] [INFO] default - Authentication check
+[2019-04-25T16:13:01.458] [INFO] default - User authenticated
+[2019-04-25T16:16:41.507] [INFO] default - getUsers route
+[2019-04-25T16:16:41.509] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:17:23.402] [INFO] default - Authentication check
+[2019-04-25T16:17:23.403] [INFO] default - User authenticated
+[2019-04-25T16:17:25.056] [INFO] default - getUsers route
+[2019-04-25T16:17:25.060] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:26:11.398] [INFO] default - Authentication check
+[2019-04-25T16:26:11.399] [INFO] default - User authenticated
+[2019-04-25T16:28:37.705] [INFO] default - getUsers route
+[2019-04-25T16:28:37.708] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:35:36.732] [INFO] default - getUsers route
+[2019-04-25T16:35:36.734] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:36:18.746] [INFO] default - getUsers route
+[2019-04-25T16:36:18.748] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:37:47.963] [INFO] default - Authentication check
+[2019-04-25T16:37:47.965] [INFO] default - User authenticated
+[2019-04-25T16:37:49.413] [INFO] default - Authentication check
+[2019-04-25T16:37:49.415] [INFO] default - User authenticated
+[2019-04-25T16:37:50.478] [INFO] default - Authentication check
+[2019-04-25T16:37:50.538] [INFO] default - User authenticated
+[2019-04-25T16:41:39.379] [INFO] default - getUsers route
+[2019-04-25T16:41:39.382] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:44:43.584] [INFO] default - Authentication check
+[2019-04-25T16:44:43.585] [INFO] default - User authenticated
+[2019-04-25T16:44:45.426] [INFO] default - Authentication check
+[2019-04-25T16:44:45.427] [INFO] default - User authenticated
+[2019-04-25T16:44:45.495] [INFO] default - Authentication check
+[2019-04-25T16:44:45.496] [INFO] default - User authenticated
+[2019-04-25T16:44:51.361] [INFO] default - getUsers route
+[2019-04-25T16:44:51.365] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:45:05.555] [INFO] default - Authentication check
+[2019-04-25T16:45:05.556] [INFO] default - User authenticated
+[2019-04-25T16:45:35.480] [INFO] default - getUsers route
+[2019-04-25T16:45:35.483] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:49:02.417] [INFO] default - Authentication check
+[2019-04-25T16:49:02.418] [INFO] default - User authenticated
+[2019-04-25T16:49:02.600] [INFO] default - Authentication check
+[2019-04-25T16:49:02.645] [INFO] default - User authenticated
+[2019-04-25T16:49:02.653] [INFO] default - Authentication check
+[2019-04-25T16:49:02.654] [INFO] default - User authenticated
+[2019-04-25T16:50:00.213] [INFO] default - getUsers route
+[2019-04-25T16:50:00.215] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:50:54.123] [INFO] default - getUsers route
+[2019-04-25T16:50:54.171] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:51:22.467] [INFO] default - Authentication check
+[2019-04-25T16:51:22.506] [INFO] default - User authenticated
+[2019-04-25T16:51:24.212] [INFO] default - Authentication check
+[2019-04-25T16:51:24.213] [INFO] default - User authenticated
+[2019-04-25T16:51:24.279] [INFO] default - Authentication check
+[2019-04-25T16:51:24.280] [INFO] default - User authenticated
+[2019-04-25T16:51:26.005] [INFO] default - getUsers route
+[2019-04-25T16:51:26.083] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:51:40.291] [INFO] default - getUsers route
+[2019-04-25T16:51:40.361] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:51:58.954] [INFO] default - getUsers route
+[2019-04-25T16:51:58.957] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:52:36.142] [INFO] default - getUsers route
+[2019-04-25T16:52:36.144] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:54:07.792] [INFO] default - Authentication check
+[2019-04-25T16:54:07.796] [INFO] default - User authenticated
+[2019-04-25T16:54:08.096] [INFO] default - getUsers route
+[2019-04-25T16:54:08.098] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:54:08.257] [INFO] default - Authentication check
+[2019-04-25T16:54:08.311] [INFO] default - User authenticated
+[2019-04-25T16:54:08.317] [INFO] default - Authentication check
+[2019-04-25T16:54:08.319] [INFO] default - User authenticated
+[2019-04-25T16:54:13.310] [INFO] default - getUsers route
+[2019-04-25T16:54:13.314] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:54:44.931] [INFO] default - Authentication check
+[2019-04-25T16:54:44.953] [INFO] default - User authenticated
+[2019-04-25T16:54:58.008] [INFO] default - getUsers route
+[2019-04-25T16:54:58.010] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:55:00.165] [INFO] default - Authentication check
+[2019-04-25T16:55:00.166] [INFO] default - User authenticated
+[2019-04-25T16:55:01.823] [INFO] default - getUsers route
+[2019-04-25T16:55:01.855] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:55:03.983] [INFO] default - Authentication check
+[2019-04-25T16:55:04.069] [INFO] default - User authenticated
+[2019-04-25T16:55:06.763] [INFO] default - getUsers route
+[2019-04-25T16:55:06.765] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T16:55:11.592] [INFO] default - Authentication check
+[2019-04-25T16:55:11.593] [INFO] default - User authenticated
+[2019-04-25T16:55:59.609] [INFO] default - Authentication check
+[2019-04-25T16:55:59.615] [INFO] default - User authenticated
+[2019-04-25T16:55:59.820] [INFO] default - Authentication check
+[2019-04-25T16:55:59.821] [INFO] default - User authenticated
+[2019-04-25T16:55:59.846] [INFO] default - Authentication check
+[2019-04-25T16:55:59.847] [INFO] default - User authenticated
+[2019-04-25T16:56:30.952] [INFO] default - Authentication check
+[2019-04-25T16:56:30.969] [INFO] default - User authenticated
+[2019-04-25T16:56:31.235] [INFO] default - Authentication check
+[2019-04-25T16:56:31.236] [INFO] default - User authenticated
+[2019-04-25T16:56:31.279] [INFO] default - Authentication check
+[2019-04-25T16:56:31.299] [INFO] default - User authenticated
+[2019-04-25T16:56:46.548] [INFO] default - Authentication check
+[2019-04-25T16:56:46.549] [INFO] default - User authenticated
+[2019-04-25T16:56:46.732] [INFO] default - Authentication check
+[2019-04-25T16:56:46.762] [INFO] default - User authenticated
+[2019-04-25T16:56:46.833] [INFO] default - Authentication check
+[2019-04-25T16:56:46.835] [INFO] default - User authenticated
+[2019-04-25T16:57:29.313] [INFO] default - Authentication check
+[2019-04-25T16:57:29.314] [INFO] default - User authenticated
+[2019-04-25T16:57:29.561] [INFO] default - Authentication check
+[2019-04-25T16:57:29.562] [INFO] default - User authenticated
+[2019-04-25T16:57:29.582] [INFO] default - Authentication check
+[2019-04-25T16:57:29.606] [INFO] default - User authenticated
+[2019-04-25T16:59:25.446] [INFO] default - Authentication check
+[2019-04-25T16:59:25.447] [INFO] default - User authenticated
+[2019-04-25T16:59:25.628] [INFO] default - Authentication check
+[2019-04-25T16:59:25.629] [INFO] default - User authenticated
+[2019-04-25T16:59:25.771] [INFO] default - Authentication check
+[2019-04-25T16:59:25.772] [INFO] default - User authenticated
+[2019-04-25T16:59:38.669] [INFO] default - Authentication check
+[2019-04-25T16:59:38.720] [INFO] default - User authenticated
+[2019-04-25T16:59:38.885] [INFO] default - Authentication check
+[2019-04-25T16:59:38.886] [INFO] default - User authenticated
+[2019-04-25T16:59:38.951] [INFO] default - Authentication check
+[2019-04-25T16:59:38.953] [INFO] default - User authenticated
+[2019-04-25T16:59:57.825] [INFO] default - Authentication check
+[2019-04-25T16:59:57.828] [INFO] default - User authenticated
+[2019-04-25T16:59:57.990] [INFO] default - Authentication check
+[2019-04-25T16:59:57.991] [INFO] default - User authenticated
+[2019-04-25T16:59:58.124] [INFO] default - Authentication check
+[2019-04-25T16:59:58.127] [INFO] default - User authenticated
+[2019-04-25T17:00:37.148] [INFO] default - Authentication check
+[2019-04-25T17:00:37.149] [INFO] default - User authenticated
+[2019-04-25T17:00:37.373] [INFO] default - Authentication check
+[2019-04-25T17:00:37.374] [INFO] default - User authenticated
+[2019-04-25T17:00:37.409] [INFO] default - Authentication check
+[2019-04-25T17:00:37.410] [INFO] default - User authenticated
+[2019-04-25T17:00:58.472] [INFO] default - Authentication check
+[2019-04-25T17:00:58.486] [INFO] default - User authenticated
+[2019-04-25T17:00:58.711] [INFO] default - Authentication check
+[2019-04-25T17:00:58.715] [INFO] default - User authenticated
+[2019-04-25T17:00:58.721] [INFO] default - Authentication check
+[2019-04-25T17:00:58.723] [INFO] default - User authenticated
+[2019-04-25T17:01:07.629] [INFO] default - Authentication check
+[2019-04-25T17:01:07.630] [INFO] default - User authenticated
+[2019-04-25T17:01:17.691] [INFO] default - Authentication check
+[2019-04-25T17:01:17.692] [INFO] default - User authenticated
+[2019-04-25T17:01:39.673] [INFO] default - Authentication check
+[2019-04-25T17:01:39.673] [INFO] default - User authenticated
+[2019-04-25T17:01:48.472] [INFO] default - Authentication check
+[2019-04-25T17:01:48.473] [INFO] default - User authenticated
+[2019-04-25T17:01:53.053] [INFO] default - Authentication check
+[2019-04-25T17:01:53.113] [INFO] default - User authenticated
+[2019-04-25T17:02:01.572] [INFO] default - Authentication check
+[2019-04-25T17:02:01.573] [INFO] default - User authenticated
+[2019-04-25T17:02:32.698] [INFO] default - Authentication check
+[2019-04-25T17:02:32.700] [INFO] default - User authenticated
+[2019-04-25T17:02:32.819] [INFO] default - Authentication check
+[2019-04-25T17:02:32.823] [INFO] default - User authenticated
+[2019-04-25T17:02:32.837] [INFO] default - Authentication check
+[2019-04-25T17:02:32.842] [INFO] default - User authenticated
+[2019-04-25T17:03:10.776] [INFO] default - Authentication check
+[2019-04-25T17:03:10.778] [INFO] default - User authenticated
+[2019-04-25T17:03:11.014] [INFO] default - Authentication check
+[2019-04-25T17:03:11.031] [INFO] default - User authenticated
+[2019-04-25T17:03:11.068] [INFO] default - Authentication check
+[2019-04-25T17:03:11.069] [INFO] default - User authenticated
+[2019-04-25T17:03:24.792] [INFO] default - Authentication check
+[2019-04-25T17:03:24.793] [INFO] default - User authenticated
+[2019-04-25T17:03:24.998] [INFO] default - Authentication check
+[2019-04-25T17:03:24.998] [INFO] default - User authenticated
+[2019-04-25T17:03:25.001] [INFO] default - Authentication check
+[2019-04-25T17:03:25.002] [INFO] default - User authenticated
+[2019-04-25T17:03:33.632] [INFO] default - Authentication check
+[2019-04-25T17:03:33.632] [INFO] default - User authenticated
+[2019-04-25T17:03:49.867] [INFO] default - Authentication check
+[2019-04-25T17:03:49.868] [INFO] default - User authenticated
