@@ -6190,3 +6190,59 @@
 [2019-04-25T17:03:33.632] [INFO] default - User authenticated
 [2019-04-25T17:03:49.867] [INFO] default - Authentication check
 [2019-04-25T17:03:49.868] [INFO] default - User authenticated
+[2019-04-25T19:24:50.718] [INFO] default - Authentication check
+[2019-04-25T19:24:51.099] [INFO] default - User authenticated
+[2019-04-25T19:24:54.406] [INFO] default - Authentication check
+[2019-04-25T19:24:54.423] [INFO] default - User authenticated
+[2019-04-25T19:24:54.846] [INFO] default - Authentication check
+[2019-04-25T19:24:54.846] [INFO] default - User authenticated
+[2019-04-25T19:25:11.570] [INFO] default - user login route
+[2019-04-25T19:25:11.571] [INFO] default - login user: {"username":"pri","password":"pri"}
+[2019-04-25T19:25:12.287] [INFO] default - login with payload { userName: 'pri',
+  userId: 'fbb16370-6290-11e9-aa86-97a08241820c' }
+[2019-04-25T19:25:12.366] [INFO] default - Authentication check
+[2019-04-25T19:25:12.367] [INFO] default - User authenticated
+[2019-04-25T19:25:12.467] [INFO] default - Authentication check
+[2019-04-25T19:25:12.468] [INFO] default - User authenticated
+[2019-04-25T19:25:19.203] [INFO] default - Authentication check
+[2019-04-25T19:25:19.205] [INFO] default - User authenticated
+[2019-04-25T19:25:24.548] [INFO] default - Authentication check
+[2019-04-25T19:25:24.565] [INFO] default - User authenticated
+[2019-04-25T19:25:30.744] [INFO] default - Authentication check
+[2019-04-25T19:25:30.745] [INFO] default - User authenticated
+[2019-04-25T19:25:34.820] [INFO] default - Authentication check
+[2019-04-25T19:25:34.821] [INFO] default - User authenticated
+[2019-04-25T19:25:44.289] [INFO] default - Authentication check
+[2019-04-25T19:25:44.290] [INFO] default - User authenticated
+[2019-04-25T19:26:31.104] [INFO] default - Authentication check
+[2019-04-25T19:26:31.106] [INFO] default - User authenticated
+[2019-04-25T19:26:35.805] [INFO] default - Authentication check
+[2019-04-25T19:26:35.807] [INFO] default - User authenticated
+[2019-04-25T19:26:36.478] [INFO] default - Authentication check
+[2019-04-25T19:26:36.479] [INFO] default - User authenticated
+[2019-04-25T19:27:03.218] [INFO] default - Authentication check
+[2019-04-25T19:27:03.219] [INFO] default - User authenticated
+[2019-04-25T19:27:11.873] [INFO] default - Authentication check
+[2019-04-25T19:27:11.874] [INFO] default - User authenticated
+[2019-04-25T19:27:38.179] [INFO] default - Authentication check
+[2019-04-25T19:27:38.180] [INFO] default - User authenticated
+[2019-04-25T19:28:49.402] [INFO] default - getUsers route
+[2019-04-25T19:28:49.404] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T19:29:19.810] [INFO] default - Authentication check
+[2019-04-25T19:29:19.811] [INFO] default - User authenticated
+[2019-04-25T19:29:29.239] [INFO] default - Authentication check
+[2019-04-25T19:29:29.239] [INFO] default - User authenticated
+[2019-04-25T19:29:37.053] [INFO] default - getUsers route
+[2019-04-25T19:29:37.055] [INFO] default - getAllUsers response { message: 'UserIDs registered found',
+  status: 200,
+  userInfo: [ 'user1', 'pri' ] }
+[2019-04-25T19:30:06.026] [INFO] default - Authentication check
+[2019-04-25T19:30:06.027] [INFO] default - User authenticated
+[2019-04-25T19:30:06.459] [INFO] default - Authentication check
+[2019-04-25T19:30:06.460] [INFO] default - User authenticated
+[2019-04-25T19:35:40.256] [INFO] default - Authentication check
+[2019-04-25T19:35:40.257] [INFO] default - User authenticated
+[2019-04-25T19:35:59.053] [INFO] default - Authentication check
+[2019-04-25T19:35:59.054] [INFO] default - User authenticated
