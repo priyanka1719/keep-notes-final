@@ -1,15 +1,17 @@
-.keep-c-list-wrapper {
-    display: flex;
-}
 .keep-c-list-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 55vw;
+    margin: auto;
     /* margin: 2em; */
 }
-.keep-c-list-container label {
+label {
     font-size: 15px;
     color: #3f51b5;
+}
+.padding30 {
+    padding-top: 30px;
 }
