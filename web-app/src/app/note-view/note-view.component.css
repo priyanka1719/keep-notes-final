@@ -1,0 +1,10 @@
+.keep-c-note-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  margin: auto;
+  /* margin: 2em; */
+}
