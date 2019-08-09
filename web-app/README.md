@@ -33,3 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3. App will be accessible using - http://localhost:4200
 4. Login into docker: ```docker login```
 5. Push to Docker hub Repository  - ```docker push priyankasaha2/keep-note-final-webapp:latest```
+
+## Details
+
+https://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial
