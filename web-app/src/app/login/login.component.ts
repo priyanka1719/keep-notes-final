@@ -14,7 +14,7 @@ import { NotificationService } from '../services/notification.service';
 })
 export class LoginComponent implements OnInit {
 
-  loginform: FormGroup
+  loginform: FormGroup;
   user: User;
 
   constructor(private formBuilder: FormBuilder, private authSvc: AuthenticationService, private routerSvc: RouterService, private notificationSvc: NotificationService) { }
@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     this.loginform = this.formBuilder.group({
       'username': new FormControl('', Validators.required),
       'password': new FormControl('', Validators.required)
-    })
+    });
   }
 
   login() {
@@ -37,7 +37,8 @@ export class LoginComponent implements OnInit {
         let token = response['token'];
         let userid = response['user'].userId;
 
-        this.authSvc.setTokenForUserID(userid, token);
+        // this.authSvc.setTokenForUserID(userid, token);
+        this.authSvc.setBearerToken(token);
         this.authSvc.setUserID(userid);
 
         this.notificationSvc.addSucessMessage('Login Success.', `UserID - ${userid}`);
@@ -58,7 +59,7 @@ export class LoginComponent implements OnInit {
   }
 
   register() {
-
+    this.routerSvc.routeToRegister();
   }
 
 }

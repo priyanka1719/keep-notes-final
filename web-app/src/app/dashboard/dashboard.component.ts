@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  styleUrls: ['./dashboard.component.css'],
+  encapsulation: ViewEncapsulation.None //Overrides the styles of the theme with the given styles.css of the component
 })
 export class DashboardComponent implements OnInit {
 
@@ -16,11 +17,16 @@ export class DashboardComponent implements OnInit {
 
     this.items = [
       {
-        label: 'Create Note',
-        icon: 'pi pi-fw pi-file'
+        title: 'Keep',
+        icon: 'pi pi-fw pi-home'
+      },
+      { separator: true },
+      {
+        title: 'Create Note',
+        icon: 'pi pi-fw pi-plus'
       },
       {
-        label: 'Update Note',
+        title: 'Update Note',
         icon: 'pi pi-fw pi-pencil',
         items: [
           { label: 'Edit', icon: 'pi pi-fw pi-comments' },
@@ -29,7 +35,7 @@ export class DashboardComponent implements OnInit {
         ]
       },
       {
-        label: 'Group',
+        title: 'Group',
         icon: 'pi pi-fw pi-question',
         items: [
           { label: 'By Favourite', icon: 'pi pi-fw pi-heart' },
@@ -37,8 +43,8 @@ export class DashboardComponent implements OnInit {
         ]
       },
       {
-        label: 'Reminders',
-        icon: 'pi pi-fw pi-cog',
+        title: 'Reminders',
+        icon: 'pi pi-fw pi-clock',
         items: [
           { label: 'Add', icon: 'pi pi-fw pi-user-plus' },
           { label: 'View', icon: 'pi pi-fw pi-refresh' },
@@ -47,7 +53,14 @@ export class DashboardComponent implements OnInit {
       },
       { separator: true },
       {
-        label: 'Bulk Upload', icon: 'pi pi-fw pi-clone'
+        title: 'Bulk Upload', 
+        icon: 'pi pi-fw pi-clone'
+      },
+      { separator: true },
+      {
+        title: 'Logout', 
+        icon: 'pi pi-fw pi-power-off',
+        routerLink: '//logout'
       }
     ];
 

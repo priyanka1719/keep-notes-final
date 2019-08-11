@@ -22,12 +22,31 @@ import { RouterService } from './services/router.service';
 import { NotificationService } from './services/notification.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MenubarModule} from 'primeng/menubar';
+import { CanActivateRouteGuard } from './services/can-activate-route.guard';
+import { JwtHelperService, JwtModule, JwtModuleOptions } from '@auth0/angular-jwt';
+import {ToastModule} from 'primeng/toast';
+import { NotificationComponent } from './notification/notification.component';
+import { LogoutComponent } from './logout/logout.component';
+import { RegisterComponent } from './register/register.component';
+import {DialogModule} from 'primeng/dialog';
+
+function tokengetter() {
+  return localStorage.getItem('BearerToken');
+}
+const JWT_Module_Options: JwtModuleOptions = {
+  config: {
+      tokenGetter: tokengetter
+  }
+};
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    NotificationComponent,
+    LogoutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -42,10 +61,14 @@ import {MenubarModule} from 'primeng/menubar';
     CardModule,
     MessagesModule,
     MessageModule,
-    MenubarModule
+    MenubarModule,
+    DialogModule,
+    ToastModule,
+    JwtModule.forRoot(JWT_Module_Options)
   ],
   providers: [
     MessageService,
+    CanActivateRouteGuard,
     AuthenticationService,
     RouterService,
     NotificationService

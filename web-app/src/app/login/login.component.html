@@ -1,4 +1,4 @@
-<p-card class="keep-login">
+<p-card class="keep-login" header="Login Form" styleClass="ui-card-shadow">
   <form [formGroup]="loginform" (ngSubmit)="login()">
     <div class="ui-g ui-fluid">
       <div class="ui-g-12 ui-md-12 ui-lg-12">
@@ -17,8 +17,7 @@
 
       <p-footer class="ui-g-12 ui-md-12 ui-lg-12">
         <button pButton type="submit" label="Login" [disabled]="!loginform.valid" class="ui-button-rounded ui-button-success"></button>
-        <button pButton type="button" label="Cancel" class="ui-button-rounded ui-button-error"></button>
-        <!-- <button pButton type="button" label="Register" (click)="register()" class="ui-button-rounded ui-button-info"></button> -->
+        <button pButton type="button" label="Register" (click)="register()" class="ui-button-rounded ui-button-info"></button>
       </p-footer>
 
     </div>
