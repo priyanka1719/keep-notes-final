@@ -4,6 +4,7 @@ import { User } from '../model/User';
 import { AuthenticationService } from '../services/authentication.service';
 import { NotificationService } from '../services/notification.service';
 import { RouterService } from '../services/router.service';
+import { MustMatch } from '../password-validator.directive';
 
 @Component({
   selector: 'app-register',
@@ -22,13 +23,18 @@ export class RegisterComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       'username': new FormControl('', Validators.required),
       'password': new FormControl('', [Validators.required, Validators.maxLength(10), Validators.minLength(2)]),
-      'passwordConfirm': new FormControl('', [Validators.required, Validators.maxLength(10), Validators.minLength(2)]),
+      'passwordConfirm': new FormControl('', [Validators.required, MustMatch('password', 'passwordConfirm')]),
       'email': new FormControl('', Validators.email),
       'name': new FormControl('', Validators.required),
       'dob': new FormControl(new Date(), Validators.required),
       'role': new FormControl('admin')
-    });
+    } 
+    // {
+    //   validator : MustMatch('password', 'passwordConfirm')
+    // }
+    );
     //https://angular.io/guide/forms-overview
+    //https://jasonwatmore.com/post/2018/11/07/angular-7-reactive-forms-validation-example
   }
 
   register() {
