@@ -23,19 +23,21 @@ export class RegisterComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       'username': new FormControl('', Validators.required),
       'password': new FormControl('', [Validators.required, Validators.maxLength(10), Validators.minLength(2)]),
-      'passwordConfirm': new FormControl('', [Validators.required, MustMatch('password', 'passwordConfirm')]),
+      'passwordConfirm': new FormControl('', [Validators.required]),
       'email': new FormControl('', Validators.email),
       'name': new FormControl('', Validators.required),
       'dob': new FormControl(new Date(), Validators.required),
       'role': new FormControl('admin')
-    } 
-    // {
-    //   validator : MustMatch('password', 'passwordConfirm')
-    // }
-    );
+    }, {
+        validator: MustMatch('password', 'passwordConfirm')
+      });
     //https://angular.io/guide/forms-overview
     //https://jasonwatmore.com/post/2018/11/07/angular-7-reactive-forms-validation-example
   }
+  
+  // convenience getter for easy access to form fields
+  get f() { return this.registerForm.controls; }
+
 
   register() {
     this.user = new User().deserialize(this.registerForm.value);
@@ -47,8 +49,8 @@ export class RegisterComponent implements OnInit {
     this.registerForm.reset();
   }
 
-  showError(item : string) {
-    console.log(this.registerForm.controls[item].errors);
+  showError(item: string) {
+    console.log(`Error for field ${item} -- `, this.registerForm.controls[item].errors);
   }
 
 }
