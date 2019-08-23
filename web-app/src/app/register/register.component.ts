@@ -49,21 +49,17 @@ export class RegisterComponent implements OnInit {
 
     let f = this.registerForm.controls;
 
-    // return {
-    //   email: {
-    //     isError: f.email.errors && f.email.errors.email,
-    //     message: `Email is invalid!`
-    //   },
-    //   password: {
-    //     isError: f.password.touched && f.passwordConfirm.touched && f.passwordConfirm.errors && f.passwordConfirm.errors.mustMatch,
-    //     message: `Passwords do not match!`
-    //   }
-    // };
+    let errorMsgs = [];
 
-    return [
-      { control: 'email', isError: f.email.errors && f.email.errors.email, message: `Email is invalid!` },
-      { control: 'password', isError: f.password.touched && f.passwordConfirm.touched && f.passwordConfirm.errors && f.passwordConfirm.errors.mustMatch, message: `Passwords do not match!` }
-    ];
+    if(f.email.errors && f.email.errors.email) {
+      errorMsgs.push(`Email is invalid!`);
+    }
+    
+    if(f.password.touched && f.passwordConfirm.touched && f.passwordConfirm.errors) {
+      errorMsgs.push(`Passwords do not match!`);
+    }
+
+    return errorMsgs;
   }
 
   register() {
@@ -76,8 +72,13 @@ export class RegisterComponent implements OnInit {
     this.registerForm.reset();
   }
 
-  showError(item: string) {
-    console.log(`Error for field ${item} -- `, this.registerForm.controls[item].errors);
+  goToLogin() {
+    this.registerForm.reset();
+    this.notificationSvc.addSucessMessage('Going back to Login.');
+    setTimeout(() => {
+      this.routerSvc.routeToLogin();
+    }, 1000);
+    
   }
 
 }

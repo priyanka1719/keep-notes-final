@@ -1,4 +1,11 @@
 <p-card class="keep-login" header="Login Form" styleClass="ui-card-shadow">
+
+  <div class="ui-g ui-fluid error-section">
+    <div class="ui-g-12 error-message" *ngFor="let error of formValidation">
+      {{error}}
+    </div>
+  </div>
+
   <form [formGroup]="loginform" (ngSubmit)="login()">
     <div class="ui-g ui-fluid">
       <div class="ui-g-12 ui-md-12 ui-lg-12">
@@ -16,8 +23,10 @@
       </div>
 
       <p-footer class="ui-g-12 ui-md-12 ui-lg-12">
-        <button pButton type="submit" label="Login" [disabled]="!loginform.valid" class="ui-button-rounded ui-button-success"></button>
-        <button pButton type="button" label="Register" (click)="register()" class="ui-button-rounded ui-button-info"></button>
+        <button pButton type="submit" label="Login" [disabled]="!loginform.valid"
+          class="ui-button-rounded ui-button-success"></button>
+        <button pButton type="button" label="Register" (click)="register()"
+          class="ui-button-rounded ui-button-info"></button>
       </p-footer>
 
     </div>

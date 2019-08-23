@@ -62,4 +62,8 @@ export class LoginComponent implements OnInit {
     this.routerSvc.routeToRegister();
   }
 
+  get formValidation() {
+    return [];
+  }
+
 }

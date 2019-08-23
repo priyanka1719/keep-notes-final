@@ -8,3 +8,7 @@ body .ui-corner-all {
     color: red;
     font-weight: 900;
   }
+
+  .error-section {
+    border: black solid 1px !important;
+  }
