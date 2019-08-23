@@ -16,8 +16,15 @@ export class RegisterComponent implements OnInit {
 
   registerForm: FormGroup;
   user: User;
+  roles: UserRole[];
 
-  constructor(private formBuilder: FormBuilder, private authSvc: AuthenticationService, private routerSvc: RouterService, private notificationSvc: NotificationService) { }
+  constructor(private formBuilder: FormBuilder, private authSvc: AuthenticationService, private routerSvc: RouterService, private notificationSvc: NotificationService) {
+    this.roles = [
+      { name: 'Admin', code: 'admin' },
+      { name: 'Personal', code: 'personal' },
+      { name: 'Guest', code: 'guest' }
+    ]
+  }
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
@@ -34,10 +41,30 @@ export class RegisterComponent implements OnInit {
     //https://angular.io/guide/forms-overview
     //https://jasonwatmore.com/post/2018/11/07/angular-7-reactive-forms-validation-example
   }
-  
+
   // convenience getter for easy access to form fields
   get f() { return this.registerForm.controls; }
 
+  get formValidation() {
+
+    let f = this.registerForm.controls;
+
+    // return {
+    //   email: {
+    //     isError: f.email.errors && f.email.errors.email,
+    //     message: `Email is invalid!`
+    //   },
+    //   password: {
+    //     isError: f.password.touched && f.passwordConfirm.touched && f.passwordConfirm.errors && f.passwordConfirm.errors.mustMatch,
+    //     message: `Passwords do not match!`
+    //   }
+    // };
+
+    return [
+      { control: 'email', isError: f.email.errors && f.email.errors.email, message: `Email is invalid!` },
+      { control: 'password', isError: f.password.touched && f.passwordConfirm.touched && f.passwordConfirm.errors && f.passwordConfirm.errors.mustMatch, message: `Passwords do not match!` }
+    ];
+  }
 
   register() {
     this.user = new User().deserialize(this.registerForm.value);
@@ -53,4 +80,9 @@ export class RegisterComponent implements OnInit {
     console.log(`Error for field ${item} -- `, this.registerForm.controls[item].errors);
   }
 
+}
+
+interface UserRole {
+  name: string,
+  code: string
 }

@@ -37,3 +37,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+export const RoutingModule = [LoginComponent, RegisterComponent, LogoutComponent, DashboardComponent ];
